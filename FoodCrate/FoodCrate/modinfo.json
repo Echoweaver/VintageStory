@@ -1,11 +1,11 @@
 {
     "type": "code",
     "modid": "foodcrate",
-    "name": "FoodCrate",
+    "name": "FoodCrate (aka Storage Urn)",
     "authors": [
         "Echoweaver"
     ],
-    "description": "To be added",
+    "description": "A ceramic crate, or let's call it an urn, with food spoilage bonuses",
     "version": "1.0.0",
     "dependencies": {
         "game": ""
