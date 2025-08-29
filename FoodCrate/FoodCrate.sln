@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodCrate", "FoodCrate\FoodCrate.csproj", "{F3B16825-C8E4-4564-8DAF-84D5EE374639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "ZZCakeBuild\CakeBuild.csproj", "{70540209-EC3B-426A-8F9F-8205676B8DBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3B16825-C8E4-4564-8DAF-84D5EE374639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B16825-C8E4-4564-8DAF-84D5EE374639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B16825-C8E4-4564-8DAF-84D5EE374639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B16825-C8E4-4564-8DAF-84D5EE374639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70540209-EC3B-426A-8F9F-8205676B8DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70540209-EC3B-426A-8F9F-8205676B8DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70540209-EC3B-426A-8F9F-8205676B8DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70540209-EC3B-426A-8F9F-8205676B8DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
