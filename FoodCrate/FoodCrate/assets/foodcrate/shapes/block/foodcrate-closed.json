@@ -8,7 +8,8 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"blackbronze2": "game:block/metal/sheet/blackbronze2"
+      "blackbronze2": "game:block/metal/sheet/blackbronze2",
+      "lid": "game:block/clay/vessel/top/burned"
 	},
 	"elements": [
 		{
@@ -78,17 +79,17 @@
 							}
 						},
 						{
-							"name": "top",
+							"name": "lid",
 							"from": [ 0.0, 15.0, 0.0 ],
 							"to": [ 16.0, 16.0, 16.0 ],
 							"rotationOrigin": [ 0.0, 15.0, 0.0 ],
 							"faces": {
-								"north": { "texture": "#blackbronze2", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
-								"east": { "texture": "#blackbronze2", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
-								"south": { "texture": "#blackbronze2", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
-								"west": { "texture": "#blackbronze2", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
-								"up": { "texture": "#blackbronze2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
-								"down": { "texture": "#blackbronze2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+								"north": { "texture": "#lid", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+								"east": { "texture": "#lid", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+								"south": { "texture": "#lid", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+								"west": { "texture": "#lid", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+								"up": { "texture": "#lid", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+								"down": { "texture": "#lid", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
 							}
 						}
 					]

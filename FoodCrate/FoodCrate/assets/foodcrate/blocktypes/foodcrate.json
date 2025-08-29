@@ -41,9 +41,11 @@
       "stacks": [
         { "type": "block", "code": "foodcrate", "attributes": { "lidState": "closed", "type": "normal" } },
         { "type": "block", "code": "foodcrate", "attributes": { "lidState": "opened", "type": "normal" } },
-        { "type": "block", "code": "foodcrate", "attributes": { "lidState": "closed", "type": "normal", "label": "paper-empty" } }
+        { "type": "block", "code": "foodcrate", "attributes": { "lidState": "closed", "type": "normal", "label": "paper-empty" } },
+        { "type": "block", "code": "foodcrate", "attributes": { "lidState": "opened", "type": "normal", "label": "paper-empty" } }
       ]
-    }],
+    }
+  ],
   "heldTpIdleAnimation": "holdunderarm",
   "shapeInventory": { "base": "block/foodcrate-closed", "rotateY": 0 },
   "shapeByType": { "base": "block/foodcrate-closed", "rotateY": 0 },
@@ -55,7 +57,8 @@
     "aged1": { "base": "game:block/wood/planks/aged/generic1" },
     "normal-sides": { "base": "game:block/wood/crate/aged-sides" },
     "normal-inside": { "base": "game:block/wood/crate/aged-inside" },
-    "blackbronze2": { "base": "game:block/clay/ceramic-dark" }
+    "blackbronze2": { "base": "game:block/clay/ceramic-dark" },
+    "lid": { "base": "game:block/clay/vessel/top/burned" }
   },
   "blockmaterial": "Ceramic",
   "replaceable": 1000,
