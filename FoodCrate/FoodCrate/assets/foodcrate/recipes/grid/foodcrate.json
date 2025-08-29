@@ -20,5 +20,17 @@
     "width": 1,
     "height": 1,
     "output": { "type": "block", "code": "foodcrate", "attributes": { "lidState": "closed" }  }
+  },
+  {
+    "ingredientPattern": "S,C",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:paper-parchment" },
+      "C": { "type": "block", "code": "foodcrate" }
+    },
+    "shapeless": true,
+    "copyAttributesFrom": "C",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "foodcrate", "attributes": { "label": "paper-empty" }  }
   }
 ]

@@ -1,6 +1,4 @@
 {
-  "hello": "hello world!",
-  "block-trampoline": "Trampoline",
-  "block-normal-foodcrate-burned": "Food Crate (Normal-Burned)",
-  "block-foodcrate-raw": "Food Crate (Raw)"
+  "block-normal-foodcrate": "Urn",
+  "block-normal-foodcrate-raw": "Urn (Raw)"
 }

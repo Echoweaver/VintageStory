@@ -19,6 +19,13 @@
       }
     },    
     "types": ["normal"],
+    "spoilSpeedMulByFoodCat": {
+      "normal": {
+        "vegetable": 0.75,
+        "grain": 0.5,
+        "fruit": 0.75
+      }
+    },
     "properties": {
       "normal": {
         "quantitySlots": 20,
