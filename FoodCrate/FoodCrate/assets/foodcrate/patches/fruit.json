@@ -1,0 +1,55 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType",
+    "value": {
+      "*-redapple": {
+        "inContainerTexture": {
+          "base": "block/wood/barrel/raw-apples"
+        }
+      },
+      "*-pinkapple": {
+        "inContainerTexture": {
+          "base": "block/wood/barrel/raw-pinkapples"
+        }
+      },
+      "*-yellowapple": {
+        "inContainerTexture": {
+          "base": "block/wood/barrel/raw-yellowapples"
+        }
+      },
+      "*-blackcurrant": {
+        "inContainerTexture": {
+          "base": "block/wood/barrel/raw-blackcurrant"
+        }
+      },
+      "*-blueberry": {
+        "inContainerTexture": {
+          "base": "block/wood/barrel/raw-blueberry"
+        }
+      },
+      "*-cherry": {
+        "inContainerTexture": {
+          "base": "block/wood/barrel/raw-cherry"
+        }
+      },
+      "*-mango": {
+        "inContainerTexture": {
+          "base": "block/wood/barrel/raw-mango"
+        }
+      },
+      "*-redcurrant": {
+        "inContainerTexture": {
+          "base": "block/wood/barrel/raw-redcurrant"
+        }
+      },
+      "*-whitecurrant": {
+        "inContainerTexture": {
+          "base": "block/wood/barrel/raw-whitecurrant"
+        }
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "Server"
+  }
+]

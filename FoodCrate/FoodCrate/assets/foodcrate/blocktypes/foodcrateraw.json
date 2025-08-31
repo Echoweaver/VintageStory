@@ -1,5 +1,5 @@
 {
-  "code": "foodcrate-raw",
+  "code": "foodcrateraw",
   "class": "BlockGenericTypedContainer",
   "entityclass": null,
   "behaviors": [
@@ -7,12 +7,7 @@
     { "name": "Unplaceable", "__comment": "The ground storable obsoletes this being a block. Should be an item, but is kept a block for backwards compatibility" },
     { "name": "RightClickPickup"}
   ],
-  "shape": { "base": "block/foodcrate-closed" },
-  "textures":{
-    "all": { "base": "game:block/clay/blueclay" },
-    "blackbronze2": { "base": "game:block/clay/blueclay" },
-    "lid": { "base": "game:block/clay/blueclay" }
-  },
+  "shape": { "base": "block/foodcrate-opened" },
   "attributes": {
     "humanoidTraversalCost": 100,
     "reinforcable": true,
@@ -33,7 +28,7 @@
       "normal": false
     },
     "shape": {
-      "normal": "block/foodcrate-closed"
+      "normal": "block/foodcrate-opened"
     }
   },
   "entityBehaviors": [],
@@ -42,14 +37,18 @@
     {
       "tabs": [ "general", "decorative" ],
       "stacks": [
-        { "type": "block", "code": "foodcrate-raw" }
+        { "type": "block", "code": "foodcrateraw" }
       ]
     }
   ],
   "heldTpIdleAnimation": "holdunderarm",
-  "shapeInventory": { "base": "block/foodcrate-closed", "rotateY": 0 },
-  "shapeByType": { "base": "block/foodcrate-closed", "rotateY": 0 },
+  "shapeInventory": { "base": "block/foodcrate-opened", "rotateY": 0 },
+  "shapeByType": { "base": "block/foodcrate-opened", "rotateY": 0 },
   "_comment": "Must declare textures so they get added to the block texture atlas",
+  "textures":{
+    "blackbronze2": { "base": "game:block/clay/blueclay" },
+    "normal-blackbronze2": { "base": "game:block/clay/blueclay" }
+  },
   "blockmaterial": "Ceramic",
   "replaceable": 1000,
   "resistance": 0.8,
@@ -61,22 +60,16 @@
   "sideopaque": {
     "all": false
   },
-  "collisionBoxes": [
-    { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 1, "z2": 0.0625 },
-    { "x1": 0, "y1": 0, "z1": 0.9375, "x2": 1, "y2": 1, "z2": 1 },
-    { "x1": 0, "y1": 0, "z1": 0.0625, "x2": 0.0625, "y2": 1, "z2": 0.9375 },
-    { "x1": 0.9375, "y1": 0, "z1": 0.0625, "x2": 1, "y2": 1, "z2": 0.9375 }
-  ],
-  "selectionBoxes": [
-    { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 1, "z2": 0.95 },
-    { "x1": 0.25, "y1": 0.3125, "z1": 0.95, "x2": 0.75, "y2": 0.8125, "z2": 1 }
-  ],
   "combustibleProps": {
     "meltingPoint": 600,
     "meltingDuration": 45,
     "smeltedRatio": 1,
     "smeltingType": "fire",
-    "smeltedStack": { "type": "block", "code": "foodcrate", "attributes": { "type": "normal" } },
+    "smeltedStack": {
+      "type": "block",
+      "code": "foodcrate",
+      "attributes": { "type": "normal", "lidState": "opened" }
+    },
     "requiresContainer": false
   },
   "sounds": {
@@ -94,5 +87,6 @@
   "guiTransform": {
     "origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
     "scale": 1.16
-  }
+  },
+  "collisionSelectionBox": { "x1": 0.125, "y1": 0, "z1": 0.125, "x2": 0.875, "y2": 1, "z2": 0.875 }
 }

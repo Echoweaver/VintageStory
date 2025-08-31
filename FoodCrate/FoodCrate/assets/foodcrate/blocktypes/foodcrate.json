@@ -58,12 +58,6 @@
   "shapeByType": { "base": "block/foodcrate-closed", "rotateY": 0 },
   "textures": {
     "label-empty": { "base": "game:block/wood/crate/label-empty" },
-    "frame-generic": { "base": "game:block/wood/crate/frame-generic" },
-    "aged-sides": { "base": "game:block/wood/crate/aged-sides" },
-    "aged-inside": { "base": "game:block/wood/crate/aged-inside" },
-    "aged1": { "base": "game:block/wood/planks/aged/generic1" },
-    "normal-sides": { "base": "game:block/wood/crate/aged-sides" },
-    "normal-inside": { "base": "game:block/wood/crate/aged-inside" },
     "blackbronze2": { "base": "game:block/clay/ceramic-dark" },
     "lid": { "base": "game:block/clay/vessel/top/burned" }
   },
