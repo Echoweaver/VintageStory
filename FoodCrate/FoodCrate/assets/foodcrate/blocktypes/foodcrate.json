@@ -2,12 +2,23 @@
   "code": "foodcrate",
   "class": "BlockCrate",
   "entityclass": "foodcrate.foodcrate",
+  "variantgroups": [
+    { "code": "color", "states": ["blue", "fire", "black", "brown", "cream", "gray", "orange", "red", "tan" ] }
+  ],
+  "shape": { "base": "block/foodcrate-closed" },
+  "textures": {
+    "label-empty": { "base": "game:block/wood/crate/label-empty" },
+    "blackbronze2": { "base": "game:block/clay/hardened/{color}" },
+    "lid": { "base": "game:block/clay/hardened/{color}", "overlays": [ "game:block/clay/overlay/vessel-top" ] }
+  },
   "attributes": {
-    "humanoidTraversalCost": 2,
+    "humanoidTraversalCost": 100,
     "reinforcable": true,
+    "tempGlowMode": 1,
     "partialAttachable": true,
     "inventoryClassName": "crate",
     "defaultType": "normal",
+    "types": ["normal"],
     "handbook": {
       "groupBy": [ "crate" ] 
     },
@@ -17,14 +28,28 @@
         "texture": "label-empty",
         "shape": { "base": "game:block/wood/crate/label-paper" }
       }
-    },    
-    "types": ["normal"],
+    },
+    "drop": {
+      "normal": true
+    },
+    "quantitySlots": {
+      "normal": 20
+    },
+    "storageType": {
+      "normal": 189
+    },
+    "retrieveOnly": {
+      "normal": false
+    },
     "spoilSpeedMulByFoodCat": {
       "normal": {
         "vegetable": 0.75,
         "grain": 0.5,
         "fruit": 0.75
       }
+    },
+    "shape": {
+      "normal": "block/foodcrate-closed"
     },
     "properties": {
       "normal": {
@@ -34,6 +59,13 @@
         "retrieveOnly": false,
         "shape": { "base": "block/foodcrate-closed", "rotateY": 180 }
       }
+    },    
+    "variantByGroup": "color",
+    "variantByGroupInventory": "color",
+    "onTongTransform": {
+      "translation": { "x": -1.3, "y": -1.06, "z": -0.4 },
+      "rotation": { "x": -88, "y": -16, "z": -2 },
+      "scale": 0.7
     }
   },
   "behaviors": [
@@ -46,21 +78,13 @@
     {
       "tabs": [ "general", "decorative" ],
       "stacks": [
-        { "type": "block", "code": "foodcrate", "attributes": { "lidState": "closed", "type": "normal" } },
-        { "type": "block", "code": "foodcrate", "attributes": { "lidState": "opened", "type": "normal" } },
-        { "type": "block", "code": "foodcrate", "attributes": { "lidState": "closed", "type": "normal", "label": "paper-empty" } },
-        { "type": "block", "code": "foodcrate", "attributes": { "lidState": "opened", "type": "normal", "label": "paper-empty" } }
+        { "type": "block", "code": "foodcrate-{color}", "attributes": { "lidState": "closed", "type": "normal" } },
+        { "type": "block", "code": "foodcrate-{color}", "attributes": { "lidState": "opened", "type": "normal" } },
+        { "type": "block", "code": "foodcrate-{color}", "attributes": { "lidState": "opened", "type": "normal", "label": "paper-empty" } }
       ]
     }
   ],
   "heldTpIdleAnimation": "holdunderarm",
-  "shapeInventory": { "base": "block/foodcrate-closed", "rotateY": 0 },
-  "shapeByType": { "base": "block/foodcrate-closed", "rotateY": 0 },
-  "textures": {
-    "label-empty": { "base": "game:block/wood/crate/label-empty" },
-    "blackbronze2": { "base": "game:block/clay/ceramic-dark" },
-    "lid": { "base": "game:block/clay/vessel/top/burned" }
-  },
   "blockmaterial": "Ceramic",
   "replaceable": 1000,
   "resistance": 0.8,

@@ -2,35 +2,35 @@
   {
     "ingredientPattern": "C",
     "ingredients": {
-      "C": { "type": "block", "code": "foodcrate", "attributes": { "lidState": "closed" } }
+      "C": { "type": "block", "code": "foodcrate-*", "name": "type", "attributes": { "lidState": "closed" } }
     },
     "shapeless": true,
     "copyAttributesFrom": "C",
     "width": 1,
     "height": 1,
-    "output": { "type": "block", "code": "foodcrate", "attributes": { "lidState": "opened" }  }
+    "output": { "type": "block", "code": "foodcrate-{type}", "attributes": { "lidState": "opened" }  }
   },
   {
     "ingredientPattern": "C",
     "ingredients": {
-      "C": { "type": "block", "code": "foodcrate", "attributes": { "lidState": "opened" } }
+      "C": { "type": "block", "code": "foodcrate-*","name": "type", "attributes": { "lidState": "opened" } }
     },
     "shapeless": true,
     "copyAttributesFrom": "C",
     "width": 1,
     "height": 1,
-    "output": { "type": "block", "code": "foodcrate", "attributes": { "lidState": "closed" }  }
+    "output": { "type": "block", "code": "foodcrate-{type}", "attributes": { "lidState": "closed" }  }
   },
   {
     "ingredientPattern": "S,C",
     "ingredients": {
       "S": { "type": "item", "code": "game:paper-parchment" },
-      "C": { "type": "block", "code": "foodcrate" }
+      "C": { "type": "block", "code": "foodcrate-*", "name": "type" }
     },
     "shapeless": true,
     "copyAttributesFrom": "C",
     "width": 1,
     "height": 2,
-    "output": { "type": "block", "code": "foodcrate", "attributes": { "label": "paper-empty" }  }
+    "output": { "type": "block", "code": "foodcrate-{type}", "attributes": { "label": "paper-empty" }  }
   }
 ]

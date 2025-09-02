@@ -1,76 +1,82 @@
 {
   "code": "foodcrateraw",
-  "class": "BlockGenericTypedContainer",
+  "class": "Block",
   "entityclass": null,
   "behaviors": [
     { "name": "GroundStorable", "properties": { "layout": "SingleCenter" } },
     { "name": "Unplaceable", "__comment": "The ground storable obsoletes this being a block. Should be an item, but is kept a block for backwards compatibility" },
     { "name": "RightClickPickup"}
   ],
+  "variantgroups": [
+    { "code": "color", "states": ["blue", "fire", "red" ] }
+  ],
   "shape": { "base": "block/foodcrate-opened" },
   "attributes": {
     "humanoidTraversalCost": 100,
     "reinforcable": true,
     "partialAttachable": true,
-    "inventoryClassName": "crate",
-    "defaultType": "normal",
-    "types": ["normal"],
-    "drop": {
-      "normal": true
-    },
-    "quantitySlots": {
-      "normal": 20
-    },
-    "storageType": {
-      "normal": 189
-    },
-    "retrieveOnly": {
-      "normal": false
-    },
-    "shape": {
-      "normal": "block/foodcrate-opened"
+    "onTongTransform": {
+      "translation": { "x": -1.3, "y": -1.06, "z": -0.4 },
+      "rotation": { "x": -88, "y": -16, "z": -2 },
+      "scale": 0.7
     }
   },
-  "entityBehaviors": [],
-  "creativeinventory": {  },
-  "creativeinventoryStacks": [
-    {
-      "tabs": [ "general", "decorative" ],
-      "stacks": [
-        { "type": "block", "code": "foodcrateraw" }
-      ]
+  "attributesByType":{
+    "foodcrateraw-red":{
+      "beehivekiln":{
+        "0": { "type": "block", "code": "foodcrate-tan", "attributes": { "type": "normal", "lidState": "opened" } },
+        "1": { "type": "block", "code": "foodcrate-orange", "attributes": { "type": "normal", "lidState": "opened" } },
+        "2": { "type": "block", "code": "foodcrate-red", "attributes": { "type": "normal", "lidState": "opened" } },
+        "3": { "type": "block", "code": "foodcrate-brown", "attributes": { "type": "normal", "lidState": "opened" } }
+      }
+    },
+    "foodcrateraw-blue":{
+      "beehivekiln":{
+        "0": { "type": "block", "code": "foodcrate-cream", "attributes": { "type": "normal", "lidState": "opened" } },
+        "1": { "type": "block", "code": "foodcrate-gray", "attributes": { "type": "normal", "lidState": "opened" } },
+        "2": { "type": "block", "code": "foodcrate-black", "attributes": { "type": "normal", "lidState": "opened" } },
+        "3": { "type": "block", "code": "foodcrate-black", "attributes": { "type": "normal", "lidState": "opened" } }
+      }
+    },
+    "foodcrateraw-fire":{
+      "beehivekiln":{
+        "0": { "type": "block", "code": "foodcrate-fire", "attributes": { "type": "normal", "lidState": "opened" } },
+        "1": { "type": "block", "code": "foodcrate-fire", "attributes": { "type": "normal", "lidState": "opened" } },
+        "2": { "type": "block", "code": "foodcrate-fire", "attributes": { "type": "normal", "lidState": "opened" } },
+        "3": { "type": "block", "code": "foodcrate-fire", "attributes": { "type": "normal", "lidState": "opened" } }
+      }
     }
-  ],
+  },
+  "creativeinventory": { "general": ["*"], "decorative": ["*"] },
   "heldTpIdleAnimation": "holdunderarm",
   "shapeInventory": { "base": "block/foodcrate-opened", "rotateY": 0 },
   "shapeByType": { "base": "block/foodcrate-opened", "rotateY": 0 },
   "_comment": "Must declare textures so they get added to the block texture atlas",
-  "textures":{
-    "blackbronze2": { "base": "game:block/clay/blueclay" },
-    "normal-blackbronze2": { "base": "game:block/clay/blueclay" }
-  },
+  "textures":{ "all": { "base": "game:block/clay/{color}clay" } },
   "blockmaterial": "Ceramic",
   "replaceable": 1000,
   "resistance": 0.8,
   "lightAbsorption": 0,
   "sideAo": { "all": false },
-  "sidesolid": {
-    "all": false
-  },
-  "sideopaque": {
-    "all": false
-  },
-  "combustibleProps": {
-    "meltingPoint": 600,
-    "meltingDuration": 45,
-    "smeltedRatio": 1,
-    "smeltingType": "fire",
-    "smeltedStack": {
-      "type": "block",
-      "code": "foodcrate",
-      "attributes": { "type": "normal", "lidState": "opened" }
+  "sidesolid": { "all": false },
+  "sideopaque": { "all": false },
+  "combustiblePropsByType": {
+    "foodcrateraw-fire": {
+      "meltingPoint": 600,
+      "meltingDuration": 45,
+      "smeltedRatio": 1,
+      "smeltingType": "fire",
+      "smeltedStack": { "type": "block", "code": "foodcrate-fire", "attributes": { "type": "normal", "lidState": "opened" } },
+      "requiresContainer": false
     },
-    "requiresContainer": false
+    "foodcrateraw-*": {
+      "meltingPoint": 600,
+      "meltingDuration": 45,
+      "smeltedRatio": 1,
+      "smeltingType": "fire",
+      "smeltedStack": { "type": "block", "code": "foodcrate-blue", "attributes": { "type": "normal", "lidState": "opened" } },
+      "requiresContainer": false
+    }
   },
   "sounds": {
     "walk": "game:walk/stone",

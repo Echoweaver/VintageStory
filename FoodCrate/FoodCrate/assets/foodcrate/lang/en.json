@@ -1,4 +1,14 @@
 {
-  "block-normal-foodcrate": "Storage urn",
-  "block-normal-foodcrateraw": "Raw storage urn"
+  "block-normal-foodcrate-gray": "Storage urn (gray)",
+  "block-normal-foodcrate-black": "Storage urn (black)",
+  "block-normal-foodcrate-brown": "Storage urn (brown)",
+  "block-normal-foodcrate-blue": "Storage urn",
+  "block-normal-foodcrate-fire": "Storage urn (fire clay)",
+  "block-normal-foodcrate-cream": "Storage urn (cream)",
+  "block-normal-foodcrate-orange": "Storage urn (orange)",
+  "block-normal-foodcrate-red": "Storage urn (red)",
+  "block-normal-foodcrate-tan": "Storage urn (tan)",
+  "block-foodcrateraw-blue": "Raw storage urn (blue clay)",
+  "block-foodcrateraw-fire": "Raw storage urn (fire clay)",
+  "block-foodcrateraw-red": "Raw storage urn (red clay)"
 }
