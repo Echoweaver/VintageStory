@@ -10,7 +10,7 @@
   "variantgroups": [
     { "code": "color", "states": ["blue", "fire", "red" ] }
   ],
-  "shape": { "base": "block/foodcrate-opened" },
+  "shape": { "base": "block/foodcrate-closed" },
   "attributes": {
     "humanoidTraversalCost": 100,
     "reinforcable": true,
@@ -24,33 +24,33 @@
   "attributesByType":{
     "foodcrateraw-red":{
       "beehivekiln":{
-        "0": { "type": "block", "code": "foodcrate-tan", "attributes": { "type": "normal", "lidState": "opened" } },
-        "1": { "type": "block", "code": "foodcrate-orange", "attributes": { "type": "normal", "lidState": "opened" } },
-        "2": { "type": "block", "code": "foodcrate-red", "attributes": { "type": "normal", "lidState": "opened" } },
-        "3": { "type": "block", "code": "foodcrate-brown", "attributes": { "type": "normal", "lidState": "opened" } }
+        "0": { "type": "block", "code": "foodcrate-tan", "attributes": { "type": "normal", "lidState": "closed" } },
+        "1": { "type": "block", "code": "foodcrate-orange", "attributes": { "type": "normal", "lidState": "closed" } },
+        "2": { "type": "block", "code": "foodcrate-red", "attributes": { "type": "normal", "lidState": "closed" } },
+        "3": { "type": "block", "code": "foodcrate-brown", "attributes": { "type": "normal", "lidState": "closed" } }
       }
     },
     "foodcrateraw-blue":{
       "beehivekiln":{
-        "0": { "type": "block", "code": "foodcrate-cream", "attributes": { "type": "normal", "lidState": "opened" } },
-        "1": { "type": "block", "code": "foodcrate-gray", "attributes": { "type": "normal", "lidState": "opened" } },
-        "2": { "type": "block", "code": "foodcrate-black", "attributes": { "type": "normal", "lidState": "opened" } },
-        "3": { "type": "block", "code": "foodcrate-black", "attributes": { "type": "normal", "lidState": "opened" } }
+        "0": { "type": "block", "code": "foodcrate-cream", "attributes": { "type": "normal", "lidState": "closed" } },
+        "1": { "type": "block", "code": "foodcrate-gray", "attributes": { "type": "normal", "lidState": "closed" } },
+        "2": { "type": "block", "code": "foodcrate-black", "attributes": { "type": "normal", "lidState": "closed" } },
+        "3": { "type": "block", "code": "foodcrate-black", "attributes": { "type": "normal", "lidState": "closed" } }
       }
     },
     "foodcrateraw-fire":{
       "beehivekiln":{
-        "0": { "type": "block", "code": "foodcrate-fire", "attributes": { "type": "normal", "lidState": "opened" } },
-        "1": { "type": "block", "code": "foodcrate-fire", "attributes": { "type": "normal", "lidState": "opened" } },
-        "2": { "type": "block", "code": "foodcrate-fire", "attributes": { "type": "normal", "lidState": "opened" } },
-        "3": { "type": "block", "code": "foodcrate-fire", "attributes": { "type": "normal", "lidState": "opened" } }
+        "0": { "type": "block", "code": "foodcrate-fire", "attributes": { "type": "normal", "lidState": "closed" } },
+        "1": { "type": "block", "code": "foodcrate-fire", "attributes": { "type": "normal", "lidState": "closed" } },
+        "2": { "type": "block", "code": "foodcrate-fire", "attributes": { "type": "normal", "lidState": "closed" } },
+        "3": { "type": "block", "code": "foodcrate-fire", "attributes": { "type": "normal", "lidState": "closed" } }
       }
     }
   },
   "creativeinventory": { "general": ["*"], "decorative": ["*"] },
   "heldTpIdleAnimation": "holdunderarm",
-  "shapeInventory": { "base": "block/foodcrate-opened", "rotateY": 0 },
-  "shapeByType": { "base": "block/foodcrate-opened", "rotateY": 0 },
+  "shapeInventory": { "base": "block/foodcrate-closed", "rotateY": 0 },
+  "shapeByType": { "base": "block/foodcrate-closed", "rotateY": 0 },
   "_comment": "Must declare textures so they get added to the block texture atlas",
   "textures":{ "all": { "base": "game:block/clay/{color}clay" } },
   "blockmaterial": "Ceramic",
@@ -66,7 +66,7 @@
       "meltingDuration": 45,
       "smeltedRatio": 1,
       "smeltingType": "fire",
-      "smeltedStack": { "type": "block", "code": "foodcrate-fire", "attributes": { "type": "normal", "lidState": "opened" } },
+      "smeltedStack": { "type": "block", "code": "foodcrate-fire", "attributes": { "type": "normal", "lidState": "closed" } },
       "requiresContainer": false
     },
     "foodcrateraw-*": {
@@ -74,7 +74,7 @@
       "meltingDuration": 45,
       "smeltedRatio": 1,
       "smeltingType": "fire",
-      "smeltedStack": { "type": "block", "code": "foodcrate-blue", "attributes": { "type": "normal", "lidState": "opened" } },
+      "smeltedStack": { "type": "block", "code": "foodcrate-blue", "attributes": { "type": "normal", "lidState": "closed" } },
       "requiresContainer": false
     }
   },

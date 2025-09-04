@@ -8,7 +8,8 @@
   "shape": { "base": "block/foodcrate-closed" },
   "textures": {
     "label-empty": { "base": "game:block/wood/crate/label-empty" },
-    "blackbronze2": { "base": "game:block/clay/hardened/{color}" },
+    "woodlabel-empty": { "base": "block/wood/trunk/accessories" },
+    "copper5": { "base": "game:block/clay/hardened/{color}" },
     "lid": { "base": "game:block/clay/hardened/{color}", "overlays": [ "game:block/clay/overlay/vessel-top" ] }
   },
   "attributes": {
@@ -24,9 +25,14 @@
     },
     "labels": {
       "paper-empty": {
-        "editableShape": { "base": "game:block/wood/crate/label-paper-item" },
+        "editableShape": { "base": "block/foodcrate-label-paper-item" },
         "texture": "label-empty",
-        "shape": { "base": "game:block/wood/crate/label-paper" }
+        "shape": { "base": "block/foodcrate-label-paper" }
+      },
+      "wood": {
+        "texture": "woodlabel-empty",
+        "editable": true,
+        "shape": { "base": "block/wood/crate/label-wood" }
       }
     },
     "drop": {
@@ -71,7 +77,8 @@
   "behaviors": [
     {"name": "Lockable" },
     {"name": "Container"},
-    {"name": "BoatableCrate" }
+    {"name": "BoatableCrate" },
+    {"name": "UnstableFalling" }
   ],
   "creativeinventory": {  },
   "creativeinventoryStacks": [

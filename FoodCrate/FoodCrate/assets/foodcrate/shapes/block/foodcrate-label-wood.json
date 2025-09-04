@@ -1,0 +1,59 @@
+{
+	"editor": {
+		"allAngles": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"accessories": [16, 16]
+	},
+	"textures": {
+		"accessories": "game:block/wood/trunk/accessories",
+	},
+	"elements": [
+		{
+			"name": "origin_group",
+			"from": [0, -1, 1],
+			"to": [0, -1, 1],
+			"rotationOrigin": [0, 0, 0],
+			"children": [
+				{
+					"name": "origin",
+					"from": [0, 0, 0],
+					"to": [0, 0, 0],
+					"rotationOrigin": [0, 0, 0],
+					"faces": {
+						"north": {"uv": [0, 0, 0.5, 0.5]},
+						"east": {"uv": [0, 0, 0.5, 0.5]},
+						"south": {"uv": [0, 0, 0.5, 0.5]},
+						"west": {"uv": [0, 0, 0.5, 0.5]},
+						"up": {"uv": [0, 0, 0.5, 0.5]},
+						"down": {"uv": [0, 0, 0.5, 0.5]}
+					}
+				}
+			]
+		},
+		{
+			"name": "label_group",
+			"from": [3, 6.5, 15],
+			"to": [3, 6.5, 15],
+			"rotationOrigin": [3, 6.5, 15],
+			"children": [
+				{
+					"name": "label",
+					"from": [0, -2, -1],
+					"to": [10, 4, -0.5],
+					"rotationOrigin": [0, -2, -1],
+					"faces": {
+						"north": {"texture": "#accessories", "uv": [0, 0, 10, 6]},
+						"east": {"texture": "#accessories", "uv": [0, 10, 0.5, 16]},
+						"south": {"texture": "#accessories", "uv": [0, 10, 10, 16]},
+						"west": {"texture": "#accessories", "uv": [9.5, 10, 10, 16]},
+						"up": {"texture": "#accessories", "uv": [0, 10, 10, 10.5]},
+						"down": {"texture": "#accessories", "uv": [0, 10, 10, 10.5]}
+					}
+				}
+			]
+		}
+	]
+}
