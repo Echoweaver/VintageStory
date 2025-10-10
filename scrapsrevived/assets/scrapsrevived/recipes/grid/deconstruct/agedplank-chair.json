@@ -5,8 +5,8 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"chair-aged"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:plank-aged", quantity: 5 }
 	},
@@ -16,8 +16,8 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"chair-long"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:plank-aged", quantity: 10 }
 	},
@@ -27,19 +27,19 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"chair-ruined1"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:plank-aged", quantity: 4 }
-	},
+	},	
 	{
 		ingredientPattern: "CI",
 		ingredients: {
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"chair-ruined2"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:plank-aged", quantity: 4 }
 	},
@@ -49,9 +49,9 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"chair-ruined3"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:plank-aged", quantity: 4 }
-	},
+	},	
 ]

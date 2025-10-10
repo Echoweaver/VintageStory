@@ -5,142 +5,76 @@
 			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-drafting-instrument"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:metalbit-iron", quantity: 4 }
 	},
 	{
 		ingredientPattern: "CI",
 		ingredients: {
-			"C": { type: "item", code: "game:hammer-*", isTool: true},
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-flasks1"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:crushed-quartz", quantity: 2 }
 	},
 	{
 		ingredientPattern: "CI",
 		ingredients: {
-			"C": { type: "item", code: "game:hammer-*", isTool: true},
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-flasks2"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:crushed-quartz", quantity: 2 }
 	},
 	{
 		ingredientPattern: "CI",
 		ingredients: {
-			"C": { type: "item", code: "game:hammer-*", isTool: true},
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-lab-equipment"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:crushed-quartz", quantity: 2 }
 	},
 	{
 		ingredientPattern: "CI",
 		ingredients: {
-			"C": { type: "item", code: "game:hammer-*", isTool: true},
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-pottery1"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:clay-blue", quantity: 8 }
+		output: { type: "item", code: "game:stone-claystone", quantity: 4 }
 	},
 	{
 		ingredientPattern: "CI",
 		ingredients: {
-			"C": { type: "item", code: "game:hammer-*", isTool: true},
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-pottery2"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:clay-blue", quantity: 8 }
+		output: { type: "item", code: "game:stone-claystone", quantity: 4 }
 	},
 	{
 		ingredientPattern: "CI",
 		ingredients: {
-			"C": { type: "item", code: "game:hammer-*", isTool: true},
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-pottery3"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:clay-blue", quantity: 8 }
-	},
-	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:hammer-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-pottery4"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:clay-blue", quantity: 8 }
-	},
-	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:hammer-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-pottery5"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:clay-blue", quantity: 8 }
-	},
-	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:hammer-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-pottery6"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:clay-blue", quantity: 8 }
-	},
-	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:hammer-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-pottery7"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:clay-blue", quantity: 8 }
-	},
-	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:hammer-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-pottery8"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:clay-blue", quantity: 8 }
-	},
-	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:hammer-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-trash-pottery"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:clay-blue", quantity: 8 }
+		output: { type: "item", code: "game:stone-claystone", quantity: 4 }
 	},
 	{
 		ingredientPattern: "CI",
@@ -148,8 +82,8 @@
 			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-precisiontools"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:metalbit-iron", quantity: 4 }
 	},
@@ -159,8 +93,8 @@
 			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-tools1"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:metalbit-iron", quantity: 4 }
 	},
@@ -170,8 +104,8 @@
 			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-tools2"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:metalbit-iron", quantity: 4 }
 	},
@@ -181,8 +115,8 @@
 			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-tools3"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:metalbit-iron", quantity: 4 }
 	},
@@ -192,8 +126,8 @@
 			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-tools4"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:metalbit-iron", quantity: 4 }
 	},
@@ -203,8 +137,8 @@
 			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-weapon1"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:metalbit-iron", quantity: 4 }
 	},
@@ -214,8 +148,8 @@
 			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-weapon2"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:metalbit-iron", quantity: 4 }
 	},
@@ -225,8 +159,8 @@
 			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-weapon3"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:metalbit-iron", quantity: 4 }
 	},
@@ -236,8 +170,8 @@
 			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-weapon4"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:metalbit-iron", quantity: 4 }
 	},
@@ -247,8 +181,8 @@
 			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-weapon5"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:metalbit-iron", quantity: 4 }
 	},
@@ -258,8 +192,8 @@
 			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-weapon6"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:metalbit-iron", quantity: 4 }
 	},
@@ -269,8 +203,8 @@
 			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-weapon7"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:metalbit-iron", quantity: 4 }
 	},
@@ -280,8 +214,8 @@
 			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-weapon8"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:metalbit-iron", quantity: 4 }
 	},
@@ -291,8 +225,8 @@
 			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-woodworkingtools"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:metalbit-iron", quantity: 4 }
 	},
@@ -302,66 +236,9 @@
 			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-medical"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:metalbit-iron", quantity: 4 }
 	},
-	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-cloth1"}}
-		},
-		width: 1,
-		height: 2,
-		shapeless: true,
-		recipeGroup: 2,
-		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
-	},
-	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-cloth2"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
-	},
-	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", "code": "game:knife-*", "isTool": true},
-			"I": { type: "block", "code": "game:clutter", "attributes":{"type":"pile-cloth3"}}
-		},
-		width: 1,
-		height: 2,
-		shapeless: true,
-		recipeGroup: 2,
-		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
-	},
-	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-cloth4"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
-	},
-	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"pile-cloth5"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
-	}
 ]

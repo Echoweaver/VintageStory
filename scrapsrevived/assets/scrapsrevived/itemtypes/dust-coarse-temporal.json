@@ -1,15 +1,15 @@
 {
 	code: "dust-coarse-temporal",
 	heldTpIdleAnimation: "holdbothhands",
-	shape: { base: "scrapsrevived:item/resource/dust-coarse-temporal" },
-	texture:
-			{
+	shape: { base: "scraps:item/resource/dust-coarse-temporal" },
+	texture: 
+			{ 
 			base: "game:item/resource/temporalgear",
 			},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	maxstacksize: 16,
 	attributes: {
-		displaycaseable: true,
+		displaycaseable: true, 
 		shelvable: true,
 		onDisplayTransform: {
 			translation: { x: 0.05, y: 0, z: 0 },

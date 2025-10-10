@@ -14,7 +14,7 @@
 		ingredientPattern: "C,B",
 		ingredients: {
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
-			"B": { type: "block", code: "game:clutter", attributes: { type: "coatrack-full1"},
+			"B": { type: "block", code: "game:clutter", attributes: { type: "coatrack-full1"}, 
 				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 3 }}
 		},
 		width: 1,
@@ -26,7 +26,7 @@
 		ingredientPattern: "C,B",
 		ingredients: {
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
-			"B": { type: "block", code: "game:clutter", attributes: { type: "coatrack-full2"},
+			"B": { type: "block", code: "game:clutter", attributes: { type: "coatrack-full2"}, 
 				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 3 }}
 		},
 		width: 1,
@@ -38,7 +38,7 @@
 		ingredientPattern: "C,B",
 		ingredients: {
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
-			"B": { type: "block", code: "game:clutter", attributes: { type: "coatrack-full3"},
+			"B": { type: "block", code: "game:clutter", attributes: { type: "coatrack-full3"}, 
 				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 3 }}
 		},
 		width: 1,
@@ -50,7 +50,7 @@
 		ingredientPattern: "C,B",
 		ingredients: {
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
-			"B": { type: "block", code: "game:clutter", attributes: { type: "coatrack-full4"},
+			"B": { type: "block", code: "game:clutter", attributes: { type: "coatrack-full4"}, 
 				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 3 }}
 		},
 		width: 1,
@@ -91,16 +91,4 @@
 		shapeless: true,
 		output: { type: "item", code: "game:metalbit-iron", quantity: 10  }
 	},
-	{
-		ingredientPattern: "C,B",
-		ingredients: {
-			"C": { type: "item", code: "game:chisel-*", isTool: true },
-			"B": { type: "block", code: "game:clutter", attributes: { type: "coatrack-pristine" },
-				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 3 } }
-		},
-		width: 1,
-		height: 2,
-		shapeless: true,
-		output: { type: "item", code: "game:metalbit-brass", quantity: 10  }
-	}
 ]

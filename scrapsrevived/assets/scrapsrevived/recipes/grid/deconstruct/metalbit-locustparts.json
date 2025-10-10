@@ -47,7 +47,7 @@
 		},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "game:metalbit-tinbronze", quantity: 20},
+		output: { type: "item", code: "game:metalbit-tinbronze", quantity: 30},
 	},
 	{
 		ingredientPattern: "C,A",
