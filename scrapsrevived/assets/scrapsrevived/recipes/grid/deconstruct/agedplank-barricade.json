@@ -5,8 +5,8 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"barricade1"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "block", code: "game:log-placed-aged-ud", quantity: 5 }
 	},
@@ -16,8 +16,8 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"barricade2"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "block", code: "game:log-placed-aged-ud", quantity: 6 }
 	},
@@ -27,8 +27,8 @@
 			"C": { type: "item", code: "game:chisel-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"barricade3"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:metalbit-iron", quantity: 40 }
 	},
@@ -38,8 +38,8 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"barricade5"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "block", code: "game:log-placed-aged-ud", quantity: 5 }
 	},
@@ -49,8 +49,8 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"barricade6"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "block", code: "game:log-placed-aged-ud", quantity: 5 }
 	},

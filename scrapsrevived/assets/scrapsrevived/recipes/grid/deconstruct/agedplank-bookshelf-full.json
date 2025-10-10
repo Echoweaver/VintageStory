@@ -1,0 +1,673 @@
+[
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-empty1", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-empty2", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-empty3", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-empty4", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-empty5", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-empty6", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-full1", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-full2", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-full3", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-full4", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-full5", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-full6", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-full7", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-full8", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-full9", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-full10", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-full11", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-full12", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-full13", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-full14", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-full15", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-full16", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{type:"bookshelves/bookshelf-ruined-full17", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf-agedacacia", attributes:{variant:"doublesided"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-case", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-case2", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-cobweb1", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-cobweb2", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-empty", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-full", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-noshelf", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-empty1", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-empty2", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-empty3", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-empty4", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-empty5", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-empty6", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-full1", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-full2", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-full3", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-full4", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-full5", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-full6", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-full7", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-full8", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-full9", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-full10", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-full11", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-full12", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-full13", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-full14", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-full15", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-full16", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelf", attributes:{type:"bookshelves/bookshelf-ruined-full17", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelfwithlore", attributes:{type:"bookshelves/bookshelf-ruined-full-lore1", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelfwithlore", attributes:{type:"bookshelves/bookshelf-ruined-full-lore2", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelfwithlore", attributes:{type:"bookshelves/bookshelf-ruined-full-lore3", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelfwithlore", attributes:{type:"bookshelves/bookshelf-ruined-full-lore4", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelfwithlore", attributes:{type:"bookshelves/bookshelf-ruined-full-lore5", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelfwithlore", attributes:{type:"bookshelves/bookshelf-ruined-full-lore6", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "S	B",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true},
+			"B": { type: "block", code: "game:clutteredbookshelfwithlore", attributes:{type:"bookshelves/bookshelf-ruined-full-lore7", variant:"full"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+]

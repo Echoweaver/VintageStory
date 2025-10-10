@@ -7,7 +7,7 @@
 		},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "game:metalbit-iron", quantity: 16 }
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
 	},
 	{
 		ingredientPattern: "C	I",
@@ -17,7 +17,7 @@
 		},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "game:metalbit-iron", quantity: 16 }
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
 	},
 	{
 		ingredientPattern: "C	I",
@@ -27,6 +27,6 @@
 		},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "game:metalbit-iron", quantity: 16 }
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
 	}
 ]

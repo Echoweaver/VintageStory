@@ -5,8 +5,8 @@
 			"K": { type: "item", code: "game:knife-*", isTool: true },
 			"B": { type: "block", code: "game:clutter", attributes: { type: "candlestub-single" } }
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		shapeless: true,
 		output: { type: "item", code: "game:beeswax", quantity: 1  }
 	},
@@ -16,8 +16,8 @@
 			"K": { type: "item", code: "game:knife-*", isTool: true },
 			"B": { type: "block", code: "game:clutter", attributes: { type: "candlestubs-bunch1" } }
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		shapeless: true,
 		output: { type: "item", code: "game:beeswax", quantity: 3  }
 	},
@@ -27,10 +27,10 @@
 			"K": { type: "item", code: "game:knife-*", isTool: true },
 			"B": { type: "block", code: "game:clutter", attributes: { type: "candlestubs-bunch2" } }
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		shapeless: true,
-		output: { type: "item", code: "game:beeswax", quantity: 3  }
+		output: { type: "item", code: "game:beeswax", quantity: 5  }
 	},
 	{
 		ingredientPattern: "KB",
@@ -38,10 +38,10 @@
 			"K": { type: "item", code: "game:knife-*", isTool: true },
 			"B": { type: "block", code: "game:clutter", attributes: { type: "candlestubs-bunch3" } }
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		shapeless: true,
-		output: { type: "item", code: "game:beeswax", quantity: 3  }
+		output: { type: "item", code: "game:beeswax", quantity: 7  }
 	},
 	{
 		ingredientPattern: "KB",
@@ -49,9 +49,9 @@
 			"K": { type: "item", code: "game:knife-*", isTool: true },
 			"B": { type: "block", code: "game:clutter", attributes: { type: "candlestubs-bunch4" } }
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		shapeless: true,
-		output: { type: "item", code: "game:beeswax", quantity: 3  }
+		output: { type: "item", code: "game:beeswax", quantity: 9  }
 	},
 ]

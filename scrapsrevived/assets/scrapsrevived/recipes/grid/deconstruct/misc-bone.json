@@ -5,8 +5,8 @@
 			"K": { type: "item", code: "game:hammer-*", isTool: true },
 			"B": { type: "block", code: "game:clutter", attributes: { type: "pile-bones1" } }
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		shapeless: true,
 		output: { type: "item", code: "game:bone", quantity: 4  }
 	},
@@ -16,8 +16,8 @@
 			"K": { type: "item", code: "game:hammer-*", isTool: true },
 			"B": { type: "block", code: "game:clutter", attributes: { type: "pile-bones2" } }
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		shapeless: true,
 		output: { type: "item", code: "game:bone", quantity: 4  }
 	},
@@ -27,8 +27,8 @@
 			"K": { type: "item", code: "game:hammer-*", isTool: true },
 			"B": { type: "block", code: "game:clutter", attributes: { type: "carcass-tiny" } }
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		shapeless: true,
 		output: { type: "item", code: "game:bone", quantity: 2  }
 	},
@@ -38,8 +38,8 @@
 			"K": { type: "item", code: "game:hammer-*", isTool: true },
 			"B": { type: "block", code: "game:clutter", attributes: { type: "carcass-small" } }
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		shapeless: true,
 		output: { type: "item", code: "game:bone", quantity: 4  }
 	},
@@ -49,8 +49,8 @@
 			"K": { type: "item", code: "game:hammer-*", isTool: true },
 			"B": { type: "block", code: "game:clutter", attributes: { type: "carcass-medium" } }
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		shapeless: true,
 		output: { type: "item", code: "game:bone", quantity: 6  }
 	},
@@ -60,8 +60,8 @@
 			"K": { type: "item", code: "game:hammer-*", isTool: true },
 			"B": { type: "block", code: "game:clutter", attributes: { type: "carcass-large" } }
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		shapeless: true,
 		output: { type: "item", code: "game:bone", quantity: 8  }
 	},
@@ -71,8 +71,8 @@
 			"K": { type: "item", code: "game:hammer-*", isTool: true },
 			"B": { type: "block", code: "game:clutter", attributes: { type: "carcass-ribcage1" } }
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		shapeless: true,
 		output: { type: "item", code: "game:bone", quantity: 4  }
 	},
@@ -82,8 +82,8 @@
 			"K": { type: "item", code: "game:hammer-*", isTool: true },
 			"B": { type: "block", code: "game:clutter", attributes: { type: "carcass-ribcage2" } }
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		shapeless: true,
 		output: { type: "item", code: "game:bone", quantity: 4  }
 	},
@@ -93,8 +93,8 @@
 			"K": { type: "item", code: "game:hammer-*", isTool: true },
 			"B": { type: "block", code: "game:clutter", attributes: { type: "skeleton-compact1" } }
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		shapeless: true,
 		output: { type: "item", code: "game:bone", quantity: 8  }
 	},
@@ -104,8 +104,8 @@
 			"K": { type: "item", code: "game:hammer-*", isTool: true },
 			"B": { type: "block", code: "game:clutter", attributes: { type: "skeleton-compact2" } }
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		shapeless: true,
 		output: { type: "item", code: "game:bone", quantity: 8  }
 	},
@@ -115,8 +115,8 @@
 			"K": { type: "item", code: "game:hammer-*", isTool: true },
 			"B": { type: "block", code: "game:clutter", attributes: { type: "skeleton-compact3" } }
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		shapeless: true,
 		output: { type: "item", code: "game:bone", quantity: 8  }
 	},
@@ -126,8 +126,8 @@
 			"K": { type: "item", code: "game:hammer-*", isTool: true },
 			"B": { type: "block", code: "game:clutter", attributes: { type: "skeleton-inbed" } }
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		shapeless: true,
 		output: { type: "item", code: "game:bone", quantity: 8  }
 	},
@@ -137,8 +137,8 @@
 			"K": { type: "item", code: "game:hammer-*", isTool: true },
 			"B": { type: "block", code: "game:clutter", attributes: { type: "skeleton-long" } }
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		shapeless: true,
 		output: { type: "item", code: "game:bone", quantity: 8  }
 	},
@@ -146,11 +146,11 @@
 		ingredientPattern: "KB",
 		ingredients: {
 			"K": { type: "item", code: "game:hammer-*", isTool: true },
-			"B": { type: "block", code: "game:clutter", attributes: { type: "skeleton-special"},
+			"B": { type: "block", code: "game:clutter", attributes: { type: "skeleton-special"}, 
 				returnedStack: { type: "item", code: "game:clothes-neck-acorn-amulet", quantity: 1 }}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		shapeless: true,
 		output: { type: "item", code: "game:bone", quantity: 8  }
 	},

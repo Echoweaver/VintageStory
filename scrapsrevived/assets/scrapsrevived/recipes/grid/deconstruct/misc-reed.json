@@ -5,8 +5,8 @@
 			"K": { type: "item", code: "game:knife-*", isTool: true },
 			"B": { type: "block", code: "game:stationarybasket-east", attributes: { type: "aged" } }
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		shapeless: true,
 		output: { type: "item", code: "game:cattailtops", quantity: 9  }
 	},
@@ -16,8 +16,8 @@
 			"K": { type: "item", code: "game:knife-*", isTool: true },
 			"B": { type: "block", code: "game:stationarybasket-east", attributes: { type: "aged2" } }
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		shapeless: true,
 		output: { type: "item", code: "game:cattailtops", quantity: 9  }
 	}

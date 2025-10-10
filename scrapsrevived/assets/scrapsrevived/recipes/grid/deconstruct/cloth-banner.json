@@ -3,10 +3,10 @@
 		ingredientPattern: "C	I",
 		ingredients: {
 			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:banner-banner" }
+			"I": { type: "block", code: "game:banner-banner", attributes:{type:"hansa-ground-fish"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
 	},
@@ -14,208 +14,10 @@
 		ingredientPattern: "C	I",
 		ingredients: {
 			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"banner-sunlarge-blue-top"}}
+			"I": { type: "block", code: "game:banner-banner", attributes:{type:"hansa-ground-fish"}}
 		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:cloth-blue", quantity: 2 }
-	},
-	{
-		ingredientPattern: "C	I",
-		ingredients: {
-			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"banner-sunlarge-blue-segment"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:cloth-blue", quantity: 2 }
-	},
-	{
-		ingredientPattern: "C	I",
-		ingredients: {
-			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"banner-sunlarge-blue-bottom"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:cloth-blue", quantity: 2 }
-	},
-	{
-		ingredientPattern: "C	I",
-		ingredients: {
-			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"banner-sunlarge-green-top"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:cloth-green", quantity: 2 }
-	},
-	{
-		ingredientPattern: "C	I",
-		ingredients: {
-			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"banner-sunlarge-green-segment"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:cloth-green", quantity: 2 }
-	},
-	{
-		ingredientPattern: "C	I",
-		ingredients: {
-			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"banner-sunlarge-green-bottom"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:cloth-green", quantity: 2 }
-	},
-	{
-		ingredientPattern: "C	I",
-		ingredients: {
-			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"banner-sunlarge-orange-top"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:cloth-orange", quantity: 2 }
-	},
-	{
-		ingredientPattern: "C	I",
-		ingredients: {
-			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"banner-sunlarge-orange-segment"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:cloth-orange", quantity: 2 }
-	},
-	{
-		ingredientPattern: "C	I",
-		ingredients: {
-			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"banner-sunlarge-orange-bottom"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:cloth-orange", quantity: 2 }
-	},
-	{
-		ingredientPattern: "C	I",
-		ingredients: {
-			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"banner-sunlarge-purple-top"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:cloth-purple", quantity: 2 }
-	},
-	{
-		ingredientPattern: "C	I",
-		ingredients: {
-			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"banner-sunlarge-purple-segment"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:cloth-purple", quantity: 2 }
-	},
-	{
-		ingredientPattern: "C	I",
-		ingredients: {
-			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"banner-sunlarge-purple-bottom"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:cloth-purple", quantity: 2 }
-	},
-	{
-		ingredientPattern: "C	I",
-		ingredients: {
-			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"banner-sunlarge-red-top"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:cloth-red", quantity: 2 }
-	},
-	{
-		ingredientPattern: "C	I",
-		ingredients: {
-			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"banner-sunlarge-red-segment"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:cloth-red", quantity: 2 }
-	},
-	{
-		ingredientPattern: "C	I",
-		ingredients: {
-			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"banner-sunlarge-red-bottom"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:cloth-red", quantity: 2 }
-	},
-	{
-		ingredientPattern: "C	I",
-		ingredients: {
-			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"banner-sunlarge-yellow-top"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:cloth-yellow", quantity: 2 }
-	},
-	{
-		ingredientPattern: "C	I",
-		ingredients: {
-			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"banner-sunlarge-yellow-segment"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:cloth-yellow", quantity: 2 }
-	},
-	{
-		ingredientPattern: "C	I",
-		ingredients: {
-			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"banner-sunlarge-yellow-bottom"}}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:cloth-yellow", quantity: 2 }
-	},
-	{
-		ingredientPattern: "C	I",
-		ingredients: {
-			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"banner-treasure-hunter-top"}}
-		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
 	},
@@ -223,10 +25,10 @@
 		ingredientPattern: "C	I",
 		ingredients: {
 			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"banner-treasure-hunter-segment"}}
+			"I": { type: "block", code: "game:banner-banner", attributes:{type:"hansa-ground-fish"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
 	},
@@ -234,10 +36,109 @@
 		ingredientPattern: "C	I",
 		ingredients: {
 			"C": { type: "item", code: "game:knife-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"banner-treasure-hunter-bottom"}}
+			"I": { type: "block", code: "game:banner-banner", attributes:{type:"hansa-ground-fish"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:knife-*", isTool: true},
+			"I": { type: "block", code: "game:banner-banner", attributes:{type:"hansa-ground-fish"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:knife-*", isTool: true},
+			"I": { type: "block", code: "game:banner-banner", attributes:{type:"hansa-ground-keys"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:knife-*", isTool: true},
+			"I": { type: "block", code: "game:banner-banner", attributes:{type:"hansa-ground-largefish"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:knife-*", isTool: true},
+			"I": { type: "block", code: "game:banner-banner", attributes:{type:"hansa-ground-town"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:knife-*", isTool: true},
+			"I": { type: "block", code: "game:banner-banner", attributes:{type:"hansa-wall-fish"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:knife-*", isTool: true},
+			"I": { type: "block", code: "game:banner-banner", attributes:{type:"hansa-wall-keys"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:knife-*", isTool: true},
+			"I": { type: "block", code: "game:banner-banner", attributes:{type:"hansa-wall-largefish"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:knife-*", isTool: true},
+			"I": { type: "block", code: "game:banner-banner", attributes:{type:"hansa-wall-ship"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:knife-*", isTool: true},
+			"I": { type: "block", code: "game:banner-banner", attributes:{type:"hansa-wall-town"}}
+		},
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
 	},

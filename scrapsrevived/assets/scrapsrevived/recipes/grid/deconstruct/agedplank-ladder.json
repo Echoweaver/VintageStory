@@ -5,8 +5,8 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes: {type: "ladder-aged1"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:plank-aged", quantity: 6 }
 	},
@@ -16,8 +16,8 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes: {type: "ladder-aged2"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:plank-aged", quantity: 6 }
 	},
@@ -27,8 +27,8 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes: {type: "ladder-aged3"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:plank-aged", quantity: 6 }
 	},
@@ -38,8 +38,8 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes: {type: "ladder-aged4"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:plank-aged", quantity: 6 }
 	},
@@ -49,8 +49,8 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes: {type: "ladder-aged5"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:plank-aged", quantity: 6 }
 	},

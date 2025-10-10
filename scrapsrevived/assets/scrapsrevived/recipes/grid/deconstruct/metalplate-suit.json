@@ -13,7 +13,7 @@
 		ingredientPattern: "C,A",
 		ingredients: {
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
-			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-rack-ruined1"},
+			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-rack-ruined1"},  
 				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 2 }}
 		},
 		width: 1,
@@ -24,7 +24,7 @@
 		ingredientPattern: "C,A",
 		ingredients: {
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
-			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-rack-ruined2"},
+			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-rack-ruined2"},  
 				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 2 }}
 		},
 		width: 1,
@@ -35,7 +35,7 @@
 		ingredientPattern: "C,A",
 		ingredients: {
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
-			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-rack-ruined3"},
+			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-rack-ruined3"},  
 				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 2 }}
 		},
 		width: 1,
@@ -46,7 +46,7 @@
 		ingredientPattern: "C,A",
 		ingredients: {
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
-			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-rack-ruined4"},
+			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-rack-ruined4"},  
 				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 2 }}
 		},
 		width: 1,
@@ -57,7 +57,7 @@
 		ingredientPattern: "C,A",
 		ingredients: {
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
-			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-rack-ruined5"},
+			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-rack-ruined5"},  
 				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 1 }}
 		},
 		width: 1,
@@ -68,7 +68,7 @@
 		ingredientPattern: "C,A",
 		ingredients: {
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
-			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-rack-ruined6"},
+			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-rack-ruined6"},  
 				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 1 }}
 		},
 		width: 1,
@@ -79,7 +79,7 @@
 		ingredientPattern: "C,A",
 		ingredients: {
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
-			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-rack"},
+			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-rack"},  
 				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 4 }}
 		},
 		width: 1,
@@ -90,7 +90,7 @@
 		ingredientPattern: "C,A",
 		ingredients: {
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
-			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-ruined1"},
+			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-ruined1"},  
 				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 1 }}
 		},
 		width: 1,
@@ -111,7 +111,7 @@
 		ingredientPattern: "C,A",
 		ingredients: {
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
-			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-ruined3"},
+			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-ruined3"},  
 				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 1 }}
 		},
 		width: 1,
@@ -122,7 +122,7 @@
 		ingredientPattern: "C,A",
 		ingredients: {
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
-			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-ruined4"},
+			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-ruined4"},  
 				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 1 }}
 		},
 		width: 1,

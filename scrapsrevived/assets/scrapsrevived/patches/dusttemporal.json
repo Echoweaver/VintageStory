@@ -6,7 +6,7 @@
 			"gear-temporal": {
 				"crushedStack": {
 					"type": "item",
-					"code": "scrapsrevived:dust-coarse-temporal"
+					"code": "scraps:dust-coarse-temporal"
         			},
 				"quantity": { avg: 4 },
 				"hardnessTier": 3

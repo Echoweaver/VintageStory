@@ -3,29 +3,7 @@
 		ingredientPattern: "C,B",
 		ingredients: {
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
-			"B": { type: "block", code: "game:clutter", attributes: { type: "brazier1" } }
-		},
-		width: 1,
-		height: 2,
-		shapeless: true,
-		output: { type: "item", code: "game:metalbit-iron", quantity: 80  }
-	},
-	{
-		ingredientPattern: "C,B",
-		ingredients: {
-			"C": { type: "item", code: "game:chisel-*", isTool: true },
-			"B": { type: "block", code: "game:clutter", attributes: { type: "brazier2" } }
-		},
-		width: 1,
-		height: 2,
-		shapeless: true,
-		output: { type: "item", code: "game:metalbit-iron", quantity: 80  }
-	},
-	{
-		ingredientPattern: "C,B",
-		ingredients: {
-			"C": { type: "item", code: "game:chisel-*", isTool: true },
-			"B": { type: "block", code: "game:clutter", attributes: { type: "brazier3" } }
+			"B": { type: "block", code: "game:clutter", attributes: { type: "lecturn-book-closed" } }
 		},
 		width: 1,
 		height: 2,
@@ -36,11 +14,33 @@
 		ingredientPattern: "C,B",
 		ingredients: {
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
-			"B": { type: "block", code: "game:clutter", attributes: { type: "brazier4" } }
+			"B": { type: "block", code: "game:clutter", attributes: { type: "lecturn-book-open" } }
 		},
 		width: 1,
 		height: 2,
 		shapeless: true,
-		output: { type: "item", code: "game:metalbit-iron", quantity: 40  }
+		output: { type: "item", code: "game:metalbit-iron", quantity: 60  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "lecturn-empty" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 60  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "lecturn-ruined" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
 	},
 ]

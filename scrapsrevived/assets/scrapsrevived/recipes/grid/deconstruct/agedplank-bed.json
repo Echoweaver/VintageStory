@@ -5,10 +5,10 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"fancy-bed-green"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		output: { type: "item", code: "game:plank-aged", quantity: 30 }
 	},
 	{
 		ingredientPattern: "CI",
@@ -16,10 +16,10 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"fancy-bed-stitched-ruined"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		output: { type: "item", code: "game:plank-aged", quantity: 30 }
 	},
 	{
 		ingredientPattern: "CI",
@@ -27,10 +27,10 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"fancy-bed-old"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		output: { type: "item", code: "game:plank-aged", quantity: 30 }
 	},
 	{
 		ingredientPattern: "CI",
@@ -38,10 +38,10 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"bed-short-green"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		output: { type: "item", code: "game:plank-aged", quantity: 15 }
 	},
 	{
 		ingredientPattern: "CI",
@@ -49,10 +49,10 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"bed-short-stitched-ruined"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		output: { type: "item", code: "game:plank-aged", quantity: 15 }
 	},
 	{
 		ingredientPattern: "CI",
@@ -60,10 +60,10 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"bed-short-old"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		output: { type: "item", code: "game:plank-aged", quantity: 15 }
 	},
 	{
 		ingredientPattern: "CI",
@@ -71,10 +71,10 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"fancy-bed-old-drapes-opened"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		output: { type: "item", code: "game:plank-aged", quantity: 30 }
 	},
 	{
 		ingredientPattern: "CI",
@@ -82,34 +82,32 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"fancy-bed-old-drapes-closed"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		output: { type: "item", code: "game:plank-aged", quantity: 30 }
 	},
 	{
 		ingredientPattern: "CI",
 		ingredients: {
 			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"fancy-bed-green-drapes-opened"},
-				"returnedStack": { "type": "item", "code": "game:cloth-green", "quantity": 4 }}
+			"I": { type: "block", code: "game:clutter", attributes:{type:"fancy-bed-green-drapes-opened"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		output: { type: "item", code: "game:plank-aged", quantity: 30 }
 	},
 	{
 		ingredientPattern: "CI",
 		ingredients: {
 			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"fancy-bed-green-drapes-closed"},
-				"returnedStack": { "type": "item", "code": "game:cloth-green", "quantity": 4 }}
+			"I": { type: "block", code: "game:clutter", attributes:{type:"fancy-bed-green-drapes-closed"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		output: { type: "item", code: "game:plank-aged", quantity: 30 }
 	},
 	{
 		ingredientPattern: "CI",
@@ -117,8 +115,8 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-fancy-ruined1"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:plank-aged", quantity: 8 }
 	},
@@ -128,8 +126,8 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-fancy-ruined2"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:plank-aged", quantity: 8 }
 	},
@@ -139,10 +137,10 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-fancy-ruined3"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		output: { type: "item", code: "game:plank-aged", quantity: 30 }
 	},
 	{
 		ingredientPattern: "CI",
@@ -150,10 +148,10 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-fancy-ruined4"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		output: { type: "item", code: "game:plank-aged", quantity: 30 }
 	},
 	{
 		ingredientPattern: "CI",
@@ -161,10 +159,10 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-fancy-ruined5"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		output: { type: "item", code: "game:plank-aged", quantity: 16 }
 	},
 	{
 		ingredientPattern: "CI",
@@ -172,10 +170,10 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-fancy-ruined6"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		output: { type: "item", code: "game:plank-aged", quantity: 16 }
 	},
 	{
 		ingredientPattern: "CI",
@@ -183,8 +181,8 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-ruined1"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:plank-aged", quantity: 6 }
 	},
@@ -194,8 +192,8 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-ruined2"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:plank-aged", quantity: 6 }
 	},
@@ -205,8 +203,8 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-ruined3"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:plank-aged", quantity: 6 }
 	},
@@ -216,10 +214,10 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-ruined4"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+		output: { type: "item", code: "game:plank-aged", quantity: 12 }
 	},
 	{
 		ingredientPattern: "CI",
@@ -227,10 +225,10 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-ruined5"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 6 }
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
 	},
-
+	
 ]

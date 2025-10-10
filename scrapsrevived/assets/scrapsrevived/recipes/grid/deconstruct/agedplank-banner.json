@@ -1,9 +1,9 @@
 [
 	{
-		ingredientPattern: "CI",
+		ingredientPattern: "C	I",
 		ingredients: {
 			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/bookstand-book-closed"}}
+			"I": { type: "block", code: "game:banner-banner", attributes:{type:"hansa-ground-fish"}}
 		},
 		width: 2,
 		height: 1,
@@ -11,10 +11,10 @@
 		output: { type: "item", code: "game:plank-aged", quantity: 6 }
 	},
 	{
-		ingredientPattern: "CI",
+		ingredientPattern: "C	I",
 		ingredients: {
 			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/bookstand-book-open"}}
+			"I": { type: "block", code: "game:banner-banner", attributes:{type:"hansa-ground-fish"}}
 		},
 		width: 2,
 		height: 1,
@@ -22,32 +22,10 @@
 		output: { type: "item", code: "game:plank-aged", quantity: 6 }
 	},
 	{
-		ingredientPattern: "CI",
+		ingredientPattern: "C	I",
 		ingredients: {
 			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/bookstand-verylarge-book-closed"}}
-		},
-		width: 2,
-		height: 1,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
-	},
-	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/bookstand-verylarge-book-open"}}
-		},
-		width: 2,
-		height: 1,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
-	},
-	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/bookstand-empty"}}
+			"I": { type: "block", code: "game:banner-banner", attributes:{type:"hansa-ground-fish"}}
 		},
 		width: 2,
 		height: 1,
@@ -55,10 +33,10 @@
 		output: { type: "item", code: "game:plank-aged", quantity: 6 }
 	},
 	{
-		ingredientPattern: "CI",
+		ingredientPattern: "C	I",
 		ingredients: {
 			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/bookstand-aged-book-closed-large"}}
+			"I": { type: "block", code: "game:banner-banner", attributes:{type:"hansa-ground-fish"}}
 		},
 		width: 2,
 		height: 1,
@@ -66,10 +44,10 @@
 		output: { type: "item", code: "game:plank-aged", quantity: 6 }
 	},
 	{
-		ingredientPattern: "CI",
+		ingredientPattern: "C	I",
 		ingredients: {
 			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/bookstand-aged-book-closed"}}
+			"I": { type: "block", code: "game:banner-banner", attributes:{type:"hansa-ground-fish"}}
 		},
 		width: 2,
 		height: 1,
@@ -77,10 +55,10 @@
 		output: { type: "item", code: "game:plank-aged", quantity: 6 }
 	},
 	{
-		ingredientPattern: "CI",
+		ingredientPattern: "C	I",
 		ingredients: {
 			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/bookstand-aged-book-opened-large"}}
+			"I": { type: "block", code: "game:banner-banner", attributes:{type:"hansa-ground-keys"}}
 		},
 		width: 2,
 		height: 1,
@@ -88,14 +66,25 @@
 		output: { type: "item", code: "game:plank-aged", quantity: 6 }
 	},
 	{
-		ingredientPattern: "CI",
+		ingredientPattern: "C	I",
 		ingredients: {
 			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/bookstand-aged-empty"}}
+			"I": { type: "block", code: "game:banner-banner", attributes:{type:"hansa-ground-largefish"}}
 		},
 		width: 2,
 		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:plank-aged", quantity: 6 }
 	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:banner-banner", attributes:{type:"hansa-ground-town"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 6 }
+	}
 ]

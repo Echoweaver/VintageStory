@@ -3,49 +3,45 @@
 		ingredientPattern: "CI",
 		ingredients: {
 			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/lectern-large-book-closed"},
-				"returnedStack": { "type": "item", "code": "game:book-rotten-gray", "quantity": 1 }}
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/lectern-large-book-closed"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		output: { type: "item", code: "game:plank-aged", quantity: 24 }
 	},
 	{
 		ingredientPattern: "CI",
 		ingredients: {
 			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/lectern-large-book-open"},
-				"returnedStack": { "type": "item", "code": "game:book-rotten-gray", "quantity": 1 }}
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/lectern-large-book-open"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		output: { type: "item", code: "game:plank-aged", quantity: 24 }
 	},
 	{
 		ingredientPattern: "CI",
 		ingredients: {
 			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/lecturn-book-closed"},
-				"returnedStack": { "type": "item", "code": "game:book-rotten-gray", "quantity": 1 }}
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/lecturn-book-closed"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+		output: { type: "item", code: "game:plank-aged", quantity: 16 }
 	},
 	{
 		ingredientPattern: "CI",
 		ingredients: {
 			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/lecturn-book-open"},
-				"returnedStack": { "type": "item", "code": "game:book-rotten-gray", "quantity": 1 }}
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/lecturn-book-open"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+		output: { type: "item", code: "game:plank-aged", quantity: 16 }
 	},
 	{
 		ingredientPattern: "CI",
@@ -53,10 +49,10 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/lecturn-empty"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+		output: { type: "item", code: "game:plank-aged", quantity: 16 }
 	},
 	{
 		ingredientPattern: "CI",
@@ -64,46 +60,43 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/lecturn-aged-empty"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+		output: { type: "item", code: "game:plank-aged", quantity: 16 }
 	},
 	{
 		ingredientPattern: "CI",
 		ingredients: {
 			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/lecturn-aged-book-closed"},
-				"returnedStack": { "type": "item", "code": "game:book-rotten-gray", "quantity": 1 }}
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/lecturn-aged-book-closed"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+		output: { type: "item", code: "game:plank-aged", quantity: 16 }
 	},
 	{
 		ingredientPattern: "CI",
 		ingredients: {
 			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/lecturn-aged-book-opened"},
-				"returnedStack": { "type": "item", "code": "game:book-rotten-gray", "quantity": 1 }}
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/lecturn-aged-book-opened"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+		output: { type: "item", code: "game:plank-aged", quantity: 16 }
 	},
 	{
 		ingredientPattern: "CI",
 		ingredients: {
 			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/lecturn-aged-book-open-tall"},
-				"returnedStack": { "type": "item", "code": "game:book-rotten-gray", "quantity": 1 }}
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/lecturn-aged-book-open-tall"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+		output: { type: "item", code: "game:plank-aged", quantity: 16 }
 	},
 	{
 		ingredientPattern: "CI",
@@ -111,9 +104,9 @@
 			"C": { type: "item", code: "game:saw-*", isTool: true},
 			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/lecturn-ruined"}}
 		},
-		width: 1,
-		height: 2,
+		width: 2,
+		height: 1,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:plank-aged", quantity: 3 }
-	}
+	},
 ]

@@ -12,27 +12,7 @@
 	{
 		ingredientPattern: "B",
 		ingredients: {
-			"B": { type: "block", code: "game:clutter", attributes: { type: "bookshelves/large-book-closed-evaporating" } }
-		},
-		width: 1,
-		height: 1,
-		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 4 }
-	},
-	{
-		ingredientPattern: "B",
-		ingredients: {
 			"B": { type: "block", code: "game:clutter", attributes: { type: "bookshelves/large-book-open" } }
-		},
-		width: 1,
-		height: 1,
-		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 4 }
-	},
-	{
-		ingredientPattern: "B",
-		ingredients: {
-			"B": { type: "block", code: "game:clutter", attributes: { type: "bookshelves/large-book-open-evaporating" } }
 		},
 		width: 1,
 		height: 1,
@@ -52,37 +32,7 @@
 	{
 		ingredientPattern: "B",
 		ingredients: {
-			"B": { type: "block", code: "game:clutter", attributes: { type: "bookshelves/cartography-book-evaporating" } }
-		},
-		width: 1,
-		height: 1,
-		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 4 }
-	},
-	{
-		ingredientPattern: "B",
-		ingredients: {
 			"B": { type: "block", code: "game:clutter", attributes: { type: "bookshelves/large-book-pile1" } }
-		},
-		width: 1,
-		height: 1,
-		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 8 }
-	},
-	{
-		ingredientPattern: "B",
-		ingredients: {
-			"B": { type: "block", code: "game:clutter", attributes: { type: "bookshelves/large-book-pile1-evaporating" } }
-		},
-		width: 1,
-		height: 1,
-		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 8 }
-	},
-	{
-		ingredientPattern: "B",
-		ingredients: {
-			"B": { type: "block", code: "game:clutter", attributes: { type: "bookshelves/large-book-pile2" } }
 		},
 		width: 1,
 		height: 1,
@@ -92,12 +42,22 @@
 	{
 		ingredientPattern: "B",
 		ingredients: {
+			"B": { type: "block", code: "game:clutter", attributes: { type: "bookshelves/large-book-pile2" } }
+		},
+		width: 1,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:book-rotten-gray", quantity: 20 }
+	},
+	{
+		ingredientPattern: "B",
+		ingredients: {
 			"B": { type: "block", code: "game:clutter", attributes: { type: "bookshelves/large-book-pile3" } }
 		},
 		width: 1,
 		height: 1,
 		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 8 }
+		output: { type: "item", code: "game:book-rotten-gray", quantity: 16 }
 	},
 	{
 		ingredientPattern: "B",
@@ -107,7 +67,7 @@
 		width: 1,
 		height: 1,
 		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 8 }
+		output: { type: "item", code: "game:book-rotten-gray", quantity: 16 }
 	},
 	{
 		ingredientPattern: "B",
@@ -117,7 +77,7 @@
 		width: 1,
 		height: 1,
 		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 6 }
+		output: { type: "item", code: "game:book-rotten-gray", quantity: 11 }
 	},
 	{
 		ingredientPattern: "B",
@@ -127,7 +87,7 @@
 		width: 1,
 		height: 1,
 		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 4 }
+		output: { type: "item", code: "game:book-rotten-gray", quantity: 8 }
 	},
 	{
 		ingredientPattern: "B",
@@ -147,7 +107,7 @@
 		width: 1,
 		height: 1,
 		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 8 }
+		output: { type: "item", code: "game:book-rotten-gray", quantity: 16 }
 	},
 	{
 		ingredientPattern: "B",
@@ -157,17 +117,7 @@
 		width: 1,
 		height: 1,
 		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 8 }
-	},
-	{
-		ingredientPattern: "B",
-		ingredients: {
-			"B": { type: "block", code: "game:clutter", attributes: { type: "bookshelves/bookpile-aged2-evaporating" } }
-		},
-		width: 1,
-		height: 1,
-		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 8 }
+		output: { type: "item", code: "game:book-rotten-gray", quantity: 12 }
 	},
 	{
 		ingredientPattern: "B",
@@ -177,7 +127,7 @@
 		width: 1,
 		height: 1,
 		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 6 }
+		output: { type: "item", code: "game:book-rotten-gray", quantity: 8 }
 	},
 	{
 		ingredientPattern: "B",
@@ -187,7 +137,7 @@
 		width: 1,
 		height: 1,
 		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 4 }
+		output: { type: "item", code: "game:book-rotten-gray", quantity: 7 }
 	},
 	{
 		ingredientPattern: "B",
@@ -197,19 +147,9 @@
 		width: 1,
 		height: 1,
 		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 8 }
+		output: { type: "item", code: "game:book-rotten-gray", quantity: 17 }
 	},
-	{
-		ingredientPattern: "B",
-		ingredients: {
-			"B": { type: "block", code: "game:clutter", attributes: { type: "bookshelves/bookpile-aged5-evaporating" } }
-		},
-		width: 1,
-		height: 1,
-		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 8 }
-	},
-	{
+		{
 		ingredientPattern: "B",
 		ingredients: {
 			"B": { type: "block", code: "game:clutter", attributes: { type: "bookshelves/large-book-standing1" } }
@@ -217,7 +157,7 @@
 		width: 1,
 		height: 1,
 		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 3 }
+		output: { type: "item", code: "game:book-rotten-gray", quantity: 8 }
 	},
 	{
 		ingredientPattern: "B",
@@ -227,7 +167,7 @@
 		width: 1,
 		height: 1,
 		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 3 }
+		output: { type: "item", code: "game:book-rotten-gray", quantity: 8 }
 	},
 	{
 		ingredientPattern: "B",
@@ -237,7 +177,7 @@
 		width: 1,
 		height: 1,
 		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 3 }
+		output: { type: "item", code: "game:book-rotten-gray", quantity: 13 }
 	},
 	{
 		ingredientPattern: "B",
@@ -247,7 +187,7 @@
 		width: 1,
 		height: 1,
 		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 3 }
+		output: { type: "item", code: "game:book-rotten-gray", quantity: 6 }
 	},
 	{
 		ingredientPattern: "B",
@@ -257,7 +197,7 @@
 		width: 1,
 		height: 1,
 		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 2 }
+		output: { type: "item", code: "game:book-rotten-gray", quantity: 4 }
 	},
 	{
 		ingredientPattern: "B",
@@ -267,156 +207,6 @@
 		width: 1,
 		height: 1,
 		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 4 }
-	},
-	{
-		ingredientPattern: "B",
-		ingredients: {
-			"B": { type: "block", code: "game:clutter", attributes: { type: "bookrow/bookrow1" } }
-		},
-		width: 1,
-		height: 1,
-		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 6 }
-	},
-	{
-		ingredientPattern: "B",
-		ingredients: {
-			"B": { type: "block", code: "game:clutter", attributes: { type: "bookrow/bookrow2" } }
-		},
-		width: 1,
-		height: 1,
-		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 7 }
-	},
-	{
-		ingredientPattern: "B",
-		ingredients: {
-			"B": { type: "block", code: "game:clutter", attributes: { type: "bookrow/bookrow3" } }
-		},
-		width: 1,
-		height: 1,
-		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 6 }
-	},
-	{
-		ingredientPattern: "B",
-		ingredients: {
-			"B": { type: "block", code: "game:clutter", attributes: { type: "bookrow/bookrow4" } }
-		},
-		width: 1,
-		height: 1,
-		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 7 }
-	},
-	{
-		ingredientPattern: "B",
-		ingredients: {
-			"B": { type: "block", code: "game:clutter", attributes: { type: "bookrow/bookrow5" } }
-		},
-		width: 1,
-		height: 1,
-		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 8 }
-	},
-	{
-		ingredientPattern: "B",
-		ingredients: {
-			"B": { type: "block", code: "game:clutter", attributes: { type: "bookrow/bookrow6" } }
-		},
-		width: 1,
-		height: 1,
-		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 6 }
-	},
-	{
-		ingredientPattern: "B",
-		ingredients: {
-			"B": { type: "block", code: "game:clutter", attributes: { type: "bookrow/bookrow7" } }
-		},
-		width: 1,
-		height: 1,
-		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 8 }
-	},
-	{
-		ingredientPattern: "B",
-		ingredients: {
-			"B": { type: "block", code: "game:clutter", attributes: { type: "bookrow/bookrow8" } }
-		},
-		width: 1,
-		height: 1,
-		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 8 }
-	},
-	{
-		ingredientPattern: "B",
-		ingredients: {
-			"B": { type: "block", code: "game:clutter", attributes: { type: "bookrow/bookrow9" } }
-		},
-		width: 1,
-		height: 1,
-		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 8 }
-	},
-	{
-		ingredientPattern: "B",
-		ingredients: {
-			"B": { type: "block", code: "game:clutter", attributes: { type: "bookrow/bookrow10" } }
-		},
-		width: 1,
-		height: 1,
-		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 8 }
-	},
-	{
-		ingredientPattern: "B",
-		ingredients: {
-			"B": { type: "block", code: "game:clutter", attributes: { type: "bookrow/bookrow11" } }
-		},
-		width: 1,
-		height: 1,
-		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 8 }
-	},
-	{
-		ingredientPattern: "B",
-		ingredients: {
-			"B": { type: "block", code: "game:clutter", attributes: { type: "bookrow/bookrow12" } }
-		},
-		width: 1,
-		height: 1,
-		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 8 }
-	},
-	{
-		ingredientPattern: "B",
-		ingredients: {
-			"B": { type: "block", code: "game:clutter", attributes: { type: "bookrow/bookrow13" } }
-		},
-		width: 1,
-		height: 1,
-		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 8 }
-	},
-	{
-		ingredientPattern: "B",
-		ingredients: {
-			"B": { type: "block", code: "game:clutter", attributes: { type: "bookrow/bookrow14" } }
-		},
-		width: 1,
-		height: 1,
-		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 8 }
-	},
-	{
-		ingredientPattern: "B",
-		ingredients: {
-			"B": { type: "block", code: "game:clutter", attributes: { type: "bookrow/bookrow15" } }
-		},
-		width: 1,
-		height: 1,
-		shapeless: true,
-		output: { type: "item", code: "game:book-rotten-gray", quantity: 4 }
+		output: { type: "item", code: "game:book-rotten-gray", quantity: 10 }
 	},
 ]

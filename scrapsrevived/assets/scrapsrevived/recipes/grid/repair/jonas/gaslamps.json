@@ -2,15 +2,15 @@
 	{
 		ingredientPattern: "B,L",
 		ingredients: {
-			"B": { type: "block", code: "game:bowl-*-fired", name: "color" },
+			"B": { type: "block", code: "game:bowl-fired" },
 			"L": { type: "block", code: "game:jonas-lamp", attributes: {type: "lightsource/off/gas-ceiling1"} },
 		},
 		attributes: {
 			liquidContainerProps: {
-				requiresContent: { type: "item", code: "scrapsrevived:temporalfluidportion" },
+				requiresContent: { type: "item", code: "scraps:temporalfluidportion" },
 				requiresLitres: 1
 			}
-		},
+		},		
 		width: 1,
 		height: 2,
 		recipeGroup: 2,
@@ -19,15 +19,15 @@
 	{
 		ingredientPattern: "B,L",
 		ingredients: {
-			"B": { type: "block", code: "game:bowl-*-fired", name: "color" },
+			"B": { type: "block", code: "game:bowl-fired" },
 			"L": { type: "block", code: "game:jonas-lamp", attributes: {type: "lightsource/off/gas-floor1"} },
 		},
 		attributes: {
 			liquidContainerProps: {
-				requiresContent: { type: "item", code: "scrapsrevived:temporalfluidportion" },
+				requiresContent: { type: "item", code: "scraps:temporalfluidportion" },
 				requiresLitres: 1
 			}
-		},
+		},		
 		width: 1,
 		height: 2,
 		recipeGroup: 2,
@@ -36,15 +36,15 @@
 	{
 		ingredientPattern: "B,L",
 		ingredients: {
-			"B": { type: "block", code: "game:bowl-*-fired", name: "color" },
+			"B": { type: "block", code: "game:bowl-fired" },
 			"L": { type: "block", code: "game:jonas-lamp", attributes: {type: "lightsource/off/gas-floor2"} },
 		},
 		attributes: {
 			liquidContainerProps: {
-				requiresContent: { type: "item", code: "scrapsrevived:temporalfluidportion" },
+				requiresContent: { type: "item", code: "scraps:temporalfluidportion" },
 				requiresLitres: 1
 			}
-		},
+		},		
 		width: 1,
 		height: 2,
 		recipeGroup: 2,
@@ -53,15 +53,15 @@
 	{
 		ingredientPattern: "B,L",
 		ingredients: {
-			"B": { type: "block", code: "game:bowl-*-fired", name: "color" },
+			"B": { type: "block", code: "game:bowl-fired" },
 			"L": { type: "block", code: "game:jonas-lamp", attributes: {type: "lightsource/off/gas-floor3"} },
 		},
 		attributes: {
 			liquidContainerProps: {
-				requiresContent: { type: "item", code: "scrapsrevived:temporalfluidportion" },
+				requiresContent: { type: "item", code: "scraps:temporalfluidportion" },
 				requiresLitres: 1
 			}
-		},
+		},		
 		width: 1,
 		height: 2,
 		recipeGroup: 2,
@@ -70,15 +70,15 @@
 	{
 		ingredientPattern: "B,L",
 		ingredients: {
-			"B": { type: "block", code: "game:bowl-*-fired", name: "color" },
+			"B": { type: "block", code: "game:bowl-fired" },
 			"L": { type: "block", code: "game:jonas-lamp", attributes: {type: "lightsource/off/gas-wall1"} },
 		},
 		attributes: {
 			liquidContainerProps: {
-				requiresContent: { type: "item", code: "scrapsrevived:temporalfluidportion" },
+				requiresContent: { type: "item", code: "scraps:temporalfluidportion" },
 				requiresLitres: 1
 			}
-		},
+		},		
 		width: 1,
 		height: 2,
 		recipeGroup: 2,
@@ -87,15 +87,15 @@
 	{
 		ingredientPattern: "B,L",
 		ingredients: {
-			"B": { type: "block", code: "game:bowl-*-fired", name: "color" },
+			"B": { type: "block", code: "game:bowl-fired" },
 			"L": { type: "block", code: "game:jonas-lamp", attributes: {type: "lightsource/off/gas-wall2"} },
 		},
 		attributes: {
 			liquidContainerProps: {
-				requiresContent: { type: "item", code: "scrapsrevived:temporalfluidportion" },
+				requiresContent: { type: "item", code: "scraps:temporalfluidportion" },
 				requiresLitres: 1
 			}
-		},
+		},		
 		width: 1,
 		height: 2,
 		recipeGroup: 2,
