@@ -1,0 +1,18 @@
+{
+  "Type": "content",
+  "TextureSize": 32,
+  "Name": "Extra clay!",
+  "Version": "1.0.2",
+  "NetworkVersion": null,
+  "Description": "Ceramic barrel, hardened clay blocks + slabs",
+  "Website": "",
+  "ModID": "extraclay",
+  "Authors": [
+    "Echoweaver"
+  ],
+  "Contributors": [],
+  "Side": "Universal",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "Dependencies": {}
+}

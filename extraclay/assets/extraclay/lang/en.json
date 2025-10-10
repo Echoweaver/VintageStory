@@ -1,0 +1,21 @@
+{
+  "extraclay:block-barrelraw-red": "Raw clay barrel (Red)",
+  "extraclay:block-barrelraw-blue": "Raw clay barrel (Blue)",
+  "extraclay:block-barrelraw-fire": "Raw clay barrel (Fire)",
+  "extraclay:block-barrel-gray": "Ceramic barrel (Gray)",
+  "extraclay:block-barrel-black": "Ceramic barrel (Black)",
+  "extraclay:block-barrel-cream": "Ceramic barrel (Cream)",
+  "extraclay:block-barrel-tan": "Ceramic barrel (Tan)",
+  "extraclay:block-barrel-brown": "Ceramic barrel (Brown)",
+  "extraclay:block-barrel-orange": "Ceramic barrel (Orange)",
+  "extraclay:block-barrel-red": "Ceramic barrel (Red)",
+  "extraclay:block-barrel-blue": "Ceramic barrel (Dark brown)",
+  "extraclay:block-barrel-fire": "Ceramic barrel (Fire)",
+
+  "extraclay:block-hardenedclay-blue": "Hardened clay (Dark brown)",
+  "extraclay:block-hardenedclay-red": "Hardened clay (Red)",
+  "extraclay:block-hardenedclay-fire": "Hardened clay (Fire)",
+  "extraclay:block-hardenedclayslay-blue-*": "Hardened clay slab (Dark brown)",
+  "extraclay:block-hardenedclayslab-red-*": "Hardened clay slab (Red)",
+  "extraclay:block-hardenedclayslab-fire-*": "Hardened clay slab (Fire)",
+}

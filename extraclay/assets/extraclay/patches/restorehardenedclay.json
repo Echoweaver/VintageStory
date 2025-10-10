@@ -1,0 +1,19 @@
+[
+  {
+    "op": "add",
+    "path": "/combustibleProps",
+    "value": {
+      "meltingPoint": 300,
+      "meltingDuration": 10,
+      "smeltedRatio": 8,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "block",
+        "code": "extraclay:hardenedclay-{type}"
+      },
+      "requiresContainer": false
+    },
+    "file": "game:itemtypes/resource/clay.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "KC",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true  },
+		"C": { type: "block", code: "hardenedclay-*", name: "type", allowedVariants: ["blue", "fire", "red"] }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "block", code: "hardenedclayslab-{type}-down-free", quantity: 2  }
+}

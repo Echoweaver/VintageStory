@@ -1,0 +1,48 @@
+{
+	code: "hardenedclay",
+	class: "Block",
+	variantgroups: [
+		{ code:"type", states: ["blue", "fire", "red"] }
+	],
+	attributes: {
+		handbook: {
+			excludeByType: {
+				"*-brown": true,
+				"*-red": true
+			}
+		}
+	},
+	shape: { base: "game:block/basic/cube" },
+	drawtype: "Cube",
+	blockmaterial: "Ceramic",
+	creativeinventory: { "general": ["*"], "construction": ["*"] },
+	replaceable: 700,
+	resistance: 2,
+	lightAbsorption: 99,
+	"texturesByType": {
+			"*-fire": {
+					"all": {
+						"base": "game:block/clay/hardened/{type}2",
+						"alternates": [{ "base": "game:block/clay/hardened/{type}3"}]
+					}
+			},
+			"*": {
+					"all": {
+						"base": "game:block/clay/hardened/{type}1",
+						"alternates": [{ "base": "game:block/clay/hardened/{type}2"}, { "base": "game:block/clay/hardened/{type}3" }],
+					}
+			}
+		},
+	sounds: {
+		"place": "game:block/ceramicplace",
+		"hit": "game:block/ceramichit",
+		"break": "game:block/ceramicplace",
+		"walk": "game:walk/stone"
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldRightReadyAnimation: "heldblockready", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

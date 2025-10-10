@@ -1,0 +1,123 @@
+{
+  "enabled": true,
+	"code": "barrel",
+  "class": "BlockBarrel",
+  "entityclass": "Barrel",
+  "behaviors": [
+    {"name": "Lockable" },
+    {"name": "UnstableFalling" }
+  ],
+  "variantGroups": [
+    {
+      "code": "variant",
+      "states": [
+        "cream",
+        "black",
+        "gray",
+        "orange",
+        "tan",
+        "blue",
+        "brown",
+        "red",
+        "fire"
+      ]
+    }
+  ],
+	"shape": {
+    "base": "game:block/clutter/barrel-metal1.json"
+  },
+	"creativeinventory": {
+    "general": [
+      "*"
+    ],
+    "decorative": [
+      "*"
+    ],
+    "extraclay": [
+      "*"
+    ]
+  },
+	"blockmaterial": "Ceramic",
+	"replaceable": 900,
+	"resistance": 1.5,
+	"maxStackSize": 1,
+	"lightAbsorption": 1,
+  "texturesByType": {
+    "*": {
+      "blackbronze2": { "base": "game:block/clay/hardened/{variant}" },
+      "lid": {
+        "base": "game:block/clay/hardened/{variant}",
+        "overlays": [ "game:block/clay/overlay/vessel-top.png" ]
+      }
+    }
+  },
+  "attributesByType": {
+    "*": {
+      "spoilSpeedMulByFoodCat": {
+        "vegetable": 0.8,
+        "fruit": 0.9
+      },
+		  "reinforcable": true,
+		  "partialAttachable": true,
+		  "capacityLitres": 40,
+      "emptyShape": "game:block/clutter/barrel-metal1",
+      "sealedShape": "extraclay:barrel-closed",
+      "liquidContentsShape": "game:block/wood/barrel/liquidcontents",
+      "contentsShape": "game:block/wood/barrel/contents"
+    }
+  },
+	"sideao": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"emitsideao": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"collisionbox": {
+		"x1": 0,
+    "y1": 0,
+    "z1": 0,
+		"x2": 1,
+    "y2": 0.9375,
+    "z2": 1
+	},
+	"selectionbox": {
+		"x1": 0,
+    "y1": 0,
+    "z1": 0,
+		"x2": 1,
+    "y2": 0.9375,
+    "z2": 1
+	},
+	"sounds": {
+		"place": "game:block/ceramicplace",
+		"hit": "game:block/ceramichit",
+		"break": "game:block/ceramicplace",
+		"walk": "game:walk/stone"
+	},
+	"materialDensity": 600,
+	"heldTpIdleAnimation": "holdbothhandslarge",
+  "heldRightReadyAnimation": "heldblockready",
+  "heldTpUseAnimation": "twohandplaceblock",
+  "guiTransform": {
+    "scale": 1.25
+  },
+	"tpHandTransform": {
+		"translation": {
+      "x": -1.7,
+      "y": -0.95,
+      "z": -0.69
+    },
+		"rotation": {
+      "x": 12,
+      "y": 14,
+      "z": -81
+    },
+		"scale": 0.36
+	}
+}
