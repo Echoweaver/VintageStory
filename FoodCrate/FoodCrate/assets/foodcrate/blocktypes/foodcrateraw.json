@@ -21,29 +21,29 @@
       "scale": 0.7
     }
   },
-  "attributesByType":{
-    "foodcrateraw-red":{
-      "beehivekiln":{
-        "0": { "type": "block", "code": "foodcrate-tan", "attributes": { "type": "normal", "lidState": "closed" } },
-        "1": { "type": "block", "code": "foodcrate-orange", "attributes": { "type": "normal", "lidState": "closed" } },
-        "2": { "type": "block", "code": "foodcrate-red", "attributes": { "type": "normal", "lidState": "closed" } },
-        "3": { "type": "block", "code": "foodcrate-brown", "attributes": { "type": "normal", "lidState": "closed" } }
+  "attributesByType": {
+    "*-fire": {
+      "beehivekiln": {
+        "0": { "type": "block", "code": "foodcrate:foodcrate-fire", "attributes": { "type": "normal", "lidState": "closed" } },
+        "1": { "type": "block", "code": "foodcrate:foodcrate-fire", "attributes": { "type": "normal", "lidState": "closed" } },
+        "2": { "type": "block", "code": "foodcrate:foodcrate-fire", "attributes": { "type": "normal", "lidState": "closed" } },
+        "3": { "type": "block", "code": "foodcrate:foodcrate-fire", "attributes": { "type": "normal", "lidState": "closed" } }
       }
     },
-    "foodcrateraw-blue":{
-      "beehivekiln":{
-        "0": { "type": "block", "code": "foodcrate-cream", "attributes": { "type": "normal", "lidState": "closed" } },
-        "1": { "type": "block", "code": "foodcrate-gray", "attributes": { "type": "normal", "lidState": "closed" } },
-        "2": { "type": "block", "code": "foodcrate-black", "attributes": { "type": "normal", "lidState": "closed" } },
-        "3": { "type": "block", "code": "foodcrate-black", "attributes": { "type": "normal", "lidState": "closed" } }
+    "*-red": {
+      "beehivekiln": {
+        "0": { "type": "block", "code": "foodcrate:foodcrate-tan", "attributes": { "type": "normal", "lidState": "closed" } },
+        "1": { "type": "block", "code": "foodcrate:foodcrate-orange", "attributes": { "type": "normal", "lidState": "closed" } },
+        "2": { "type": "block", "code": "foodcrate:foodcrate-red", "attributes": { "type": "normal", "lidState": "closed" } },
+        "3": { "type": "block", "code": "foodcrate:foodcrate-brown", "attributes": { "type": "normal", "lidState": "closed" } }
       }
     },
-    "foodcrateraw-fire":{
-      "beehivekiln":{
-        "0": { "type": "block", "code": "foodcrate-fire", "attributes": { "type": "normal", "lidState": "closed" } },
-        "1": { "type": "block", "code": "foodcrate-fire", "attributes": { "type": "normal", "lidState": "closed" } },
-        "2": { "type": "block", "code": "foodcrate-fire", "attributes": { "type": "normal", "lidState": "closed" } },
-        "3": { "type": "block", "code": "foodcrate-fire", "attributes": { "type": "normal", "lidState": "closed" } }
+    "*-blue": {
+      "beehivekiln": {
+        "0": { "type": "block", "code": "foodcrate:foodcrate-cream", "attributes": { "type": "normal", "lidState": "closed" } },
+        "1": { "type": "block", "code": "foodcrate:foodcrate-gray", "attributes": { "type": "normal", "lidState": "closed" } },
+        "2": { "type": "block", "code": "foodcrate:foodcrate-blue", "attributes": { "type": "normal", "lidState": "closed" } },
+        "3": { "type": "block", "code": "foodcrate:foodcrate-black", "attributes": { "type": "normal", "lidState": "closed" } }
       }
     }
   },
