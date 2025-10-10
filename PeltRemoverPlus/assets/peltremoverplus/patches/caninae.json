@@ -1,0 +1,217 @@
+[
+  {
+    "file": "caninae:itemtypes/resource/pelt",
+    "op": "add",
+    "path": "/enabled",
+    "value": "false",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "file": "caninae:itemtypes/resource/taxidermy",
+    "op": "add",
+    "path": "/enabled",
+    "value": "false",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "file": "caninae:itemtypes/resource/headmount",
+    "op": "add",
+    "path": "/enabled",
+    "value": "false",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "file": "caninae:entities/land/vulpini-baby",
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/0",
+    "value": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantityByType": {
+        "*": {"avg": 1.0,"var": 0.0}
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "file": "caninae:entities/land/urocyonini-baby",
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/0",
+    "value": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantityByType": {
+        "*": {"avg": 1.0,"var": 0.0}
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "file": "caninae:entities/land/cerdocyonina-baby",
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/0",
+    "value": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantityByType": {
+        "*": {"avg": 1.0,"var": 0.0}
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "file": "caninae:entities/land/canina-baby",
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/0",
+    "value": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantityByType": {
+        "*": {"avg": 1.0,"var": 0.0}
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "file": "caninae:entities/land/vulpini-adult",
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/2",
+    "value": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantityByType": {
+        "*": {"avg": 1.0,"var": 0.0}
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "file": "caninae:entities/land/urocyonini-adult",
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/2",
+    "value": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantityByType": {
+        "*": {"avg": 1.0,"var": 0.0}
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "file": "caninae:entities/land/cerdocyonina-adult",
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/2",
+    "value": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantityByType": {
+        "*-atelocynus-microtis": {"avg": 1.0,"var": 0.0},
+        "*-cerdocyon-thous": {"avg": 1.0,"var": 0.0},
+        "*-lycalopex-fulvipes": {"avg": 1.0,"var": 0.0},
+        "*-lycalopex-griseus": {"avg": 1.0,"var": 0.0},
+        "*-lycalopex-gymnocercus": {"avg": 1.0,"var": 0.0},
+        "*-lycalopex-sechurae": {"avg": 1.0,"var": 0.0},
+        "*-lycalopex-vetulus": {"avg": 1.0,"var": 0.0},
+        "*-speothos-venaticus": {"avg": 1.0,"var": 0.0},
+        "*": {"avg": 1.0,"var": 0.0}
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "file": "caninae:entities/land/cerdocyonina-adult",
+    "op": "addmerge",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "game:hide-raw-medium",
+      "quantityByType": {
+        "*-chrysocyon-brachyurus": {"avg": 1.0,"var": 0.0},
+        "*-dusicyon-australis": {"avg": 1.0,"var": 0.0},
+        "*--dusicyon-avus": {"avg": 1.0,"var": 0.0},
+        "*-lycalopex-culpaeus": {"avg": 1.0,"var": 0.0},
+        "*-speothos-pacivorus": {"avg": 3.0,"var": 1.0},
+        "*": {"avg": 1.0,"var": 0.0}
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "file": "caninae:entities/land/canina-adult",
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/2",
+    "value": {
+      "type": "item",
+      "code": "game:hide-raw-medium",
+      "quantityByType": {
+        "*-aenocyon-dirus": {"avg": 4.0,"var": 1.0},
+        "*-canis-aureus": {"avg": 1.0,"var": 0.0},
+        "*-canis-familiaris": {"avg": 3.0,"var": 1.0},
+        "*-canis-latrans": {"avg": 1.0,"var": 0.0},
+        "*-canis-lupastor": {"avg": 1.0,"var": 0.0},
+        "*-canis-lupus": {"avg": 3.0,"var": 1.0},
+        "*-canis-lupusarctos": {"avg": 1.0,"var": 0.0},
+        "*-canis-lupusdingo": {"avg": 1.0,"var": 0.0},
+        "*-canis-lycaon": {"avg": 3.0,"var": 1.0},
+        "*-lycaon-pictus": {"avg": 3.0,"var": 1.0},
+        "*-canis-rufus": {"avg": 2.0,"var": 1.0},
+        "*-canis-simensis": {"avg": 1.0,"var": 0.0},
+        "*-cuon-alpinus": {"avg": 1.0,"var": 0.0},
+        "*-cynotherium-sardous": {"avg": 1.0,"var": 0.0},
+        "*-lupulella-adusta": {"avg": 1.0,"var": 0.0},
+        "*-lupulella-mesomelas": {"avg": 1.0,"var": 0.0},
+        "*": {"avg": 1.0,"var": 0.0}
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  }
+]

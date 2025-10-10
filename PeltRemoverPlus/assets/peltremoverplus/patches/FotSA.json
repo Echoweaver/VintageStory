@@ -1,0 +1,249 @@
+[
+    {
+        "file": "cervinae:itemtypes/resource/pelt",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "cervinae"
+            }
+        ]
+    },
+    {
+        "file": "cervinae:itemtypes/resource/taxidermy",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "cervinae"
+            }
+        ]
+    },
+  {
+        "file": "cervinae:itemtypes/resource/headmount",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "cervinae"
+            }
+        ]
+    },
+  {
+        "file": "cervinae:entities/land/cervini",
+        "op": "replace",
+        "path": "/server/behaviors/11/drops/2",
+        "value": {
+            "type": "item",
+            "code": "game:hide-raw-huge",
+            "quantityByType": {
+              "*-male-megalocerosgiganteus": {"avg": 4.0,"var": 1.0},
+              "*-female-megalocerosgiganteus": {"avg": 3.0,"var": 1.0},
+              "*": {"avg": 0.0,"var": 0.0}
+            }
+         },
+        "dependsOn": [
+            {
+                "modid": "cervinae"
+            }
+        ]
+    },
+    {
+        "file": "cervinae:entities/land/cervini",
+        "op": "replace",
+        "path": "/server/behaviors/11/drops/3",
+        "value": {
+            "type": "item",
+            "code": "game:hide-raw-medium",
+            "quantityByType": {
+              "*-baby-*": {"avg": 2.0,"var": 1.0},
+              "*": {"avg": 0.0,"var": 0.0}
+            }
+         },
+        "dependsOn": [
+            {
+                "modid": "cervinae"
+            }
+        ]
+    },
+
+	{
+        "file": "casuariidae:itemtypes/resource/pelt",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "casuariidae"
+            }
+        ]
+    },
+    {
+        "file": "casuariidae:itemtypes/resource/taxidermy",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "casuariidae"
+            }
+        ]
+    },
+    {
+        "file": "chelonioidea:itemtypes/resource/taxidermy",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "chelonioidea"
+            }
+        ]
+    },
+    {
+        "file": "dinornithidae:itemtypes/resource/pelt",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "dinornithidae"
+            }
+        ]
+    },
+    {
+        "file": "dinornithidae:itemtypes/resource/taxidermy",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "dinornithidae"
+            }
+        ]
+    },
+    {
+        "file": "manidae:itemtypes/resource/pelt",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "manidae"
+            }
+        ]
+    },
+    {
+        "file": "manidae:itemtypes/resource/taxidermy",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "manidae"
+            }
+        ]
+    },
+    {
+        "file": "sirenia:itemtypes/resource/pelt",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "sirenia"
+            }
+        ]
+    },
+    {
+        "file": "sirenia:itemtypes/resource/taxidermy",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "sirenia"
+            }
+        ]
+    },
+    {
+        "file": "spheniscidae:itemtypes/resource/pelt",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "spheniscidae"
+            }
+        ]
+    },
+    {
+        "file": "spheniscidae:itemtypes/resource/taxidermy",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "spheniscidae"
+            }
+        ]
+    },
+    {
+        "file": "thylacinidae:itemtypes/resource/pelt",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "thylacinidae"
+            }
+        ]
+    },
+    {
+        "file": "thylacinidae:itemtypes/resource/taxidermy",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "thylacinidae"
+            }
+        ]
+    },
+    {
+        "file": "thylacinidae:itemtypes/resource/headmount",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "thylacinidae"
+            }
+        ]
+    },
+    {
+        "file": "thylacinidae:entities/land/dasyuridae-adult",
+        "op": "replace",
+        "path": "/server/behaviors/6/drops/1/code",
+        "value": "game:hide-raw-medium",
+        "dependsOn": [
+            {
+                "modid": "thylacinidae"
+            }
+        ]
+    },
+    {
+        "file": "thylacinidae:entities/land/dasyuridae-baby",
+        "op": "replace",
+        "path": "/server/behaviors/6/drops/1/code",
+        "value": "game:hide-raw-small",
+        "dependsOn": [
+            {
+                "modid": "thylacinidae"
+            }
+        ]
+    }
+]

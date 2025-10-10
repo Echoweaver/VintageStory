@@ -1,0 +1,258 @@
+[
+  {
+    "file": "bovinae:itemtypes/resource/pelt",
+    "op": "add",
+    "path": "/enabled",
+    "value": "false",
+    "dependsOn": [
+      {
+        "modid": "bovinae"
+      }
+    ]
+  },
+  {
+    "file": "bovinae:itemtypes/resource/taxidermy",
+    "op": "add",
+    "path": "/enabled",
+    "value": "false",
+    "dependsOn": [
+      {
+        "modid": "bovinae"
+      }
+    ]
+  },
+  {
+    "file": "bovinae:itemtypes/resource/headmount",
+    "op": "add",
+    "path": "/enabled",
+    "value": "false",
+    "dependsOn": [
+      {
+        "modid": "bovinae"
+      }
+    ]
+  },
+  {
+    "file": "bovinae:entities/animal/mammal/hooved/bovinae-adult",
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/2",
+    "value": {
+      "type": "item",
+      "code": "game:hide-raw-huge",
+      "quantityByType": {
+        "*-adult-female-synceruscaffer": {"avg": 4.0,"var": 1.0},
+        "*-adult-female-taurotragusderbianus": {"avg": 4.0,"var": 1.0},
+        "*-adult-female-taurotragusoryx": {"avg": 4.0,"var": 1.0},
+        "*-adult-male-taurotragusoryx": {"avg": 4.0,"var": 1.0},
+        "*-adult-female-bosprimigeniusprimigenius": {"avg": 5.0,"var": 1.0},
+        "*-adult-female-bubalusarnee": {"avg": 5.0,"var": 1.0},
+        "*-adult-female-syncerusantiquus": {"avg": 5.0,"var": 1.0},
+        "*-adult-male-synceruscaffer": {"avg": 5.0,"var": 1.0},
+        "*-adult-male-taurotragusderbianus": {"avg": 5.0,"var": 1.0},
+        "*-adult-male-bosprimigeniusprimigenius": {"avg": 6.0,"var": 1.0},
+        "*-adult-male-bubalusarnee": {"avg": 6.0,"var": 1.0},
+        "*-adult-male-syncerusantiquus": {"avg": 12.0,"var": 2.0},
+        "*": {"avg": 0.0,"var": 0.0}
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "bovinae"
+      }
+    ]
+  },
+  {
+    "file": "bovinae:entities/animal/mammal/hooved/bovinae-adult",
+    "op": "addmerge",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "game:hide-raw-large",
+      "quantityByType": {
+        "*-adult-female-boselaphustragocamelus": {"avg": 3.0,"var": 1.0},
+        "*-adult-female-bubalusdepressicornis": {"avg": 3.0,"var": 1.0},
+        "*-adult-female-bubalusgrovesi": {"avg": 3.0,"var": 1.0},
+        "*-adult-female-tragelaphusbuxtoni": {"avg": 3.0,"var": 1.0},
+        "*-adult-female-tragelaphuseurycerus": {"avg": 3.0,"var": 1.0},
+        "*-adult-female-tragelaphusstrepsiceros": {"avg": 3.0,"var": 1.0},
+        "*-adult-male-boselaphustragocamelus": {"avg": 4.0,"var": 1.0},
+        "*-adult-female-bubalusbrevicornis": {"avg": 4.0,"var": 1.0},
+        "*-adult-male-bubalusdepressicornis": {"avg": 4.0,"var": 1.0},
+        "*-adult-male-bubalusgrovesi": {"avg": 4.0,"var": 1.0},
+        "*-adult-female-bubalusmindorensis": {"avg": 4.0,"var": 1.0},
+        "*-adult-male-bubalusmindorensis": {"avg": 4.0,"var": 1.0},
+        "*-adult-female-syncerusnanus": {"avg": 4.0,"var": 1.0},
+        "*-adult-male-syncerusnanus": {"avg": 4.0,"var": 1.0},
+        "*-adult-male-tragelaphusbuxtoni": {"avg": 4.0,"var": 1.0},
+        "*-adult-male-tragelaphuseurycerus": {"avg": 4.0,"var": 1.0},
+        "*-adult-male-tragelaphusstrepsiceros": {"avg": 4.0,"var": 1.0},
+        "*-adult-male-bubalusbrevicornis": {"avg": 5.0,"var": 1.0},
+        "*-adult-female-bubalusbubalis": {"avg": 5.0,"var": 1.0},
+        "*-adult-female-bubalusmephistopheles": {"avg": 5.0,"var": 1.0},
+        "*-adult-female-bubalusmurrensis": {"avg": 5.0,"var": 1.0},
+        "*-adult-male-bubalusbubalis": {"avg": 7.0,"var": 2.0},
+        "*-adult-male-bubalusmephistopheles": {"avg": 7.0,"var": 2.0},
+        "*-adult-male-bubalusmurrensis": {"avg": 7.0,"var": 2.0},
+        "*": {"avg": 0.0,"var": 0.0}
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "bovinae"
+      }
+    ]
+  },
+  {
+    "file": "bovinae:entities/animal/mammal/hooved/bovinae-adult",
+    "op": "addmerge",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "game:hide-raw-medium",
+      "quantityByType": {
+        "*-adult-female-tetracerusquadricornis": {"avg": 1.0,"var": 0.0},
+        "*-adult-male-tetracerusquadricornis": {"avg": 1.0,"var": 0.0},
+        "*-adult-female-bubalusquarlesi": {"avg": 3.0,"var": 1.0},
+        "*-adult-female-tragelaphusangasii": {"avg": 3.0,"var": 1.0},
+        "*-adult-female-tragelaphusimberbis": {"avg": 3.0,"var": 1.0},
+        "*-adult-female-tragelaphusscriptus": {"avg": 3.0,"var": 1.0},
+        "*-adult-female-tragelaphusspekii": {"avg": 3.0,"var": 1.0},
+        "*-adult-female-tragelaphussylvaticus": {"avg": 3.0,"var": 1.0},
+        "*-adult-female-bubaluscebuensis": {"avg": 4.0,"var": 1.0},
+        "*-adult-male-bubalusquarlesi": {"avg": 4.0,"var": 1.0},
+        "*-adult-female-pseudoryxnghetinhensis": {"avg": 4.0,"var": 1.0},
+        "*-adult-male-pseudoryxnghetinhensis": {"avg": 4.0,"var": 1.0},
+        "*-adult-male-tragelaphusangasii": {"avg": 4.0,"var": 1.0},
+        "*-adult-male-tragelaphusimberbis": {"avg": 4.0,"var": 1.0},
+        "*-adult-male-tragelaphusscriptus": {"avg": 4.0,"var": 1.0},
+        "*-adult-male-tragelaphusspekii": {"avg": 4.0,"var": 1.0},
+        "*-adult-male-tragelaphussylvaticus": {"avg": 4.0,"var": 1.0},
+        "*-adult-male-bubaluscebuensis": {"avg": 5.0,"var": 1.0},
+        "*": {"avg": 0.0,"var": 0.0}
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "bovinae"
+      }
+    ]
+  },
+  {
+    "file": "bovinae:entities/animal/mammal/hooved/bovinae-baby",
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/2",
+    "value": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantityByType": {
+        "*-baby-*-tetracerusquadricornis": {"avg": 1.0,"var": 0.0},
+        "*": {"avg": 0.0,"var": 0.0}
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "bovinae"
+      }
+    ]
+  },
+  {
+    "file": "bovinae:entities/animal/mammal/hooved/bovinae-baby",
+    "op": "addmerge",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "game:hide-raw-medium",
+      "quantityByType": {
+        "*-baby-*-bubaluscebuensis": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-bubalusquarlesi": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-pseudoryxnghetinhensis": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-tragelaphusangasii": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-tragelaphusimberbis": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-tragelaphusscriptus": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-tragelaphusspekii": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-tragelaphussylvaticus": {"avg": 1.0,"var": 0.0},
+        "*": {"avg": 0.0,"var": 0.0}
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "bovinae"
+      }
+    ]
+  },
+  {
+    "file": "bovinae:entities/animal/mammal/hooved/bovinae-baby",
+    "op": "addmerge",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "game:hide-raw-large",
+      "quantityByType": {
+        "*-baby-*-bosprimigeniusprimigenius": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-boselaphustragocamelus": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-bubalusarnee": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-bubalusbrevicornis": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-bubalusbubalis": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-bubalusdepressicornis": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-bubalusgrovesi": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-bubalusmephistopheles": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-bubalusmindorensis": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-bubalusmurrensis": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-syncerusantiquus": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-synceruscaffer": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-syncerusnanus": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-taurotragusderbianus": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-taurotragusoryx": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-tragelaphusbuxtoni": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-tragelaphuseurycerus": {"avg": 1.0,"var": 0.0},
+        "*-baby-*-tragelaphusstrepsiceros": {"avg": 1.0,"var": 0.0},
+        "*": {"avg": 0.0,"var": 0.0}
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "bovinae"
+      }
+    ]
+  },
+  {
+    "file": "bovinae:entities/animal/mammal/hooved/bovinae-tamed",
+    "op": "replace",
+    "path": "/server/behaviors/5/drops/2",
+    "value": {
+      "type": "item",
+      "code": "game:hide-raw-huge",
+      "quantityByType": {
+        "*-adult-female-bosprimigeniusprimigenius-*": {"avg": 5.0,"var": 1.0},
+        "*-adult-male-bosprimigeniusprimigenius-*": {"avg": 6.0,"var": 1.0},
+        "*-adult-female-bubalusarnee": {"avg": 5.0,"var": 1.0},
+        "*-adult-male-bubalusarnee": {"avg": 6.0,"var": 1.0},
+        "*": {"avg": 0.0,"var": 0.0}
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "bovinae"
+      }
+    ]
+  },
+  {
+    "file": "bovinae:entities/animal/mammal/hooved/bovinae-tamed",
+    "op": "replace",
+    "path": "/server/behaviors/5/drops/2",
+    "value": {
+      "type": "item",
+      "code": "game:hide-raw-large",
+      "quantityByType": {
+        "*-adult-female-bubalusbubalis-*": {"avg": 5.0,"var": 1.0},
+        "*-adult-male-bubalusbubalis-*": {"avg": 7.0,"var": 2.0},
+        "*": {"avg": 0.0,"var": 0.0}
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "bovinae"
+      }
+    ]
+  }
+]

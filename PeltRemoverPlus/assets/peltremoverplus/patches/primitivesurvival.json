@@ -1,0 +1,214 @@
+[
+    {
+        "op": "remove",
+        "path": "/class",
+        "file": "game:itemtypes/resource/hide",
+        "dependsOn": [
+            {
+                "modid": "primitivesurvival"
+            }
+        ],
+        "side": "server"
+    },
+    {
+        "op": "remove",
+        "path": "/classByType",
+        "file": "game:itemtypes/resource/hide",
+        "dependsOn": [
+            {
+                "modid": "primitivesurvival"
+            },
+            {
+                "modid": "ancienttools"
+            }
+        ],
+        "side": "server"
+    },
+    {
+        "file": "primitivesurvival:blocktypes/hide/bearhead",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "primitivesurvival"
+            }
+        ]
+    },
+    {
+        "file": "primitivesurvival:blocktypes/hide/bearhide",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "primitivesurvival"
+            }
+        ]
+    },
+    {
+        "file": "primitivesurvival:blocktypes/hide/foxhead",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "primitivesurvival"
+            }
+        ]
+    },
+    {
+        "file": "primitivesurvival:blocktypes/hide/foxhide",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "primitivesurvival"
+            }
+        ]
+    },
+    {
+        "file": "primitivesurvival:blocktypes/hide/harehead",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "primitivesurvival"
+            }
+        ]
+    },
+    {
+        "file": "primitivesurvival:blocktypes/hide/harehide",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "primitivesurvival"
+            }
+        ]
+    },
+    {
+        "file": "primitivesurvival:blocktypes/hide/hyenahead",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "primitivesurvival"
+            }
+        ]
+    },
+    {
+        "file": "primitivesurvival:blocktypes/hide/hyenahide",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "primitivesurvival"
+            }
+        ]
+    },
+    {
+        "file": "primitivesurvival:blocktypes/hide/moosehide",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "primitivesurvival"
+            }
+        ]
+    },
+    {
+        "file": "primitivesurvival:blocktypes/hide/pighead",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "primitivesurvival"
+            }
+        ]
+    },
+    {
+        "file": "primitivesurvival:blocktypes/hide/pighide",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "primitivesurvival"
+            }
+        ]
+    },
+    {
+        "file": "primitivesurvival:blocktypes/hide/raccoonhead",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "primitivesurvival"
+            }
+        ]
+    },
+    {
+        "file": "primitivesurvival:blocktypes/hide/raccoonhide",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "primitivesurvival"
+            }
+        ]
+    },
+    {
+        "file": "primitivesurvival:blocktypes/hide/sheephead",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "primitivesurvival"
+            }
+        ]
+    },
+    {
+        "file": "primitivesurvival:blocktypes/hide/sheephide",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "primitivesurvival"
+            }
+        ]
+    },
+    {
+        "file": "primitivesurvival:blocktypes/hide/wolfhead",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "primitivesurvival"
+            }
+        ]
+    },
+    {
+        "file": "primitivesurvival:blocktypes/hide/wolfhide",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [
+            {
+                "modid": "primitivesurvival"
+            }
+        ]
+    }
+]

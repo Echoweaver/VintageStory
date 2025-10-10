@@ -1,0 +1,101 @@
+[
+  {
+    "file": "vombatidae:itemtypes/resource/pelt",
+    "op": "add",
+    "path": "/enabled",
+    "value": "false",
+    "dependsOn": [
+      {
+        "modid": "vombatidae"
+      }
+    ]
+  },
+  {
+    "file": "vombatidae:itemtypes/resource/taxidermy",
+    "op": "add",
+    "path": "/enabled",
+    "value": "false",
+    "dependsOn": [
+      {
+        "modid": "vombatidae"
+      }
+    ]
+  },
+  {
+    "file": "vombatidae:itemtypes/resource/headmount",
+    "op": "add",
+    "path": "/enabled",
+    "value": "false",
+    "dependsOn": [
+      {
+        "modid": "vombatidae"
+      }
+    ]
+  },
+  {
+    "file": "vombatidae:entities/land/vombatidae-adult",
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/3/code",
+    "value": "game:hide-raw-medium",
+    "dependsOn": [
+      {
+        "modid": "vombatidae"
+      }
+    ]
+  },
+  {
+    "file": "vombatidae:entities/land/vombatidae-baby",
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/3/code",
+    "value": "game:hide-raw-small",
+    "dependsOn": [
+      {
+        "modid": "vombatidae"
+      }
+    ]
+  },
+  {
+    "file": "vombatidae:entities/land/thylacoleonidae-adult",
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/1/code",
+    "value": "game:hide-raw-huge",
+    "dependsOn": [
+      {
+        "modid": "vombatidae"
+      }
+    ]
+  },
+  {
+    "file": "vombatidae:entities/land/thylacoleonidae-baby",
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/1/code",
+    "value": "game:hide-raw-medium",
+    "dependsOn": [
+      {
+        "modid": "vombatidae"
+      }
+    ]
+  },
+  {
+    "file": "vombatidae:entities/land/diprotodontidae-adult",
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/3/code",
+    "value": "game:hide-raw-huge",
+    "dependsOn": [
+      {
+        "modid": "vombatidae"
+      }
+    ]
+  },
+  {
+    "file": "vombatidae:entities/land/diprotodontidae-baby",
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/3/code",
+    "value": "game:hide-raw-large",
+    "dependsOn": [
+      {
+        "modid": "vombatidae"
+      }
+    ]
+  }
+]

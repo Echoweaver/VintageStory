@@ -1,0 +1,11 @@
+{
+  "type": "content",
+  "modid": "peltremoverplus",
+  "name": "Pelt Remover",
+  "authors": ["QueerCoded", "Echoweaver"],
+  "description": "Removes custom pelts from Primitive Survival and Fauna of the Stone Age",
+  "version": "2.0.7",
+  "dependencies": {
+    "game" : "1.21.0"
+  }
+}
