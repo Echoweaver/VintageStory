@@ -1,0 +1,20 @@
+[
+	{
+		ingredientPattern: "C",
+		ingredients: {
+			"C": { type: "item", code: "game:metalbit-blistersteel"}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "item", code: "game:metalbit-steel", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C",
+		ingredients: {
+			"C": { type: "item", code: "game:metalbit-stainlesssteel"}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "item", code: "game:metalbit-steel", quantity: 1  }
+	}
+]

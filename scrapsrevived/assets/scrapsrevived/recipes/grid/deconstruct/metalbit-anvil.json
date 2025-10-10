@@ -1,0 +1,35 @@
+[
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "anvil-broken1" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 80  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "anvil-broken2" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-meteoriciron", quantity: 60  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "anvil-broken3" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 40  }
+	},
+]

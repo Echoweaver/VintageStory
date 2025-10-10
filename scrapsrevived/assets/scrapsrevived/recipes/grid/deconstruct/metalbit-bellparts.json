@@ -1,0 +1,52 @@
+[
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "bell-clapper" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "bell-funnel" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "bell-head" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "bell-parts" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 30},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "bell-spine" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10},
+	},
+]

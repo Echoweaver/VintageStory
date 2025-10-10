@@ -1,0 +1,68 @@
+[
+	{
+		ingredientPattern: "PDP,P_P",
+		ingredients: { 
+			"P": { type: "item", code: "game:plank-aged"},
+			"D": { type: "block", code: "game:clutter", attributes:{type:"table-ruined1"}}
+		},
+		width: 3,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:clutter", attributes: {type:"table-aged", collected: "true"}, quantity: 1 }
+	},
+	{
+		ingredientPattern: "PDP,P_P",
+		ingredients: { 
+			"P": { type: "item", code: "game:plank-aged"},
+			"D": { type: "block", code: "game:clutter", attributes:{type:"table-ruined2"}}
+		},
+		width: 3,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:clutter", attributes: {type:"table-aged", collected: "true"}, quantity: 1 }
+	},
+	{
+		ingredientPattern: "PPP,PD_,",
+		ingredients: { 
+			"P": { type: "item", code: "game:plank-aged"},
+			"D": { type: "block", code: "game:clutter", attributes:{type:"table-ruined3"}}
+		},
+		width: 3,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:clutter", attributes: {type:"table-aged", collected: "true"}, quantity: 1 }
+	},
+	{
+		ingredientPattern: "DP",
+		ingredients: { 
+			"P": { type: "item", code: "game:plank-aged"},
+			"D": { type: "block", code: "game:clutter", attributes:{type:"table-ruined4"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:clutter", attributes: {type:"table-aged", collected: "true"}, quantity: 1 }
+	},
+	{
+		ingredientPattern: "DP",
+		ingredients: { 
+			"P": { type: "item", code: "game:plank-aged"},
+			"D": { type: "block", code: "game:clutter", attributes:{type:"table-ruined5"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:clutter", attributes: {type:"table-aged", collected: "true"}, quantity: 1 }
+	},
+	{
+		ingredientPattern: "D,P",
+		ingredients: { 
+			"P": { type: "item", code: "game:plank-aged"},
+			"D": { type: "block", code: "game:clutter", attributes:{type:"table-ruined5"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:clutter", attributes: {type:"table-aged", collected: "true"}, quantity: 1 }
+	},
+]

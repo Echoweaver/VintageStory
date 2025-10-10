@@ -1,0 +1,79 @@
+[
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:knife-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type: "dryingrack1"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:knife-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type: "dryingrack2"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:knife-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type: "dryingrack3"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:knife-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type: "dryingrack4"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:knife-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type: "dryingrack5"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:linen-normal-down", quantity: 2 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:knife-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type: "dryingrack6"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:linen-normal-down", quantity: 1 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:knife-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type: "dryingrack7"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:linen-normal-down", quantity: 1 }
+	},
+]

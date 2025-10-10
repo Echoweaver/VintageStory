@@ -1,0 +1,46 @@
+[
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "brazier1" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 40  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "brazier2" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 40  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "brazier3" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 30  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "brazier4" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+	},
+]

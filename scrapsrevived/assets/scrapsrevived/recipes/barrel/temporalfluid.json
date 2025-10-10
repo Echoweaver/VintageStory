@@ -1,0 +1,8 @@
+{
+	code: "temporalfluid",
+	ingredients: [
+		{ type: "item", code: "game:alcoholportion", litres: 1 },
+		{ type: "item", code: "dust-coarse-temporal", quantity: 1 }
+	],
+	output: { type: "item", code: "temporalfluidportion", litres: 1 }
+}

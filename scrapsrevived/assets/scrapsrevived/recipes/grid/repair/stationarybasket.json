@@ -1,0 +1,46 @@
+[
+	{
+		ingredientPattern: "_P_,PCP",
+		ingredients: {
+			"P": { type: "item", code: "game:cattailtops", quantity: 3},
+			"C": { type: "block", code: "game:stationarybasket-east", attributes:{type:"aged"}}
+		},
+		recipeGroup: 2,
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:stationarybasket-east", attributes:{type:"reed"}, quantity: 1  }
+	},
+	{
+		ingredientPattern: "_P_,PCP",
+		ingredients: {
+			"P": { type: "item", code: "game:papyrustops", quantity: 3},
+			"C": { type: "block", code: "game:stationarybasket-east", attributes:{type:"aged"}},
+		},
+		recipeGroup: 2,
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:stationarybasket-east", attributes:{type:"reed"}, quantity: 1  }
+	},
+	{
+		ingredientPattern: "_P_,PCP",
+		ingredients: {
+			"P": { type: "item", code: "game:cattailtops", quantity: 3},
+			"C": { type: "block", code: "game:stationarybasket-east", attributes:{type:"aged2"}}
+		},
+		recipeGroup: 2,
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:stationarybasket-east", attributes:{type:"reed"}, quantity: 1  }
+	},
+	{
+		ingredientPattern: "_P_,PCP",
+		ingredients: {
+			"P": { type: "item", code: "game:papyrustops", quantity: 3},
+			"C": { type: "block", code: "game:stationarybasket-east", attributes:{type:"aged2"}},
+		},
+		recipeGroup: 2,
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:stationarybasket-east", attributes:{type:"reed"}, quantity: 1  }
+	},
+]

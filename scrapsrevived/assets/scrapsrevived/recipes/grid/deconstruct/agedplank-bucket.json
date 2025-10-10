@@ -1,0 +1,35 @@
+[
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bucket1"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 5 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bucket2"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 4 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bucket3"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 3 }
+	},
+]

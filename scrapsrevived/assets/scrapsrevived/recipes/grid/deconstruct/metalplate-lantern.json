@@ -1,0 +1,68 @@
+[
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "lantern/ground1" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalplate-molybdochalkos", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "lantern/ground2" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalplate-molybdochalkos", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "lantern/ground3" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalplate-molybdochalkos", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "lantern/ground4" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalplate-molybdochalkos", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "lantern/ground5" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalplate-molybdochalkos", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "lantern/ground6" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalplate-molybdochalkos", quantity: 1  }
+	},
+]

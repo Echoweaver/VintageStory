@@ -1,0 +1,68 @@
+[
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"globe1"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"globe2"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 6 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"globe3"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 10 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"globe4"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 4 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"globe5"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 4 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"globe6"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 2 }
+	},
+]

@@ -1,0 +1,178 @@
+[
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "machine1" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "machine2" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "machine3" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "machine4" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "machine5" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "machine6" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "machine7" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "machine8" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "mech-helper" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 30  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "mech-part1" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 5  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "mech-part2" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "mech-part3" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "mech-part4" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 5 }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "mech-part5" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "mech-part6" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 5  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "inactivelocustnest" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 40  }
+	},
+]

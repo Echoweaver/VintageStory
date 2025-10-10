@@ -1,0 +1,57 @@
+[
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"gravestone-1"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:stone-limestone", quantity: 8 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"gravestone-2"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:stone-limestone", quantity: 16 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"gravestone-3"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 2 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"gravestone-4"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:stone-limestone", quantity: 12 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"gravestone-5"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:bone", quantity: 2 }
+	},
+]

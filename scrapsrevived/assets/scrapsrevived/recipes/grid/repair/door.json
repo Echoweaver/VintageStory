@@ -1,0 +1,23 @@
+[
+	{
+		ingredientPattern: "_P_,PDP",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-aged"},
+			"D": { type: "block", code: "game:door-ruined-rough*"}
+		},
+		width: 3,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:door-solid-aged", quantity: 1 }
+	},
+	{
+		ingredientPattern: "_P_,PDP",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-aged"},
+			"D": { type: "block", code: "game:door-ruined-windowed*"}
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:door-sleek-windowed-aged", quantity: 1 }
+	}
+]

@@ -1,0 +1,79 @@
+[
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "bed/bed-straw-double1" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "block", code: "game:hay-aged-ud", quantity: 4  }
+	},
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "bed/bed-straw-single1" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "block", code: "game:hay-aged-ud", quantity: 2  }
+	},
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "bed/bed-straw-single2" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "block", code: "game:hay-aged-ud", quantity: 2  }
+	},
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "bed/bed-straw-ruined1" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "block", code: "game:hay-aged-ud", quantity: 2  }
+	},
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "bed/bed-straw-ruined2" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "block", code: "game:hay-aged-ud", quantity: 1 }
+	},
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "bed/bed-straw-small1" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "block", code: "game:hay-aged-ud", quantity: 1 }
+	},
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "bed/bed-straw-small2" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "block", code: "game:hay-aged-ud", quantity: 1 }
+	},
+]

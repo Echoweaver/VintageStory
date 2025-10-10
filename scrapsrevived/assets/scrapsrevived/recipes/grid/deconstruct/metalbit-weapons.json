@@ -1,0 +1,202 @@
+[
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "item", code: "game:knife-stiletto-ruined"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "item", code: "game:knife-dagger-ruined"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "item", code: "game:knife-khanjar-ruined"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "item", code: "game:knife-baselard-ruined"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "item", code: "game:club-warhammer-ruined"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "item", code: "game:club-spiked-ruined"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "item", code: "game:club-morningstar-ruined"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "item", code: "game:club-flanged-ruined"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "item", code: "game:axe-double-ruined"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "item", code: "game:axe-bardiche-ruined"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "item", code: "game:axe-battle-ruined"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "item", code: "game:axe-bearded-ruined"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "item", code: "game:spear-voulge-ruined"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "item", code: "game:spear-boar-ruined"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "item", code: "game:spear-fork-ruined"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "item", code: "game:spear-ranseur-ruined"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "item", code: "game:blade-sabre-ruined"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "item", code: "game:blade-claymore-ruined"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "item", code: "game:blade-arming-ruined"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "item", code: "game:blade-gladius-ruined"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+]

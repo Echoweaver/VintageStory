@@ -1,0 +1,182 @@
+[
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "block", code: "game:jonas-lamp", attributes: {type: "lightsource/off/lumi-floor1"} },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "block", code: "game:jonas-lamp", attributes: {type: "lightsource/off/lumi-floor2"} },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "block", code: "game:jonas-lamp", attributes: {type: "lightsource/off/lumi-floor3"} },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "block", code: "game:jonas-lamp", attributes: {type: "lightsource/off/lumi-floor8"} },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "block", code: "game:jonas-lamp", attributes: {type: "lightsource/off/lumi-floor9"} },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "block", code: "game:jonas-lamp", attributes: {type: "lightsource/off/lumi-floor10"} },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "block", code: "game:jonas-lamp", attributes: {type: "lightsource/off/lumi-pipe-h-lamp"} },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "block", code: "game:jonas-lamp", attributes: {type: "lightsource/off/lumi-pipe-v-lamp"} },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "block", code: "game:jonas-lamp", attributes: {type: "lightsource/off/gas-ceiling1"} },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "block", code: "game:jonas-lamp", attributes: {type: "lightsource/off/gas-floor1"} },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "block", code: "game:jonas-lamp", attributes: {type: "lightsource/off/gas-floor2"} },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "block", code: "game:jonas-lamp", attributes: {type: "lightsource/off/gas-floor3"} },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "block", code: "game:jonas-lamp", attributes: {type: "lightsource/off/gas-wall1"} },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "block", code: "game:jonas-lamp", attributes: {type: "lightsource/off/gas-wall2"} },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes: {type: "jonas-lamp/floor4"} },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes: {type: "jonas-lamp/floor5"} },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes: {type: "jonas-lamp/floor6"} },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes: {type: "jonas-lamp/floor7"} },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10 }
+	}
+]

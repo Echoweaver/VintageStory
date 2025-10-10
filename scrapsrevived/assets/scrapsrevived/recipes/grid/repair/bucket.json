@@ -1,0 +1,34 @@
+[
+	{
+		ingredientPattern: "F,C",
+		ingredients: {
+			"F": { type: "item", code: "game:flaxtwine"},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"bucket1"}}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "game:woodbucket", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_F_,P_P,_C_",
+		ingredients: {
+			"F": { type: "item", code: "game:flaxtwine"},
+			"P": { type: "item", code: "game:plank-aged"},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"bucket2"}}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:woodbucket", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_F_,P_P,PCP",
+		ingredients: {
+			"F": { type: "item", code: "game:flaxtwine"},
+			"P": { type: "item", code: "game:plank-aged"},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"bucket3"}}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:woodbucket", quantity: 1  }
+	},
+]

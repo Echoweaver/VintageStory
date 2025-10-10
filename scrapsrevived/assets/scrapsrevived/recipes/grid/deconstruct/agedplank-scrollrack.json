@@ -1,0 +1,101 @@
+[
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/scrollrack-full1"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 16 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/scrollrack-full2"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 16 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/scrollrack-full3"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 16 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/scrollrack-full4"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 16 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/scrollrack-full5"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 16 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/scrollrack-empty1"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 16 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/scrollrack-ruined1"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/scrollrack-ruined2"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/scrollrack-ruined3"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+	},
+]

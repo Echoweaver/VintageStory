@@ -1,0 +1,53 @@
+[
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "barrel-metal1" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalplate-iron", quantity: 2},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "barrel-metal2" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalplate-iron", quantity: 2},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "barrel-metal3" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalplate-iron", quantity: 2},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "barrel-metal4" },
+				returnedStack: { type: "item", code: "game:rot", quantity: 12 } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalplate-iron", quantity: 2},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "stove-ruined" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalplate-iron", quantity: 2},
+	},
+]

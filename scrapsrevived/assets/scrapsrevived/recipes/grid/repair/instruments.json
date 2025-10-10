@@ -1,0 +1,50 @@
+[
+	{
+		ingredientPattern: "SPP,SAP",
+		ingredients: {
+			"S": { type: "item", code: "game:stone-*", quantity: 3},
+			"P": { type: "item", code: "game:plank-aged"},
+			"A": { type: "block", code: "game:clutter", attributes: {type:"abacus3"}},
+		},
+		recipeGroup: 2,
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:clutter", attributes:{type:"abacus1", collected: "true"}, quantity: 1  }
+	},
+	{
+		ingredientPattern: "PSS,PAP,SSP",
+		ingredients: {
+			"S": { type: "item", code: "game:stone-*", quantity: 3},
+			"P": { type: "item", code: "game:plank-aged"},
+			"A": { type: "block", code: "game:clutter", attributes: {type:"abacus4", collected: "true"}},
+		},
+		recipeGroup: 2,
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:clutter", attributes:{type:"abacus2", collected: "true"}, quantity: 1  }
+	},
+	{
+		ingredientPattern: "C_,H_,IA",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"I": { type: "item", code:"game:ingot-brass"},
+			"A": { type: "block", code: "game:clutter", attributes: { type: "armillary2" } }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:clutter", attributes: { type: "armillary1", collected: "true"}  }
+	},
+	{
+		ingredientPattern: "C_,H_,IA",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"I": { type: "item", code:"game:ingot-brass", quantity: 2},
+			"A": { type: "block", code: "game:clutter", attributes: { type: "armillary3" } }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:clutter", attributes: { type: "armillary1", collected: "true"}  }
+	}
+]

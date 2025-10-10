@@ -1,0 +1,68 @@
+[
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:locustnest-metalspike-none"}
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 6  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:locustnest-metalspike-none-upsidedown"}
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 6  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:locustnest-metalspike-tiny"}
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 6  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:locustnest-metalspike-small"}
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 6  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:locustnest-metalspike-medium"}
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 6  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:locustnest-metalspike-large"}
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 6  }
+	},
+]

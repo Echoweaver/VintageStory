@@ -1,0 +1,91 @@
+[
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:door-ruined-rough*"}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 3 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:door-ruined-windowed*"}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 3 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:chest-east", attributes:{type:"collapsed1"}},
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 5 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:chest-east", attributes:{type:"collapsed2"}},
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 3 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:chest-east", attributes:{type:"collapsed3"}},
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 1 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:banner-segment", attributes:{type:"segment"}},
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 2 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:hammer-*", isTool: true},
+			"I": { type: "block", code: "game:displaycase-aged*"},
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 4,
+		output: { type: "item", code: "game:plank-aged", quantity: 2 }
+	},
+	{
+		ingredientPattern: "C	I",
+		ingredients: {
+			"C": { type: "item", code: "game:hammer-*", isTool: true},
+			"I": { type: "block", code: "game:talldisplaycase-aged*"},
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 4,
+		output: { type: "item", code: "game:plank-aged", quantity: 2 }
+	}
+
+]

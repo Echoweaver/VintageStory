@@ -1,0 +1,35 @@
+[
+	{
+		ingredientPattern: "_N_,BCB,_N_",
+		ingredients: {
+			"B": { type: "item", code: "game:metalplate-brass"},
+			"N": { type: "item", code: "game:metalnailsandstrips-*"},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"chandelier-ruined1"}}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:chandelier-candle0", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_N_,BCB,_N_",
+		ingredients: {
+			"B": { type: "item", code: "game:metalplate-brass"},
+			"N": { type: "item", code: "game:metalnailsandstrips-*"},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"chandelier-ruined2"}}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:chandelier-candle0", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_N_,BCB,_N_",
+		ingredients: {
+			"B": { type: "item", code: "game:metalplate-brass"},
+			"N": { type: "item", code: "game:metalnailsandstrips-*"},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"chandelier-ruined3"}}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:chandelier-candle0", quantity: 1  }
+	},
+]

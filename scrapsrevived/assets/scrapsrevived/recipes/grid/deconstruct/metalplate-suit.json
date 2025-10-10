@@ -1,0 +1,132 @@
+[
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-rack-empty" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 5},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-rack-ruined1"},
+				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 2 }}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-rack-ruined2"},
+				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 2 }}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-rack-ruined3"},
+				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 2 }}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-rack-ruined4"},
+				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 2 }}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-rack-ruined5"},
+				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 1 }}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-rack-ruined6"},
+				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 1 }}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 5},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-rack"},
+				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 4 }}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 30},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-ruined1"},
+				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 1 }}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-ruined2"}}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-ruined3"},
+				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 1 }}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "hazmat-ruined4"},
+				returnedStack: { type: "block", code: "game:linen-normal-down", quantity: 1 }}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10},
+	},
+]

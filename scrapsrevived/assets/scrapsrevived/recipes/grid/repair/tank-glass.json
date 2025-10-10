@@ -1,0 +1,90 @@
+[
+	{
+		ingredientPattern: "T,G,C",
+		ingredients: {
+			"T": { type: "item", code: "game:chisel-*", isTool: true},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"tank-glass2"}},
+			"G": { type: "block", code: "game:glass-plain"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "block", code: "game:clutter", attributes:{type:"tank-glass1", collected: "true"}, quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,G,C",
+		ingredients: {
+			"T": { type: "item", code: "game:chisel-*", isTool: true},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"tank-glass3"}},
+			"G": { type: "block", code: "game:glass-plain"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "block", code: "game:clutter", attributes:{type:"tank-glass1", collected: "true"}, quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,G,C",
+		ingredients: {
+			"T": { type: "item", code: "game:chisel-*", isTool: true},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"tank-glass4"}},
+			"G": { type: "block", code: "game:glass-plain"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "block", code: "game:clutter", attributes:{type:"tank-glass1", collected: "true"}, quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,G,C",
+		ingredients: {
+			"T": { type: "item", code: "game:chisel-*", isTool: true},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"tank-glass5"}},
+			"G": { type: "block", code: "game:glass-plain"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "block", code: "game:clutter", attributes:{type:"tank-glass1", collected: "true"}, quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,G,C",
+		ingredients: {
+			"T": { type: "item", code: "game:chisel-*", isTool: true},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"tank-glass6"}},
+			"G": { type: "block", code: "game:glass-plain"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "block", code: "game:clutter", attributes:{type:"tank-glass1", collected: "true"}, quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,G,C",
+		ingredients: {
+			"T": { type: "item", code: "game:chisel-*", isTool: true},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"tank-glass7"}},
+			"G": { type: "block", code: "game:glass-plain"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "block", code: "game:clutter", attributes:{type:"tank-glass1", collected: "true"}, quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,G,C",
+		ingredients: {
+			"T": { type: "item", code: "game:chisel-*", isTool: true},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"tank-glass8"}},
+			"G": { type: "block", code: "game:glass-plain"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "block", code: "game:clutter", attributes:{type:"tank-glass1", collected: "true"}, quantity: 1  }
+	},
+	{
+		ingredientPattern: "T,G,C",
+		ingredients: {
+			"T": { type: "item", code: "game:chisel-*", isTool: true},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"tank-glass9"}},
+			"G": { type: "block", code: "game:glass-plain"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "block", code: "game:clutter", attributes:{type:"tank-glass1", collected: "true"}, quantity: 1  }
+	},
+]

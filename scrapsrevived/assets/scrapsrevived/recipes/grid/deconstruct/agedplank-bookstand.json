@@ -1,0 +1,132 @@
+[
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/bookstand-book-closed"},
+				"returnedStack": { "type": "item", "code": "game:book-rotten-gray", "quantity": 1 }}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/bookstand-book-open"},
+				"returnedStack": { "type": "item", "code": "game:book-rotten-gray", "quantity": 1 }}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/bookstand-verylarge-book-closed"},
+				"returnedStack": { "type": "item", "code": "game:book-rotten-gray", "quantity": 2 }}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/bookstand-verylarge-book-closed-evaporating"},
+				"returnedStack": { "type": "item", "code": "game:book-rotten-gray", "quantity": 2 }}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/bookstand-verylarge-book-open"},
+				"returnedStack": { "type": "item", "code": "game:book-rotten-gray", "quantity": 2 }}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/bookstand-empty"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/bookstand-aged-book-closed-large"},
+				"returnedStack": { "type": "item", "code": "game:book-rotten-gray", "quantity": 1 }}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/bookstand-aged-book-closed"},
+				"returnedStack": { "type": "item", "code": "game:book-rotten-gray", "quantity": 1 }}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/bookstand-aged-book-opened-large"},
+				"returnedStack": { "type": "item", "code": "game:book-rotten-gray", "quantity": 1 }}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/bookstand-aged-book-opened-large-evaporating"},
+				"returnedStack": { "type": "item", "code": "game:book-rotten-gray", "quantity": 1 }}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+	},
+	{
+		ingredientPattern: "CI",
+		ingredients: {
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"bookshelves/bookstand-aged-empty"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+	},
+]

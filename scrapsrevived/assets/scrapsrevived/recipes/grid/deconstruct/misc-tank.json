@@ -1,0 +1,101 @@
+[
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "game:hammer-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "tank-glass1" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:crushed-quartz", quantity: 4  }
+	},
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "game:hammer-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "tank-glass2" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:crushed-quartz", quantity: 4  }
+	},
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "game:hammer-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "tank-glass3" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:crushed-quartz", quantity: 3  }
+	},
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "game:hammer-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "tank-glass4" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:crushed-quartz", quantity: 3  }
+	},
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "game:hammer-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "tank-glass5" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:crushed-quartz", quantity: 2  }
+	},
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "game:hammer-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "tank-glass6" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:crushed-quartz", quantity: 2  }
+	},
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "game:hammer-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "tank-glass7" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:crushed-quartz", quantity: 1  }
+	},
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "game:hammer-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "tank-glass8" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:crushed-quartz", quantity: 1  }
+	},
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "game:hammer-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "tank-glass9" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:crushed-quartz", quantity: 1  }
+	},
+]

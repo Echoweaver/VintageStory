@@ -1,0 +1,272 @@
+[
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-h-EW" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-h-EW_broken" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-h-broken1" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-h-broken2" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-h-broken3" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-h-NESW" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 40  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-h-NSW" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 30  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-h-SW" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-h-SW_45d" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-h-SW_broken" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-v-topEW" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 30  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-v-topNESW" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 40  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-v-topNSW" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 40  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-v-topSW" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 30  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-v-broken1" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-v-broken2" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-v-broken3" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-v-empty" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-v-empty_broken" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-v-EW" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 40  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-v-NESW" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 40  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-v-NSW" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 40  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-v-SW" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 30  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-v-W" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-v-topW-broken" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-v-topW" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "pipe-veryrusted-v-topW_45d" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+	},
+]

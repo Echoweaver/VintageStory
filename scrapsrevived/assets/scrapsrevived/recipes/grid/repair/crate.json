@@ -1,0 +1,158 @@
+[
+	{
+		ingredientPattern: "DP,P_",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-aged"},
+			"D": { type: "block", code: "game:clutter", attributes: {type:"crate/crate-small-ruined1"}}
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "game:clutter", attributes: {type:"crate/crate-small-empty", collected: "true"}, quantity: 1 }
+	},
+	{
+		ingredientPattern: "PDP,_P_",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-aged"},
+			"D": { type: "block", code: "game:clutter", attributes: {type:"crate/crate-small-ruined2"}}
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:clutter", attributes: {type:"crate/crate-small-empty", collected: "true"}, quantity: 1 }
+	},
+	{
+		ingredientPattern: "_P_,PDP,_P_",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-aged"},
+			"D": { type: "block", code: "game:clutter", attributes: {type:"crate/crate-small-ruined3"}}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:clutter", attributes: {type:"crate/crate-small-empty", collected: "true"}, quantity: 1 }
+	},
+	{
+		ingredientPattern: "I",
+		ingredients: {
+			"I": { type: "block", code: "game:clutter", attributes:{type:"crate/crate-small-rot"}, 
+				returnedStack: { type: "item", code: "game:rot", quantity: 16 }}
+		},
+		width: 1,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:clutter", attributes:{type:"crate/crate-small-empty", collected: "true"}}
+	},
+	{
+		ingredientPattern: "I",
+		ingredients: {
+			"I": { type: "block", code: "game:clutter",  attributes:{type:"crate/crate-small-pottery"}, 
+				returnedStack: { type: "block", code: "game:bowl-fired" }}
+		},
+		width: 1,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:clutter", attributes:{type:"crate/crate-small-empty", collected: "true"}}
+	},
+	{
+		ingredientPattern: "I",
+		ingredients: {
+			"I": { type: "block", code: "game:clutter", attributes:{type:"crate/crate-small-junk"}, 
+				returnedStack: { type: "block", code: "game:metal-parts", quantity: 4 }}
+		},
+		width: 1,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:clutter", attributes:{type:"crate/crate-small-empty", collected: "true"}}
+	},
+	{
+		ingredientPattern: "I",
+		ingredients: {
+			"I": { type: "block", code: "game:clutter", attributes:{type:"crate/crate-medium-pottery"}, 
+				returnedStack: { type: "block", code: "game:bowl-fired", quantity: 2 }}
+		},
+		width: 1,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:clutter", attributes:{type:"crate/crate-medium-empty", collected: "true"}}
+	},
+	{
+		ingredientPattern: "I",
+		ingredients: {
+			"I": { type: "block", code: "game:clutter", attributes:{type:"crate/crate-medium-pottery-alt"}, 
+				returnedStack: { type: "block", code: "game:claypot-burned" }}
+		},
+		width: 1,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:clutter", attributes:{type:"crate/crate-medium-empty", collected: "true"}}
+	},
+	{
+		ingredientPattern: "I",
+		ingredients: {
+			"I": { type: "block", code: "game:clutter", attributes:{type:"crate/crate-medium-junk"}, 
+				returnedStack: { type: "block", code: "game:metal-parts", quantity: 8 }}
+		},
+		width: 1,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:clutter", attributes:{type:"crate/crate-medium-empty", collected: "true"}}
+	},
+	{
+		ingredientPattern: "I",
+		ingredients: {
+			"I": { type: "block", code: "game:clutter", attributes:{type:"crate/crate-medium-books"}, 
+				returnedStack: { type: "item", code: "game:book-rotten-rust", quantity: 4 }}
+		},
+		width: 1,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:clutter", attributes:{type:"crate/crate-medium-empty", collected: "true"}}
+	},
+	{
+		ingredientPattern: "I",
+		ingredients: {
+			"I": { type: "block", code: "game:clutter", attributes:{type:"crate/crate-large-rot"}, 
+			returnedStack: { type: "item", code: "game:rot", quantity: 32 }}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "game:crate", attributes:{lidstate:"closed", type:"wood-aged"}}
+	},
+	{
+		ingredientPattern: "I",
+		ingredients: {
+			"I": { type: "block", code: "game:clutter", attributes:{type:"crate/crate-large-pottery"}, 
+				returnedStack: { type: "block", code: "game:crock-burned-east", quantity: 4 }}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "game:crate", attributes:{lidstate:"closed", type:"wood-aged"}}
+	},
+	{
+		ingredientPattern: "I",
+		ingredients: {
+			"I": { type: "block", code: "game:clutter", attributes:{type:"crate/crate-large-junk"}, 
+				returnedStack: { type: "block", code: "game:metal-parts", quantity: 16 }}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "game:crate", attributes:{lidstate:"closed", type:"wood-aged"}}
+	},
+	{
+		ingredientPattern: "I",
+		ingredients: {
+			"I": { type: "block", code: "game:clutter", attributes:{type:"crate/crate-large-empty"}}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "game:crate", attributes:{lidstate:"closed", type:"wood-aged"}}
+	},
+	{
+		ingredientPattern: "I",
+		ingredients: {
+			"I": { type: "block", code: "game:clutter", attributes:{type:"crate/crate-large-cobweb"}, 
+				returnedStack: { type: "block", code: "game:spiderweb"}}
+		},
+		width: 1,
+		height: 1,
+		output: { type: "block", code: "game:crate", attributes:{lidstate:"closed", type:"wood-aged"}}
+	},
+]

@@ -1,0 +1,90 @@
+[
+	{
+		ingredientPattern: "T,R",
+		ingredients: {
+			"T": { type: "item", code: "game:chisel-*", isTool: true },
+			"R": { type: "block", code: "game:clutter", attributes: { type: "rubble-cracked1" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:stone-granite", quantity: 8  }
+	},
+	{
+		ingredientPattern: "T,R",
+		ingredients: {
+			"T": { type: "item", code: "game:chisel-*", isTool: true },
+			"R": { type: "block", code: "game:clutter", attributes: { type: "rubble-cracked2" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:stone-granite", quantity: 8  }
+	},
+	{
+		ingredientPattern: "T,R",
+		ingredients: {
+			"T": { type: "item", code: "game:chisel-*", isTool: true },
+			"R": { type: "block", code: "game:clutter", attributes: { type: "rubble-cracked3" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:stone-granite", quantity: 8  }
+	},
+	{
+		ingredientPattern: "T,R",
+		ingredients: {
+			"T": { type: "item", code: "game:chisel-*", isTool: true },
+			"R": { type: "block", code: "game:clutter", attributes: { type: "rubble-cracked4" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:stone-granite", quantity: 8  }
+	},
+	{
+		ingredientPattern: "T,R",
+		ingredients: {
+			"T": { type: "item", code: "game:saw-*", isTool: true },
+			"R": { type: "block", code: "game:clutter", attributes: { type: "rubble-wood1" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:plank-aged", quantity: 4  }
+	},
+	{
+		ingredientPattern: "T,R",
+		ingredients: {
+			"T": { type: "item", code: "game:saw-*", isTool: true },
+			"R": { type: "block", code: "game:clutter", attributes: { type: "rubble-wood2" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:plank-aged", quantity: 4  }
+	},
+	{
+		ingredientPattern: "T,R",
+		ingredients: {
+			"T": { type: "item", code: "game:saw-*", isTool: true },
+			"R": { type: "block", code: "game:clutter", attributes: { type: "rubble-wood3" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:plank-aged", quantity: 4  }
+	},
+	{
+		ingredientPattern: "T,R",
+		ingredients: {
+			"T": { type: "item", code: "game:saw-*", isTool: true },
+			"R": { type: "block", code: "game:clutter", attributes: { type: "rubble-wood4" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:plank-aged", quantity: 4  }
+	},
+]

@@ -1,0 +1,92 @@
+[
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "armillary1" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-brass", quantity: 40},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "armillary2" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-brass", quantity: 30},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "armillary3" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-brass", quantity: 20},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "astrolabe" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-brass", quantity: 20},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "alidade" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-brass", quantity: 40},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "block-tackle" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "diptych-dial" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 2},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "equi-dial" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-brass", quantity: 40},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "pulley" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 4},
+	},
+]

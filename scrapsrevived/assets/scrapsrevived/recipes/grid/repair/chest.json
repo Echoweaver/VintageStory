@@ -1,0 +1,32 @@
+[
+	{
+		ingredientPattern: "_P_,PCP",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-aged"},
+			"C": { type: "block", code: "game:chest-east", attributes:{type:"collapsed1"}}
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:chest-east", attributes:{type:"normal-aged"}, quantity: 1  }
+	},
+	{
+		ingredientPattern: "PPP,PCP",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-aged"},
+			"C": { type: "block", code: "game:chest-east", attributes:{type:"collapsed2"}}
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:chest-east", attributes:{type:"normal-aged"}, quantity: 1  }
+	},
+	{
+		ingredientPattern: "PPP,PCP,P_P",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-aged"},
+			"C": { type: "block", code: "game:chest-east", attributes:{type:"collapsed3"}}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:chest-east", attributes:{type:"normal-aged"}, quantity: 1  }
+	},
+]

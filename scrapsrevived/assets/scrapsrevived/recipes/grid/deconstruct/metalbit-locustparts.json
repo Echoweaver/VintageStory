@@ -1,0 +1,62 @@
+[
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "locust-limbs1" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-tinbronze", quantity: 10},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "locust-limbs2" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-tinbronze", quantity: 10},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "locust-body" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-tinbronze", quantity: 10},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "locust-lamp" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-tinbronze", quantity: 10},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "locust-parts" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-tinbronze", quantity: 20},
+	},
+	{
+		ingredientPattern: "C,A",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"A": { type: "block", code: "game:clutter", attributes: { type: "locust-full" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-tinbronze", quantity: 30},
+	},
+]

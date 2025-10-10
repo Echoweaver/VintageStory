@@ -1,0 +1,62 @@
+[
+	{
+		ingredientPattern: "GLG",
+		ingredients: {
+			"G": { type: "item", code: "game:clearquartz"},
+			"L": { type: "block", code: "game:clutter", attributes: { type: "lantern/ground1" } }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "plain", glass:"quartz" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "GLG",
+		ingredients: {
+			"G": { type: "item", code: "game:clearquartz"},
+			"L": { type: "block", code: "game:clutter", attributes: { type: "lantern/ground2" } }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "plain", glass:"quartz" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "GLG",
+		ingredients: {
+			"G": { type: "item", code: "game:clearquartz"},
+			"L": { type: "block", code: "game:clutter", attributes: { type: "lantern/ground3" } }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "plain", glass:"quartz" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "GLG",
+		ingredients: {
+			"G": { type: "item", code: "game:clearquartz"},
+			"L": { type: "block", code: "game:clutter", attributes: { type: "lantern/ground4" } }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "plain", glass:"quartz" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "GLG",
+		ingredients: {
+			"G": { type: "item", code: "game:clearquartz"},
+			"L": { type: "block", code: "game:clutter", attributes: { type: "lantern/ground5" } }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "plain", glass:"quartz" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "GLG",
+		ingredients: {
+			"G": { type: "item", code: "game:clearquartz"},
+			"L": { type: "block", code: "game:clutter", attributes: { type: "lantern/ground6" } }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "plain", glass:"quartz" }, quantity: 1  }
+	},
+]

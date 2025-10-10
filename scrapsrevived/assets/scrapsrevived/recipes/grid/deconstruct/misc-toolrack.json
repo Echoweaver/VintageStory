@@ -1,0 +1,52 @@
+[
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "game:saw-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "toolrack-empty" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:stick", quantity: 6  }
+	},
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "toolrack-bell" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 15  }
+	},
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "toolrack-locust" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:metalbit-brass", quantity: 15  }
+	},
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "game:saw-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "toolrack-ruined1" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:stick", quantity: 6  }
+	},
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "game:saw-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "toolrack-ruined2" } }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:stick", quantity: 6  }
+	},
+]

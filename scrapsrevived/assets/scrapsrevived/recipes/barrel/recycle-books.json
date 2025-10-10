@@ -1,0 +1,47 @@
+[
+	{
+		code: "game:pulp-linen",
+		sealHours: 24,
+		ingredients: [
+			{ type: "item", code: "game:waterportion", litres: 16, consumeLitres: 16 },
+			{ type: "item", code: "game:book-rotten-gray", quantity: 1 }
+		],
+		output: { type: "item", code: "game:pulp-linen", stackSize: 8 }
+	},
+	{
+		code: "game:pulp-linen",
+		sealHours: 24,
+		ingredients: [
+			{ type: "item", code: "game:waterportion", litres: 16, consumeLitres: 16 },
+			{ type: "item", code: "game:book-rotten-brown", quantity: 1 }
+		],
+		output: { type: "item", code: "game:pulp-linen", stackSize: 8 }
+	},
+	{
+		code: "game:pulp-linen",
+		sealHours: 24,
+		ingredients: [
+			{ type: "item", code: "game:waterportion", litres: 16, consumeLitres: 16 },
+			{ type: "item", code: "game:book-rotten-rust", quantity: 1 }
+		],
+		output: { type: "item", code: "game:pulp-linen", stackSize: 8 }
+	},
+	{
+		code: "game:pulp-linen",
+		sealHours: 24,
+		ingredients: [
+			{ type: "item", code: "game:waterportion", litres: 16, consumeLitres: 16 },
+			{ type: "item", code: "game:book-rotten-purple", quantity: 1 }
+		],
+		output: { type: "item", code: "game:pulp-linen", stackSize: 8 }
+	},
+	{
+		code: "game:pulp-linen",
+		sealHours: 24,
+		ingredients: [
+			{ type: "item", code: "game:waterportion", litres: 16, consumeLitres: 16 },
+			{ type: "item", code: "game:book-rotten-green", quantity: 1 }
+		],
+		output: { type: "item", code: "game:pulp-linen", stackSize: 8 }
+	},
+]

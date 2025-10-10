@@ -1,0 +1,134 @@
+[
+	{
+		ingredientPattern: "T,C",
+		ingredients: {
+			"T": { type: "item", code: "game:saw-*", isTool: true},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"table-aged"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 7 }
+	},
+	{
+		ingredientPattern: "T,C",
+		ingredients: {
+			"T": { type: "item", code: "game:saw-*", isTool: true},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"table-long"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 14 }
+	},
+	{
+		ingredientPattern: "T,C",
+		ingredients: {
+			"T": { type: "item", code: "game:saw-*", isTool: true},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"table-long-with-accessories"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 14 }
+	},
+	{
+		ingredientPattern: "T,C",
+		ingredients: {
+			"T": { type: "item", code: "game:saw-*", isTool: true},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"table-long-with-cloth-green"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 14 }
+	},
+	{
+		ingredientPattern: "T,C",
+		ingredients: {
+			"T": { type: "item", code: "game:saw-*", isTool: true},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"table-long-with-cloth-purple"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 14 }
+	},
+	{
+		ingredientPattern: "T,C",
+		ingredients: {
+			"T": { type: "item", code: "game:saw-*", isTool: true},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"table-long-with-cloth-red"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 14 }
+	},
+	{
+		ingredientPattern: "T,C",
+		ingredients: {
+			"T": { type: "item", code: "game:saw-*", isTool: true},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"table-ruined1"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 3 }
+	},
+	{
+		ingredientPattern: "T,C",
+		ingredients: {
+			"T": { type: "item", code: "game:saw-*", isTool: true},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"table-ruined2"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 3 }
+	},
+	{
+		ingredientPattern: "T,C",
+		ingredients: {
+			"T": { type: "item", code: "game:saw-*", isTool: true},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"table-ruined3"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 3 }
+	},
+	{
+		ingredientPattern: "T,C",
+		ingredients: {
+			"T": { type: "item", code: "game:saw-*", isTool: true},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"table-ruined4"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 7 }
+	},
+	{
+		ingredientPattern: "T,C",
+		ingredients: {
+			"T": { type: "item", code: "game:saw-*", isTool: true},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"table-ruined5"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 7 }
+	},
+	{
+		ingredientPattern: "T,C",
+		ingredients: {
+			"T": { type: "item", code: "game:saw-*", isTool: true},
+			"C": { type: "block", code: "game:clutter", attributes:{type:"table-ruined6"}}
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		output: { type: "item", code: "game:plank-aged", quantity: 6 }
+	},
+]

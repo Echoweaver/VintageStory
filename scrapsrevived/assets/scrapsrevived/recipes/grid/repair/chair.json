@@ -1,0 +1,35 @@
+[
+	{
+		ingredientPattern: "P,D",
+		ingredients: { 
+			"P": { type: "item", code: "game:plank-aged"},
+			"D": { type: "block", code: "game:clutter", attributes:{type:"chair-ruined1"}}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:clutter", attributes: {type:"chair-aged", collected: "true"}, quantity: 1 }
+	},
+	{
+		ingredientPattern: "D_,_P",
+		ingredients: { 
+			"P": { type: "item", code: "game:plank-aged"},
+			"D": { type: "block", code: "game:clutter", attributes:{type:"chair-ruined2", collected: "true"}}
+		},
+		width: 2,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:clutter", attributes: {type:"chair-aged", collected: "true"}, quantity: 1 }
+	},
+	{
+		ingredientPattern: "D_,_P",
+		ingredients: { 
+			"P": { type: "item", code: "game:plank-aged"},
+			"D": { type: "block", code: "game:clutter", attributes:{type:"chair-ruined3"}}
+		},
+		width: 2,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:clutter", attributes: {type:"chair-aged", collected: "true"}, quantity: 1 }
+	},
+]

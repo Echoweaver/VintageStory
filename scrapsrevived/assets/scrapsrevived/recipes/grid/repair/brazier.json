@@ -1,0 +1,26 @@
+[
+	{
+		ingredientPattern: "TN_,BC_,_N_",
+		ingredients: {
+			"T": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "item", code: "game:ingot-iron"},
+			"N": { type: "item", code: "game:metalnailsandstrips-*"},
+			"C": { type: "block", code: "game:clutter", attributes: { type: "brazier3" } }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:clutter", attributes: { type: "brazier1", collected: "true" }, quantity: 1  }
+	},
+	{
+		ingredientPattern: "TN_,BCB,_N_",
+		ingredients: {
+			"T": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "item", code: "game:ingot-iron"},
+			"N": { type: "item", code: "game:metalnailsandstrips-*"},
+			"C": { type: "block", code: "game:clutter", attributes: { type: "brazier4" } }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:clutter", attributes: { type: "brazier1", collected: "true" }, quantity: 1  }
+	},
+]

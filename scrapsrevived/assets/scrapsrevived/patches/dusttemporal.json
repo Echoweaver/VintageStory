@@ -1,0 +1,17 @@
+[
+	{
+		"op":"add",
+		"path": "/crushingPropsByType",
+		"value": {
+			"gear-temporal": {
+				"crushedStack": {
+					"type": "item",
+					"code": "scrapsrevived:dust-coarse-temporal"
+        			},
+				"quantity": { avg: 4 },
+				"hardnessTier": 3
+			},
+		},
+		"file":"game:itemtypes/resource/gear.json",
+	},
+]

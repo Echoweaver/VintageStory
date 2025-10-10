@@ -1,0 +1,26 @@
+[
+	{
+		ingredientPattern: "G,G,D",
+		ingredients: {
+			"G": { type: "block", code: "game:glass-plain"},
+			"D": { type: "block", code: "game:talldisplaycase-aged*"}
+		},
+		width: 1,
+		height: 3,
+		recipeGroup: 1,
+		output: { type: "block", code: "game:talldisplaycase-generic", quantity: 1 }
+	},
+	{
+		ingredientPattern: "G,D",
+		ingredients: {
+			"G": { type: "block", code: "game:glass-plain"},
+			"D": { type: "block", code: "game:displaycase-aged*"}
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 1,
+		output: { type: "block", code: "game:displaycase-generic", quantity: 1 }
+	},
+
+
+]
