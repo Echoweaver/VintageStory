@@ -1,0 +1,22 @@
+[
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "milkportion",
+      "shapeElement": "bowl/water", "textureMapping": ["water", "group4"]
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "ciderportion-*",
+      "shapeElement": "bowl/water", "textureMapping": ["water", "group1"]
+    },
+    "file": "game:recipes/cooking/soup.json"
+  }
+]

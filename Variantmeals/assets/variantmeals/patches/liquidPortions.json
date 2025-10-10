@@ -1,0 +1,25 @@
+[
+	{
+    "op": "add",
+    "path": "/attributes/waterTightContainerProps/nutritionPropsPerLitreWhenInMeal",
+    "value": { satiety: 200, foodcategory: "Dairy" },
+    "file": "game:itemtypes/liquid/dairy/milkportion"
+  },
+	{
+		"op": "addmerge",
+		"path": "/attributes/waterTightContainerProps/nutritionPropsPerLitreWhenInMeal",
+		"value": {
+			satiety: 120,
+			foodcategorybytype: {
+				"*-spelt": "Grain",
+				"*-rice": "Grain",
+				"*-rye": "Grain",
+				"*-amaranth": "Grain",
+				"*-cassava": "Grain",
+				"*-breadfruit": "Grain",
+				"*": "Fruit"
+			}
+		},
+		"file": "game:itemtypes/liquid/cider.json"
+	}
+]

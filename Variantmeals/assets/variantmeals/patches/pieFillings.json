@@ -1,0 +1,35 @@
+﻿[
+  {
+    "file": "game:blocktypes/plant/mushroom",
+    "op": "addmerge",
+    "path": "/attributes/inPiePropertiesByType",
+    "value": {
+      "*": {
+        texture: "game:block/food/pie/fill-mushroombrown",
+        partType: "Filling"
+      }
+    }
+  },
+  {
+    "file": "game:blocktypes/plant/mushroom-side",
+    "op": "addmerge",
+    "path": "/attributes/inPiePropertiesByType",
+    "value": {
+      "*": {
+        texture: "game:block/food/pie/fill-mushroombrown",
+        partType: "Filling"
+      }
+    }
+  },
+  {
+    "file": "game:itemtypes/food/fish.json",
+    "op": "addmerge",
+    "path": "/attributes/inPiePropertiesByType",
+    "value": {
+      "*-raw": {
+        texture: "game:block/food/pie/fill-fish",
+        partType: "Filling"
+      }
+    }
+  }
+]

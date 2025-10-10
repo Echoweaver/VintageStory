@@ -1,0 +1,1302 @@
+[
+  {
+    "op": "add",
+    "path": "/elements/0/children/12",
+    "value": {
+      "name": "grain",
+      "from": [
+        0.2,
+        1.1,
+        0.0
+      ],
+      "to": [
+        3.2,
+        1.1,
+        3.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#vegetable",
+          "uv": [
+            0.0,
+            6.0,
+            3.0,
+            6.0
+          ],
+          "enabled": false
+        },
+        "east": {
+          "texture": "#grain",
+          "uv": [
+            0.0,
+            4.0,
+            3.0,
+            4.0
+          ],
+          "enabled": false
+        },
+        "south": {
+          "texture": "#grain",
+          "uv": [
+            0.0,
+            5.0,
+            3.0,
+            5.0
+          ],
+          "enabled": false
+        },
+        "west": {
+          "texture": "#grain",
+          "uv": [
+            0.0,
+            7.0,
+            3.0,
+            7.0
+          ],
+          "enabled": false
+        },
+        "up": {
+          "texture": "#vegetable",
+          "uv": [
+            0.0,
+            0.0,
+            3.0,
+            3.0
+          ]
+        },
+        "down": {
+          "texture": "#grain",
+          "uv": [
+            0.0,
+            0.0,
+            3.0,
+            3.0
+          ],
+          "enabled": false
+        }
+      }
+    },
+    "file": "game:shapes/block/food/meal/meaty-stew.json"
+  },
+  {
+    "op": "add",
+    "path": "/elements/0/children/4",
+    "value": {
+      "name": "egg",
+      "from": [ 0.0, -0.2, 0.0 ],
+      "to": [ 0.0, -0.2, 0.0 ],
+      "faces": {
+      },
+      "children": [
+        {
+          "name": "yolk",
+          "from": [ 2.0, 2.7, 2.0 ],
+          "to": [ 3.0, 3.2, 3.0 ],
+          "faces": {
+            "north": { "texture": "#egg", "uv": [ 12.0, 14.0, 13.0, 14.5 ] },
+            "east": { "texture": "#egg", "uv": [ 13.0, 14.0, 14.0, 14.5 ] },
+            "south": { "texture": "#egg", "uv": [ 14.0, 14.0, 15.0, 14.5 ] },
+            "west": { "texture": "#egg", "uv": [ 13.0, 14.0, 14.0, 14.5 ] },
+            "up": { "texture": "#egg", "uv": [ 13.0, 13.0, 14.0, 14.0 ] }
+          }
+        },
+        {
+          "name": "eggwhite",
+          "from": [ 1.3, 2.5, 1.3 ],
+          "to": [ 3.3, 3.0, 3.3 ],
+          "rotationOrigin": [ -0.2, 0.0, 0.0 ],
+          "faces": {
+            "north": { "texture": "#egg", "uv": [ 13.0, 11.0, 15.0, 11.5 ] },
+            "east": { "texture": "#egg", "uv": [ 13.0, 11.0, 15.0, 11.5 ] },
+            "south": { "texture": "#egg", "uv": [ 10.0, 13.0, 12.0, 13.5 ] },
+            "west": { "texture": "#egg", "uv": [ 13.0, 15.0, 15.0, 15.5 ] },
+            "up": { "texture": "#egg", "uv": [ 13.0, 9.0, 15.0, 11.0 ] }
+          }
+        }
+      ]
+    },
+    "file": "game:shapes/block/food/meal/vegetable-stew.json"
+  },
+  {
+    "op": "add",
+    "path": "/elements/0/children/4",
+    "value": {
+      "name": "grain",
+      "from": [
+        0.2,
+        1.1,
+        0.0
+      ],
+      "to": [
+        3.2,
+        1.1,
+        3.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#vegetable",
+          "uv": [
+            0.0,
+            6.0,
+            3.0,
+            6.0
+          ],
+          "enabled": false
+        },
+        "east": {
+          "texture": "#grain",
+          "uv": [
+            0.0,
+            4.0,
+            3.0,
+            4.0
+          ],
+          "enabled": false
+        },
+        "south": {
+          "texture": "#grain",
+          "uv": [
+            0.0,
+            5.0,
+            3.0,
+            5.0
+          ],
+          "enabled": false
+        },
+        "west": {
+          "texture": "#grain",
+          "uv": [
+            0.0,
+            7.0,
+            3.0,
+            7.0
+          ],
+          "enabled": false
+        },
+        "up": {
+          "texture": "#vegetable",
+          "uv": [
+            0.0,
+            0.0,
+            3.0,
+            3.0
+          ]
+        },
+        "down": {
+          "texture": "#grain",
+          "uv": [
+            0.0,
+            0.0,
+            3.0,
+            3.0
+          ],
+          "enabled": false
+        }
+      }
+    },
+    "file": "game:shapes/block/food/meal/vegetable-stew.json"
+  },
+  {
+    "op": "add",
+    "path": "/elements/0/children/6",
+    "value": {
+      "name": "cheese 1",
+      "from": [
+        -0.5,
+        2.8,
+        -0.5
+      ],
+      "to": [
+        3.5,
+        3.3,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#cheese",
+          "uv": [
+            10.5,
+            3.0,
+            14.5,
+            3.5
+          ],
+          "enabled": false
+        },
+        "east": {
+          "texture": "#cheese",
+          "uv": [
+            11.5,
+            1.0,
+            15.5,
+            1.5
+          ],
+          "enabled": false
+        },
+        "south": {
+          "texture": "#cheese",
+          "uv": [
+            10.0,
+            2.0,
+            14.0,
+            2.5
+          ],
+          "enabled": false
+        },
+        "west": {
+          "texture": "#cheese",
+          "uv": [
+            11.5,
+            7.0,
+            15.5,
+            7.5
+          ],
+          "enabled": false
+        },
+        "up": {
+          "texture": "#cheese",
+          "uv": [
+            11.0,
+            1.0,
+            15.0,
+            5.0
+          ],
+          "enabled": false
+        },
+        "down": {
+          "texture": "#cheese",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "enabled": false
+        }
+      },
+      "children": [
+        {
+          "name": "voxel33",
+          "from": [
+            1.5,
+            -0.6,
+            1.5
+          ],
+          "to": [
+            2.5,
+            -0.1,
+            2.5
+          ],
+          "rotationOrigin": [
+            0.5,
+            0.0,
+            1.5
+          ],
+          "faces": {
+            "north": {
+              "texture": "#cheese",
+              "uv": [
+                13.0,
+                10.5,
+                14.0,
+                11.0
+              ]
+            },
+            "east": {
+              "texture": "#cheese",
+              "uv": [
+                11.5,
+                9.0,
+                12.5,
+                9.5
+              ]
+            },
+            "south": {
+              "texture": "#cheese",
+              "uv": [
+                10.5,
+                13.0,
+                11.5,
+                13.5
+              ]
+            },
+            "west": {
+              "texture": "#cheese",
+              "uv": [
+                12.5,
+                9.0,
+                13.5,
+                9.5
+              ]
+            },
+            "up": {
+              "texture": "#cheese",
+              "uv": [
+                12.5,
+                9.5,
+                13.5,
+                10.5
+              ]
+            },
+            "down": {
+              "texture": "#cheese",
+              "uv": [
+                6.0,
+                7.0,
+                7.0,
+                8.0
+              ],
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "voxel33",
+          "from": [
+            0.9,
+            -0.6,
+            2.5
+          ],
+          "to": [
+            1.9,
+            -0.1,
+            3.5
+          ],
+          "rotationOrigin": [
+            0.5,
+            0.0,
+            1.5
+          ],
+          "faces": {
+            "north": {
+              "texture": "#cheese",
+              "uv": [
+                11.0,
+                8.5,
+                12.0,
+                9.0
+              ]
+            },
+            "east": {
+              "texture": "#cheese",
+              "uv": [
+                10.0,
+                14.5,
+                11.0,
+                15.0
+              ]
+            },
+            "south": {
+              "texture": "#cheese",
+              "uv": [
+                11.5,
+                12.0,
+                12.5,
+                12.5
+              ]
+            },
+            "west": {
+              "texture": "#cheese",
+              "uv": [
+                14.0,
+                10.0,
+                15.0,
+                10.5
+              ]
+            },
+            "up": {
+              "texture": "#cheese",
+              "uv": [
+                14.0,
+                14.5,
+                15.0,
+                15.5
+              ]
+            },
+            "down": {
+              "texture": "#cheese",
+              "uv": [
+                6.0,
+                7.0,
+                7.0,
+                8.0
+              ],
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "voxel33",
+          "from": [
+            0.5,
+            -0.6,
+            1.0
+          ],
+          "to": [
+            1.0,
+            -0.1,
+            1.5
+          ],
+          "rotationOrigin": [
+            0.4,
+            0.0,
+            1.5
+          ],
+          "faces": {
+            "north": {
+              "texture": "#cheese",
+              "uv": [
+                11.0,
+                8.5,
+                11.5,
+                9.0
+              ]
+            },
+            "east": {
+              "texture": "#cheese",
+              "uv": [
+                14.0,
+                11.5,
+                14.5,
+                12.0
+              ]
+            },
+            "south": {
+              "texture": "#cheese",
+              "uv": [
+                15.0,
+                13.0,
+                15.5,
+                13.5
+              ]
+            },
+            "west": {
+              "texture": "#cheese",
+              "uv": [
+                14.0,
+                12.0,
+                14.5,
+                12.5
+              ]
+            },
+            "up": {
+              "texture": "#cheese",
+              "uv": [
+                9.5,
+                14.5,
+                10.0,
+                15.0
+              ]
+            },
+            "down": {
+              "texture": "#cheese",
+              "uv": [
+                6.0,
+                7.0,
+                6.5,
+                7.5
+              ],
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "voxel33",
+          "from": [
+            2.5,
+            -0.6,
+            0.5
+          ],
+          "to": [
+            3.0,
+            -0.1,
+            1.0
+          ],
+          "rotationOrigin": [
+            0.5,
+            0.0,
+            1.5
+          ],
+          "faces": {
+            "north": {
+              "texture": "#cheese",
+              "uv": [
+                11.5,
+                10.0,
+                12.0,
+                10.5
+              ]
+            },
+            "east": {
+              "texture": "#cheese",
+              "uv": [
+                12.5,
+                11.0,
+                13.0,
+                11.5
+              ]
+            },
+            "south": {
+              "texture": "#cheese",
+              "uv": [
+                12.0,
+                10.0,
+                12.5,
+                10.5
+              ]
+            },
+            "west": {
+              "texture": "#cheese",
+              "uv": [
+                12.0,
+                9.0,
+                12.5,
+                9.5
+              ]
+            },
+            "up": {
+              "texture": "#cheese",
+              "uv": [
+                11.5,
+                8.5,
+                12.0,
+                9.0
+              ]
+            },
+            "down": {
+              "texture": "#cheese",
+              "uv": [
+                6.0,
+                7.0,
+                6.5,
+                7.5
+              ],
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "voxel34",
+          "from": [
+            3.0,
+            -0.6,
+            3.0
+          ],
+          "to": [
+            3.5,
+            -0.1,
+            3.5
+          ],
+          "rotationOrigin": [
+            0.5,
+            0.0,
+            1.5
+          ],
+          "faces": {
+            "north": {
+              "texture": "#cheese",
+              "uv": [
+                13.0,
+                9.5,
+                13.5,
+                10.0
+              ]
+            },
+            "east": {
+              "texture": "#cheese",
+              "uv": [
+                12.0,
+                8.5,
+                12.5,
+                9.0
+              ]
+            },
+            "south": {
+              "texture": "#cheese",
+              "uv": [
+                13.0,
+                14.0,
+                13.5,
+                14.5
+              ]
+            },
+            "west": {
+              "texture": "#cheese",
+              "uv": [
+                13.0,
+                13.5,
+                13.5,
+                14.0
+              ]
+            },
+            "up": {
+              "texture": "#cheese",
+              "uv": [
+                14.5,
+                15.0,
+                15.0,
+                15.5
+              ]
+            },
+            "down": {
+              "texture": "#cheese",
+              "uv": [
+                6.0,
+                7.0,
+                6.5,
+                7.5
+              ],
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "voxel35",
+          "from": [
+            3.4,
+            -0.6,
+            1.6
+          ],
+          "to": [
+            3.9,
+            -0.1,
+            2.1
+          ],
+          "rotationOrigin": [
+            0.5,
+            0.0,
+            1.4
+          ],
+          "faces": {
+            "north": {
+              "texture": "#cheese",
+              "uv": [
+                14.0,
+                11.0,
+                14.5,
+                11.5
+              ]
+            },
+            "east": {
+              "texture": "#cheese",
+              "uv": [
+                10.0,
+                12.5,
+                10.5,
+                13.0
+              ]
+            },
+            "south": {
+              "texture": "#cheese",
+              "uv": [
+                14.5,
+                11.0,
+                15.0,
+                11.5
+              ]
+            },
+            "west": {
+              "texture": "#cheese",
+              "uv": [
+                15.0,
+                10.5,
+                15.5,
+                11.0
+              ]
+            },
+            "up": {
+              "texture": "#cheese",
+              "uv": [
+                11.5,
+                13.0,
+                12.0,
+                13.5
+              ]
+            },
+            "down": {
+              "texture": "#cheese",
+              "uv": [
+                6.0,
+                7.0,
+                6.5,
+                7.5
+              ],
+              "enabled": false
+            }
+          }
+        }
+      ]
+    },
+    "file": "game:shapes/block/food/meal/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/elements/0/children/7",
+    "value": {
+      "name": "cheese 2",
+      "from": [
+        -0.5,
+        2.8,
+        -1.0
+      ],
+      "to": [
+        3.5,
+        3.3,
+        3.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#cheese",
+          "uv": [
+            10.5,
+            3.0,
+            14.5,
+            3.5
+          ],
+          "enabled": false
+        },
+        "east": {
+          "texture": "#cheese",
+          "uv": [
+            11.5,
+            1.0,
+            15.5,
+            1.5
+          ],
+          "enabled": false
+        },
+        "south": {
+          "texture": "#cheese",
+          "uv": [
+            10.0,
+            2.0,
+            14.0,
+            2.5
+          ],
+          "enabled": false
+        },
+        "west": {
+          "texture": "#cheese",
+          "uv": [
+            11.5,
+            7.0,
+            15.5,
+            7.5
+          ],
+          "enabled": false
+        },
+        "up": {
+          "texture": "#cheese",
+          "uv": [
+            11.0,
+            1.0,
+            15.0,
+            5.0
+          ],
+          "enabled": false
+        },
+        "down": {
+          "texture": "#cheese",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "enabled": false
+        }
+      },
+      "children": [
+        {
+          "name": "voxel37",
+          "from": [
+            1.5,
+            -0.9,
+            1.0
+          ],
+          "to": [
+            2.5,
+            0.1,
+            2.0
+          ],
+          "rotationOrigin": [
+            0.5,
+            0.0,
+            1.5
+          ],
+          "faces": {
+            "north": {
+              "texture": "#cheese",
+              "uv": [
+                11.5,
+                8.5,
+                12.5,
+                9.5
+              ]
+            },
+            "east": {
+              "texture": "#cheese",
+              "uv": [
+                11.5,
+                12.5,
+                12.5,
+                13.5
+              ]
+            },
+            "south": {
+              "texture": "#cheese",
+              "uv": [
+                12.0,
+                11.5,
+                13.0,
+                12.5
+              ]
+            },
+            "west": {
+              "texture": "#cheese",
+              "uv": [
+                13.0,
+                11.0,
+                14.0,
+                12.0
+              ]
+            },
+            "up": {
+              "texture": "#cheese",
+              "uv": [
+                13.5,
+                13.0,
+                14.5,
+                14.0
+              ]
+            },
+            "down": {
+              "texture": "#cheese",
+              "uv": [
+                6.0,
+                7.0,
+                7.0,
+                8.0
+              ],
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "voxel38",
+          "from": [
+            1.6,
+            -0.5,
+            2.5
+          ],
+          "to": [
+            2.6,
+            0.0,
+            3.5
+          ],
+          "rotationOrigin": [
+            0.5,
+            0.0,
+            1.5
+          ],
+          "faces": {
+            "north": {
+              "texture": "#cheese",
+              "uv": [
+                11.5,
+                8.5,
+                12.5,
+                9.0
+              ]
+            },
+            "east": {
+              "texture": "#cheese",
+              "uv": [
+                14.0,
+                14.5,
+                15.0,
+                15.0
+              ]
+            },
+            "south": {
+              "texture": "#cheese",
+              "uv": [
+                11.0,
+                12.5,
+                12.0,
+                13.0
+              ]
+            },
+            "west": {
+              "texture": "#cheese",
+              "uv": [
+                12.0,
+                11.5,
+                13.0,
+                12.0
+              ]
+            },
+            "up": {
+              "texture": "#cheese",
+              "uv": [
+                13.0,
+                14.0,
+                14.0,
+                15.0
+              ]
+            },
+            "down": {
+              "texture": "#cheese",
+              "uv": [
+                6.0,
+                7.0,
+                7.0,
+                8.0
+              ],
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "voxel39",
+          "from": [
+            1.0,
+            -0.5,
+            1.5
+          ],
+          "to": [
+            1.5,
+            0.0,
+            2.0
+          ],
+          "rotationOrigin": [
+            0.4,
+            0.0,
+            1.5
+          ],
+          "faces": {
+            "north": {
+              "texture": "#cheese",
+              "uv": [
+                13.0,
+                11.0,
+                13.5,
+                11.5
+              ]
+            },
+            "east": {
+              "texture": "#cheese",
+              "uv": [
+                14.5,
+                9.5,
+                15.0,
+                10.0
+              ]
+            },
+            "south": {
+              "texture": "#cheese",
+              "uv": [
+                13.0,
+                14.0,
+                13.5,
+                14.5
+              ]
+            },
+            "west": {
+              "texture": "#cheese",
+              "uv": [
+                10.0,
+                14.0,
+                10.5,
+                14.5
+              ]
+            },
+            "up": {
+              "texture": "#cheese",
+              "uv": [
+                14.5,
+                15.0,
+                15.0,
+                15.5
+              ]
+            },
+            "down": {
+              "texture": "#cheese",
+              "uv": [
+                6.0,
+                7.0,
+                6.5,
+                7.5
+              ],
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "voxel40",
+          "from": [
+            2.0,
+            -0.5,
+            0.6
+          ],
+          "to": [
+            2.5,
+            0.0,
+            1.1
+          ],
+          "rotationOrigin": [
+            0.5,
+            0.0,
+            1.5
+          ],
+          "faces": {
+            "north": {
+              "texture": "#cheese",
+              "uv": [
+                11.5,
+                8.5,
+                12.0,
+                9.0
+              ]
+            },
+            "east": {
+              "texture": "#cheese",
+              "uv": [
+                14.5,
+                12.0,
+                15.0,
+                12.5
+              ]
+            },
+            "south": {
+              "texture": "#cheese",
+              "uv": [
+                14.0,
+                9.0,
+                14.5,
+                9.5
+              ]
+            },
+            "west": {
+              "texture": "#cheese",
+              "uv": [
+                10.0,
+                14.5,
+                10.5,
+                15.0
+              ]
+            },
+            "up": {
+              "texture": "#cheese",
+              "uv": [
+                11.5,
+                8.5,
+                12.0,
+                9.0
+              ]
+            },
+            "down": {
+              "texture": "#cheese",
+              "uv": [
+                6.0,
+                7.0,
+                6.5,
+                7.5
+              ],
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "voxel41",
+          "from": [
+            1.0,
+            -0.4,
+            2.5
+          ],
+          "to": [
+            1.5,
+            0.1,
+            3.0
+          ],
+          "rotationOrigin": [
+            0.5,
+            0.0,
+            1.5
+          ],
+          "faces": {
+            "north": {
+              "texture": "#cheese",
+              "uv": [
+                8.5,
+                14.0,
+                9.0,
+                14.5
+              ]
+            },
+            "east": {
+              "texture": "#cheese",
+              "uv": [
+                10.0,
+                15.0,
+                10.5,
+                15.5
+              ]
+            },
+            "south": {
+              "texture": "#cheese",
+              "uv": [
+                13.0,
+                9.0,
+                13.5,
+                9.5
+              ]
+            },
+            "west": {
+              "texture": "#cheese",
+              "uv": [
+                14.5,
+                12.0,
+                15.0,
+                12.5
+              ]
+            },
+            "up": {
+              "texture": "#cheese",
+              "uv": [
+                13.5,
+                14.0,
+                14.0,
+                14.5
+              ]
+            },
+            "down": {
+              "texture": "#cheese",
+              "uv": [
+                6.0,
+                7.0,
+                6.5,
+                7.5
+              ],
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "voxel42",
+          "from": [
+            0.1,
+            -0.8,
+            1.0
+          ],
+          "to": [
+            0.6,
+            -0.3,
+            1.5
+          ],
+          "rotationOrigin": [
+            0.5,
+            0.0,
+            1.4
+          ],
+          "faces": {
+            "north": {
+              "texture": "#cheese",
+              "uv": [
+                10.5,
+                12.0,
+                11.0,
+                12.5
+              ]
+            },
+            "east": {
+              "texture": "#cheese",
+              "uv": [
+                10.0,
+                11.5,
+                10.5,
+                12.0
+              ]
+            },
+            "south": {
+              "texture": "#cheese",
+              "uv": [
+                8.5,
+                14.0,
+                9.0,
+                14.5
+              ]
+            },
+            "west": {
+              "texture": "#cheese",
+              "uv": [
+                13.5,
+                9.5,
+                14.0,
+                10.0
+              ]
+            },
+            "up": {
+              "texture": "#cheese",
+              "uv": [
+                15.5,
+                12.0,
+                16.0,
+                12.5
+              ]
+            },
+            "down": {
+              "texture": "#cheese",
+              "uv": [
+                6.0,
+                7.0,
+                6.5,
+                7.5
+              ],
+              "enabled": false
+            }
+          }
+        }
+      ]
+    },
+    "file": "game:shapes/block/food/meal/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/elements/0/children/5",
+    "value": {
+      "name": "egg",
+      "from": [ 0.0, -0.2, 0.0 ],
+      "to": [ 0.0, -0.2, 0.0 ],
+      "faces": {
+      },
+      "children": [
+        {
+          "name": "yolk",
+          "from": [ 2.0, 2.7, 2.0 ],
+          "to": [ 3.0, 3.2, 3.0 ],
+          "faces": {
+            "north": { "texture": "#egg", "uv": [ 12.0, 14.0, 13.0, 14.5 ] },
+            "east": { "texture": "#egg", "uv": [ 13.0, 14.0, 14.0, 14.5 ] },
+            "south": { "texture": "#egg", "uv": [ 14.0, 14.0, 15.0, 14.5 ] },
+            "west": { "texture": "#egg", "uv": [ 13.0, 14.0, 14.0, 14.5 ] },
+            "up": { "texture": "#egg", "uv": [ 13.0, 13.0, 14.0, 14.0 ] }
+          }
+        },
+        {
+          "name": "eggwhite",
+          "from": [ 1.3, 2.5, 1.3 ],
+          "to": [ 3.3, 3.0, 3.3 ],
+          "rotationOrigin": [ -0.2, 0.0, 0.0 ],
+          "faces": {
+            "north": { "texture": "#egg", "uv": [ 13.0, 11.0, 15.0, 11.5 ] },
+            "east": { "texture": "#egg", "uv": [ 13.0, 11.0, 15.0, 11.5 ] },
+            "south": { "texture": "#egg", "uv": [ 10.0, 13.0, 12.0, 13.5 ] },
+            "west": { "texture": "#egg", "uv": [ 13.0, 15.0, 15.0, 15.5 ] },
+            "up": { "texture": "#egg", "uv": [ 13.0, 9.0, 15.0, 11.0 ] }
+          }
+        }
+      ]
+    },
+    "file": "game:shapes/block/food/meal/porridge.json"
+  }
+]

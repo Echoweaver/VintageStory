@@ -1,0 +1,34 @@
+[
+  { "file": "game:recipes/cooking/meatystew", "op": "addmerge", "path": "/ingredients/-", "value": {
+    "code": "grain-extra",
+    "validStacks": [  { "type": "item", "code": "grain-*",  "shapeElement": "bowl/grain/*" } ],
+    "minQuantity": 0,
+    "maxQuantity": 1,
+    "typeName": "grain"
+    }
+  },
+  { "file": "game:recipes/cooking/vegetablestew", "op": "addmerge", "path": "/ingredients/-", "value": {
+    "code": "grain-extra",
+    "validStacks": [  { "type": "item", "code": "grain-*",  "shapeElement": "bowl/grain/*" } ],
+    "minQuantity": 0,
+    "maxQuantity": 1,
+    "typeName": "grain"
+    }
+  },
+  { "file": "game:recipes/cooking/vegetablestew", "op": "addmerge", "path": "/ingredients/-", "value": {
+    "code": "egg-extra",
+    "validStacks": [
+      { "type": "item", "code": "egg-chicken-raw",  "shapeElement": "bowl/egg2/*" },
+      { "type": "item", "code": "thecritterpack:egg-*",  "shapeElement": "bowl/egg2/*" },
+      { "type": "item", "code": "moreanimals:egg-pheasant-raw",  "shapeElement": "bowl/egg2/*" },
+      { "type": "item", "code": "moreanimals:egg-goldenpheasant-raw",  "shapeElement": "bowl/egg2/*" },
+      { "type": "item", "code": "moreanimals:egg-capercaillie-raw",  "shapeElement": "bowl/egg2/*" },
+      { "type": "item", "code": "moreanimals:egg-wildturkey-raw",  "shapeElement": "bowl/egg2/*" },
+      { "type": "item", "code": "detailedanimals:egg-chicken-medium-raw",  "shapeElement": "bowl/egg2/*" }
+    ],
+    "minQuantity": 0,
+    "maxQuantity": 1,
+    "typeName": "egg"
+    }
+  }
+]

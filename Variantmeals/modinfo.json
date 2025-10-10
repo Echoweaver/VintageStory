@@ -1,0 +1,14 @@
+{
+  "type": "content",
+  "modid": "variantmeals",
+  "name": "Variations on a Meal",
+  "authors": [
+    "Echoweaver"
+  ],
+  "description": "Adds ingredient variations for vanilla cooking recipes.",
+  "version": "2.6.1",
+  "dependencies": {
+    "game": ""
+  },
+  "Side": "Universal"
+}
