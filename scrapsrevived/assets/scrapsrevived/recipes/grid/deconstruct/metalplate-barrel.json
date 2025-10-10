@@ -7,7 +7,7 @@
 		},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "game:metalplate-iron", quantity: 2},
+		output: { type: "item", code: "game:metalplate-iron", quantity: 1},
 	},
 	{
 		ingredientPattern: "C,A",
@@ -17,7 +17,7 @@
 		},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "game:metalplate-iron", quantity: 2},
+		output: { type: "item", code: "game:metalplate-iron", quantity: 1},
 	},
 	{
 		ingredientPattern: "C,A",
@@ -27,7 +27,7 @@
 		},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "game:metalplate-iron", quantity: 2},
+		output: { type: "item", code: "game:metalplate-iron", quantity: 1},
 	},
 	{
 		ingredientPattern: "C,A",
@@ -38,7 +38,7 @@
 		},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "game:metalplate-iron", quantity: 2},
+		output: { type: "item", code: "game:metalplate-iron", quantity: 1},
 	},
 	{
 		ingredientPattern: "C,A",
@@ -51,3 +51,4 @@
 		output: { type: "item", code: "game:metalplate-iron", quantity: 2},
 	},
 ]
+
