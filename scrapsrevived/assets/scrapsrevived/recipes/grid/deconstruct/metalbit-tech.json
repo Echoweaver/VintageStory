@@ -8,7 +8,7 @@
 		width: 1,
 		height: 2,
 		shapeless: true,
-		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+		output: { type: "item", code: "game:metalbit-iron", quantity: 19  }
 	},
 	{
 		ingredientPattern: "C,B",
@@ -19,7 +19,7 @@
 		width: 1,
 		height: 2,
 		shapeless: true,
-		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+		output: { type: "item", code: "game:metalbit-iron", quantity: 11  }
 	},
 	{
 		ingredientPattern: "C,B",
@@ -30,7 +30,7 @@
 		width: 1,
 		height: 2,
 		shapeless: true,
-		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+		output: { type: "item", code: "game:metalbit-iron", quantity: 19  }
 	},
 	{
 		ingredientPattern: "C,B",
@@ -41,7 +41,7 @@
 		width: 1,
 		height: 2,
 		shapeless: true,
-		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+		output: { type: "item", code: "game:metalbit-iron", quantity: 8  }
 	},
 	{
 		ingredientPattern: "C,B",
@@ -52,7 +52,7 @@
 		width: 1,
 		height: 2,
 		shapeless: true,
-		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+		output: { type: "item", code: "game:metalbit-iron", quantity: 16  }
 	},
 	{
 		ingredientPattern: "C,B",
@@ -63,7 +63,7 @@
 		width: 1,
 		height: 2,
 		shapeless: true,
-		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+		output: { type: "item", code: "game:metalbit-iron", quantity: 13  }
 	},
 	{
 		ingredientPattern: "C,B",
@@ -74,7 +74,7 @@
 		width: 1,
 		height: 2,
 		shapeless: true,
-		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+		output: { type: "item", code: "game:metalbit-iron", quantity: 10  }
 	},
 	{
 		ingredientPattern: "C,B",
@@ -85,7 +85,7 @@
 		width: 1,
 		height: 2,
 		shapeless: true,
-		output: { type: "item", code: "game:metalbit-iron", quantity: 10  }
+		output: { type: "item", code: "game:metalbit-iron", quantity: 8  }
 	},
 	{
 		ingredientPattern: "C,B",
@@ -96,7 +96,7 @@
 		width: 1,
 		height: 2,
 		shapeless: true,
-		output: { type: "item", code: "game:metalbit-iron", quantity: 30  }
+		output: { type: "item", code: "game:metalbit-iron", quantity: 17  }
 	},
 	{
 		ingredientPattern: "C,B",
@@ -173,6 +173,7 @@
 		width: 1,
 		height: 2,
 		shapeless: true,
-		output: { type: "item", code: "game:metalbit-iron", quantity: 40  }
+		output: { type: "item", code: "game:metalbit-iron", quantity: 19  }
 	},
+
 ]

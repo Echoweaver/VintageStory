@@ -8,7 +8,7 @@
 		width: 1,
 		height: 2,
 		shapeless: true,
-		output: { type: "item", code: "game:metalbit-iron", quantity: 40  }
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
 	},
 	{
 		ingredientPattern: "C,B",
@@ -19,7 +19,7 @@
 		width: 1,
 		height: 2,
 		shapeless: true,
-		output: { type: "item", code: "game:metalbit-iron", quantity: 40  }
+		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
 	},
 	{
 		ingredientPattern: "C,B",
@@ -30,7 +30,7 @@
 		width: 1,
 		height: 2,
 		shapeless: true,
-		output: { type: "item", code: "game:metalbit-iron", quantity: 30  }
+		output: { type: "item", code: "game:metalbit-iron", quantity: 15  }
 	},
 	{
 		ingredientPattern: "C,B",
@@ -41,6 +41,18 @@
 		width: 1,
 		height: 2,
 		shapeless: true,
-		output: { type: "item", code: "game:metalbit-iron", quantity: 20  }
+		output: { type: "item", code: "game:metalbit-iron", quantity: 12  }
+	},
+	{
+		ingredientPattern: "C,B",
+		ingredients: {
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"B": { type: "block", code: "game:clutter", attributes: { type: "brazier-evaporating" } }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:metalbit-iron", quantity: 9  }
 	},
 ]
+
