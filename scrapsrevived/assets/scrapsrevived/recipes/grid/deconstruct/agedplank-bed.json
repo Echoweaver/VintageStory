@@ -72,14 +72,15 @@
 		output: { type: "item", code: "game:plank-aged", quantity: 12 }
 	},
 	{
-		ingredientPattern: "CI",
+		ingredientPattern: "CIS",
 		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true, "returnedStack": { type: "item", code: "game:flaxtwine", quantity: 3 }},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"fancy-bed-old-drapes-opened", "returnedStack": { type: "item", code: "game:cloth-gray", quantity: 2 }},
+			"C": { type: "item", code: "game:saw-*", isTool: true},
+			"I": { type: "block", code: "game:clutter", attributes:{type:"fancy-bed-old-drapes-opened", "returnedStack": { type: "item", code: "game:cloth-gray", quantity: 2 }}
+			"S": { type: "item", code: "game:stick", "returnedStack": { type: "item", code: "game:flaxtwine", quantity: 3 }},
 					}
 		},
 		width: 1,
-		height: 2,
+		height: 3,
 		recipeGroup: 2,
 		output: { type: "item", code: "game:plank-aged", quantity: 12 }
 	},
@@ -263,6 +264,7 @@
 	},
 
 ]
+
 
 
 
