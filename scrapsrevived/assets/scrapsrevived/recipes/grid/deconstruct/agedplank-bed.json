@@ -1,270 +1,266 @@
 [
 	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"fancy-bed-green"},
-				"returnedStack": { type: "item", code: "game:cloth-green", quantity: 2 }}
+		"ingredientPattern": "CI",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:saw-*", "isTool": true},
+			"I": { "type": "block", "code": "game:clutter", "attributes":{"type":"fancy-bed-green"},
+				"returnedStack": { "type": "item", "code": "game:cloth-green", "quantity": 2 }}
 		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:plank-aged", "quantity": 12 }
 	},
 	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"fancy-bed-stitched-ruined"},
-				"returnedStack": { type: "item", code: "game:cloth-black", quantity: 2 }}
+		"ingredientPattern": "CI",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:saw-*", "isTool": true},
+			"I": { "type": "block", "code": "game:clutter", "attributes":{"type":"fancy-bed-stitched-ruined"},
+				"returnedStack": { "type": "item", "code": "game:cloth-black", "quantity": 2 }}
 		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:plank-aged", "quantity": 12 }
 	},
 	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"fancy-bed-old"},
-				"returnedStack": { type: "item", code: "game:cloth-gray", quantity: 2 }}
+		"ingredientPattern": "CI",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:saw-*", "isTool": true},
+			"I": { "type": "block", "code": "game:clutter", "attributes":{"type":"fancy-bed-old"},
+				"returnedStack": { "type": "item", "code": "game:cloth-gray", "quantity": 2 }}
 		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:plank-aged", "quantity": 12 }
 	},
 	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bed-short-green"},
-				"returnedStack": { type: "item", code: "game:cloth-green", quantity: 2 }}
+		"ingredientPattern": "CI",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:saw-*", "isTool": true},
+			"I": { "type": "block", "code": "game:clutter", "attributes":{"type":"bed-short-green"},
+				"returnedStack": { "type": "item", "code": "game:cloth-green", "quantity": 2 }}
 		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:plank-aged", "quantity": 12 }
 	},
 	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bed-short-stitched-ruined"},
-				"returnedStack": { type: "item", code: "game:cloth-black", quantity: 2 }}
+		"ingredientPattern": "CI",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:saw-*", "isTool": true},
+			"I": { "type": "block", "code": "game:clutter", "attributes":{"type":"bed-short-stitched-ruined"},
+				"returnedStack": { "type": "item", "code": "game:cloth-black", "quantity": 2 }}
 		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:plank-aged", "quantity": 12 }
 	},
 	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bed-short-old"},
-				"returnedStack": { type: "item", code: "game:cloth-gray", quantity: 2 }}
+		"ingredientPattern": "CI",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:saw-*", "isTool": true},
+			"I": { "type": "block", "code": "game:clutter", "attributes":{"type":"bed-short-old"},
+				"returnedStack": { "type": "item", "code": "game:cloth-gray", "quantity": 2 }}
 		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:plank-aged", "quantity": 12 }
 	},
 	{
-		ingredientPattern: "CIS",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"fancy-bed-old-drapes-opened", "returnedStack": { type: "item", code: "game:cloth-gray", quantity: 2 }}
-			"S": { type: "item", code: "game:stick", "returnedStack": { type: "item", code: "game:flaxtwine", quantity: 3 }},
-					}
+		"ingredientPattern": "CIS",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:saw-*", "isTool": true},
+			"I": { "type": "block", "code": "game:clutter", "attributes": { "type":"fancy-bed-old-drapes-opened"}, 
+              "returnedStack": { "type": "item", "code": "game:cloth-gray", "quantity": 2 }},
+			"S": { "type": "item", "code": "game:stick", "returnedStack": { "type": "item", "code": "game:flaxtwine", "quantity": 3 }}
 		},
-		width: 1,
-		height: 3,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		"width": 1,
+		"height": 3,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:plank-aged", "quantity": 12 }
 	},
 	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"fancy-bed-old-drapes-closed"},
-				"returnedStack": { type: "item", code: "game:cloth-gray", quantity: 2 },
-				"returnedStack": { type: "item", code: "game:flaxtwine", quantity: 3 }}
-		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		"ingredientPattern": "CI",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:saw-*", "isTool": true},
+			"I": { "type": "block", "code": "game:clutter", "attributes":{"type":"fancy-bed-old-drapes-closed"},
+				"returnedStack": { "type": "item", "code": "game:cloth-gray", "quantity": 2 },
+				"returnedStack": { "type": "item", "code": "game:flaxtwine", "quantity": 3 }}
+			},
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:plank-aged", "quantity": 12 }
 	},
 	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"fancy-bed-green-drapes-opened"},
+		"ingredientPattern": "CI",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:saw-*", "isTool": true},
+			"I": { "type": "block", "code": "game:clutter", "attributes":{"type":"fancy-bed-green-drapes-opened"},
 				"returnedStack": { "type": "item", "code": "game:cloth-green", "quantity": 4 },
-				"returnedStack": { type: "item", code: "game:flaxtwine", quantity: 3 }}
+				"returnedStack": { "type": "item", "code": "game:flaxtwine", "quantity": 3 }}
 		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:plank-aged", "quantity": 12 }
 	},
 	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"fancy-bed-green-drapes-closed"},
+		"ingredientPattern": "CI",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:saw-*", "isTool": true},
+			"I": { "type": "block", "code": "game:clutter", "attributes":{"type":"fancy-bed-green-drapes-closed"},
 				"returnedStack": { "type": "item", "code": "game:cloth-green", "quantity": 2 },
-				"returnedStack": { type: "item", code: "game:flaxtwine", quantity: 3 }}
+				"returnedStack": { "type": "item", "code": "game:flaxtwine", "quantity": 3 }}
 		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:plank-aged", "quantity": 12 }
 	},
 	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-fancy-ruined1"}}
+		"ingredientPattern": "CI",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:saw-*", "isTool": true},
+			"I": { "type": "block", "code": "game:clutter", "attributes":{"type":"bed/bed-fancy-ruined1"}}
 		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:plank-aged", "quantity": 8 }
 	},
 	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-fancy-ruined2"}}
+		"ingredientPattern": "CI",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:saw-*", "isTool": true},
+			"I": { "type": "block", "code": "game:clutter", "attributes":{"type":"bed/bed-fancy-ruined2"}}
 		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:plank-aged", "quantity": 8 }
 	},
 	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-fancy-ruined3"},
-				"returnedStack": { type: "item", code: "game:cloth-blue", quantity: 2 },
-				"returnedStack": { type: "block", code: "game:linen-normal-down", quantity: 3 }}
+		"ingredientPattern": "CI",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:saw-*", "isTool": true},
+			"I": { "type": "block", "code": "game:clutter", "attributes":{"type":"bed/bed-fancy-ruined3"},
+				"returnedStack": { "type": "item", "code": "game:cloth-blue", "quantity": 2 },
+				"returnedStack": { "type": "block", "code": "game:linen-normal-down", "quantity": 3 }}
 		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:plank-aged", "quantity": 12 }
 	},
 	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-fancy-ruined4"},
-				"returnedStack": { type: "item", code: "game:cloth-gray", quantity: 2 }}
+		"ingredientPattern": "CI",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:saw-*", "isTool": true},
+			"I": { "type": "block", "code": "game:clutter", "attributes":{"type":"bed/bed-fancy-ruined4"},
+				"returnedStack": { "type": "item", "code": "game:cloth-gray", "quantity": 2 }}
 		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:plank-aged", "quantity": 12 }
 	},
 	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-fancy-ruined5"}}
+		"ingredientPattern": "CI",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:saw-*", "isTool": true},
+			"I": { "type": "block", "code": "game:clutter", "attributes":{"type":"bed/bed-fancy-ruined5"}}
 		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:plank-aged", "quantity": 12 }
 	},
 	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-fancy-ruined6"}}
+		"ingredientPattern": "CI",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:saw-*", "isTool": true},
+			"I": { "type": "block", "code": "game:clutter", "attributes":{"type":"bed/bed-fancy-ruined6"}}
 		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 12 }
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:plank-aged", "quantity": 12 }
 	},
 	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-ruined1"}}
+		"ingredientPattern": "CI",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:saw-*", "isTool": true},
+			"I": { "type": "block", "code": "game:clutter", "attributes":{"type":"bed/bed-ruined1"}}
 		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 6 }
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:plank-aged", "quantity": 6 }
 	},
 	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-ruined2"}}
+		"ingredientPattern": "CI",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:saw-*", "isTool": true},
+			"I": { "type": "block", "code": "game:clutter", "attributes":{"type":"bed/bed-ruined2"}}
 		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 6 }
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:plank-aged", "quantity": 6 }
 	},
 	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-ruined3"}}
+		"ingredientPattern": "CI",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:saw-*", "isTool": true},
+			"I": { "type": "block", "code": "game:clutter", "attributes":{"type":"bed/bed-ruined3"}}
 		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 6 }
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:plank-aged", "quantity": 6 }
 	},
 	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-ruined4"},
-				"returnedStack": { type: "item", code: "game:cloth-gray", quantity: 2 }}
+		"ingredientPattern": "CI",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:saw-*", "isTool": true},
+			"I": { "type": "block", "code": "game:clutter", "attributes":{"type":"bed/bed-ruined4"},
+				"returnedStack": { "type": "item", "code": "game:cloth-gray", "quantity": 2 }}
 		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:plank-aged", "quantity": 8 }
 	},
 	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-ruined5"},
-				"returnedStack": { type: "item", code: "game:cloth-gray", quantity: 2 }}
+		"ingredientPattern": "CI",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:saw-*", "isTool": true},
+			"I": { "type": "block", "code": "game:clutter", "attributes":{"type":"bed/bed-ruined5"},
+				"returnedStack": { "type": "item", "code": "game:cloth-gray", "quantity": 2 }}
 		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 6 }
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:plank-aged", "quantity": 6 }
 	},
 	{
-		ingredientPattern: "CI",
-		ingredients: {
-			"C": { type: "item", code: "game:saw-*", isTool: true},
-			"I": { type: "block", code: "game:clutter", attributes:{type:"bed/bed-ruined6"},
-				"returnedStack": { type: "item", code: "game:cloth-blue", quantity: 2 },
-				"returnedStack": { type: "block", code: "game:linen-normal-down", quantity: 3 }}
+		"ingredientPattern": "CI",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:saw-*", "isTool": true},
+			"I": { "type": "block", "code": "game:clutter", "attributes":{"type":"bed/bed-ruined6"},
+				"returnedStack": { "type": "item", "code": "game:cloth-blue", "quantity": 2 },
+				"returnedStack": { "type": "block", "code": "game:linen-normal-down", "quantity": 3 }}
 		},
-		width: 1,
-		height: 2,
-		recipeGroup: 2,
-		output: { type: "item", code: "game:plank-aged", quantity: 8 }
+		"width": 1,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": { "type": "item", "code": "game:plank-aged", "quantity": 8 }
 	},
 
 ]
-
-
-
-

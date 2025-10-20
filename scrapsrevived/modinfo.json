@@ -2,8 +2,8 @@
     "type": "content",
     "modid": "scrapsrevived",
     "name": "Scraps Revived",
-    "authors": ["Medeka", "Echoweaver"],
+    "authors": ["Medeka", "Echoweaver", "Corvie"],
     "description": "Restore and recycle the clutter from the ruins!",
-    "version": "2.1.1",
+    "version": "2.2.4",
     "dependencies": { }
 }
