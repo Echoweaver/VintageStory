@@ -36,48 +36,48 @@ public class BEFoodCrate : BlockEntityCrate
     bool isSpoiling = false;
     float totalTransitionedHours = 0;
     float maxFreshHours = 0;
+    int totalItems = 0;
     int slotCount = 0;
 
     foreach (ItemSlot crateSlot in Inventory)
     {
+      isSpoiling = false;
       if (crateSlot.Empty)
       {
         continue;
       }
 
-      ++slotCount;
       TransitionState perishState = crateSlot.Itemstack.Collectible.UpdateAndGetTransitionState(Api.World,
         crateSlot, EnumTransitionType.Perish);
       if (perishState == null)
       {
         // If there's no perish state, then there's nothing to do for the whole crate
         return;
-      }      
+      }
+
       TransitionableProperties props = perishState.Props;
       if (props.Type != EnumTransitionType.Perish)
       {
         // Shouldn't hit this, but I'm paranoid.
         continue;
       }
-      
+
       if (perishState.TransitionLevel > 0.0)
       {
+        // TransitionLevel > 0 means this stack has started to spoil
         isSpoiling = true;
         maxFreshHours = perishState.FreshHours;
       }
 
-      if (crateSlot.StackSize == crateSlot.MaxSlotStackSize)
-      {
-        totalTransitionedHours += perishState.TransitionHours;
-      }
-      else
-      {
-        // Weight values from a partial stack. TODO: Figure out later
-        totalTransitionedHours += perishState.TransitionHours;
-      }
+      // Weight values from a partial stack. 
+      totalTransitionedHours += perishState.TransitionedHours * crateSlot.Itemstack.StackSize;
+      totalItems += crateSlot.Itemstack.StackSize;
+
+      ++slotCount;
     }
 
-    float avgTransitionedHours = totalTransitionedHours / slotCount;
+    float avgTransitionedHours = totalTransitionedHours / totalItems;
+
     if (isSpoiling)
     {
       // If anything is spoiling, everything is spoiling
@@ -93,7 +93,6 @@ public class BEFoodCrate : BlockEntityCrate
       crateSlot.Itemstack.Collectible.SetTransitionState(crateSlot.Itemstack, EnumTransitionType.Perish,
         avgTransitionedHours);
     }
-
     MarkDirty();
   }
   
